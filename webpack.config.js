@@ -28,6 +28,8 @@ module.exports = {
                     loader: 'raw-loader'
                 },{
                     loader: 'html-loader',
+                },{
+                    loader: 'file-loader'
                 }]
 
             },{
