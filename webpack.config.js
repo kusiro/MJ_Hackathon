@@ -1,7 +1,7 @@
 const path = require('path');
 const webpack = require('webpack');
 const autoprefixer = require('autoprefixer')
-
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
 
     entry: {
@@ -24,7 +24,12 @@ module.exports = {
                 }
             },{
                 test: /\.html$/,
-                loader: 'raw-loader'
+                use: [{
+                    loader: 'raw-loader'
+                },{
+                    loader: 'html-loader',
+                }]
+
             },{
                 test: /\.scss$/,
                 use: [{
@@ -32,9 +37,9 @@ module.exports = {
                 }, {
                     loader: "css-loader"
                 }, {
-                    loader: "sass-loader",
+                    loader: "sass-loader"
                 },{
-                    loader: "postcss-loader",
+                    loader: "postcss-loader"
                 }]
             }
 
@@ -50,6 +55,7 @@ module.exports = {
         port: 8080
     },
     plugins: [
-        new webpack.HotModuleReplacementPlugin()
+        new webpack.HotModuleReplacementPlugin(),
+        new HtmlWebpackPlugin(),
     ]
 }
