@@ -1,7 +1,7 @@
 const path = require('path');
 const webpack = require('webpack');
-const autoprefixer = require('autoprefixer')
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+const autoprefixer = require('autoprefixer');
+
 module.exports = {
 
     entry: {
@@ -15,23 +15,23 @@ module.exports = {
     },
 
     module: {
-        loaders: [
-            {
-                test: /\.js$/,
-                loader: 'babel-loader',
-                options: {
-                    presets: ['ES2015'],
-                }
-            },{
-                test: /\.html$/,
-                use: [{
-                    loader: 'raw-loader'
-                },{
-                    loader: 'html-loader',
-                },{
-                    loader: 'file-loader'
-                }]
 
+        loaders: [
+
+            {
+                test: /\.html$/,
+                loader: 'html-loader'
+            },{
+                test: /\.(png|jpg|svg)$/,
+                loader: 'file-loader'
+            },{
+                test: /\.js$/,
+                exclude: /(node_module)|(bower_components)/,
+                loader: 'babel-loader',
+                query: {
+                    presets: ['ES2015', 'react', 'stage-0'],
+                    plugins: ['react-html-attrs', 'transform-class-properties', 'transform-decorators-legacy']
+                }
             },{
                 test: /\.scss$/,
                 use: [{
@@ -58,6 +58,7 @@ module.exports = {
     },
     plugins: [
         new webpack.HotModuleReplacementPlugin(),
-        new HtmlWebpackPlugin(),
     ]
+
+
 }
