@@ -16,10 +16,9 @@ $font_family: 微軟正黑體;
 .navbar{
     height: 200px;
     background-color: #f7f7f7;
-    position: relative;
 }
 
-.logo{
+.logo_sqr{
     width: 30;
     height: 30;
     background-color: #88c1ff
@@ -27,14 +26,14 @@ $font_family: 微軟正黑體;
 
 
 
-.bottom{
+.bottom {
     height: 1000px;
 
 }
 
 
 
-.selectionBar{
+#selectionBar {
     background-color: #f7f7f7;
     width: 100%;
     height: 65px;
@@ -46,7 +45,7 @@ $font_family: 微軟正黑體;
     box-shadow: 0px 8px 20px rgba(0,0,0,.3);
 }
 
-.selection{
+.selection {
     display: inline-block;
     padding: 0 4px;
     position: relative;
