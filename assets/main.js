@@ -37,24 +37,16 @@ class Top extends React.Component {
         );
     }
 }
-class YRgear extends React.Component {
-    render() {
-        return(
-            <div class="container"
-                data-enllax-ratio=".5"
-                data-enllax-type="foreground"
-                data-enllax-direction="vertical"
-            >
-                <div class='infocard'>
-                    你就是轉動世界的齒輪
-                </div>
-            </div>
-        );
-    }
-}
-
-
-
-ReactDOM.render(<YRgear/>,document.getElementById('block_1'))
+// class YRgear extends React.Component {
+//     render() {
+//         return(
+//
+//         );
+//     }
+// }
+//
+//
+//
+// ReactDOM.render(<YRgear/>,document.getElementById('block_1'))
 ReactDOM.render( <Top/>, document.getElementById("top"));
 ReactDOM.render( <Selection_b/>, document.getElementById("Bar"));

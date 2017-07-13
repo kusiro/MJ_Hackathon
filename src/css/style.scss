@@ -111,7 +111,7 @@ $title_size: 36px;
     }
     .infocard{
         position: absolute;
-        top: 50%;
+        top: 60%;
         left: 50%;
         opacity: .8;
         text-shadow: 0px 0px 10px rgba(0,0,0,.6);
@@ -123,12 +123,14 @@ $title_size: 36px;
         letter-spacing: .15em;
         font-family: $font_family;
     }
-
 }
 
 
 .content_1{
+    position: relative;
+    z-index: -1;
     width: 100%;
+    opacity: .8;
     background-color: #f7f7f7;
     .partical_1{
         background-color: #f7f7f7;
@@ -140,8 +142,9 @@ $title_size: 36px;
         h1{
             width: 600px;
             border-bottom: solid 1px;
-            padding-bottom: 3px;
-            margin: 1.6em 0;
+            padding-bottom: 6px;
+            margin-top: 1.6em;
+            margin-bottom: 1.2em;
             font-size: $title_size;
             font-weight: 400;
         }
@@ -155,7 +158,7 @@ $title_size: 36px;
             font-size: $content_size;
             padding: 0;
             margin-top: 0;
-            margin-bottom: 1.6em;
+            margin-bottom: 2em;
             line-height: 1.6em;
         }
     }
