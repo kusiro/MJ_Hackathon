@@ -1,37 +1,83 @@
 *{
     vertical-align: top;
     box-sizing: border-box;
-    transition: all .5s;
 }
  body,html{
     padding: 0px;
     margin: 0px;
+    position: relative;
+    z-index: -2;
+    background-color: #f7f7f7;
  }
 
 
 $title_family: fugaz one;
 $selector_family: 'Quicksand', sans-serif;
 $font_family: 微軟正黑體;
-
+$content_size: 20px;
+$subtitle_size: 24px;
+$title_size: 36px;
 .navbar{
-    height: 200px;
+    height: 310px;
     background-color: #f7f7f7;
+    position: relative;
 }
-
 .logo_sqr{
-    width: 30;
-    height: 30;
-    background-color: #88c1ff
+    opacity: .9;
+    position: relative;
+    top: 40px;
+    width: 210px;
+    height: 210px;
+    margin: 0 auto;
+    background-color: #88c1ff;
+    text-align: center;
+
+    P {
+        font-size: 16px;
+        font-family: $font_family;
+        padding-top: 28px;
+    }
+
+
+    .line {
+        margin: auto;
+        margin-top: 125px;
+        width: 40px;
+        height: .8px;
+        background-color: black;
+    }
+    .date {
+        margin: 0;
+        font-family: $selector_family;
+        line-height: 8px;
+    }
+    b {
+        margin: 0;
+        padding: 0;
+        font-size: 24px;
+        line-height: 0;
+        font-weight: 400;
+    }
+    .localtion {
+        margin-top: 12px;
+        padding-top: 0px;
+    }
 }
-
-
-
-.bottom {
-    height: 1000px;
-
+.title {
+    opacity: .85;
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
+    top: 95px;
+    h1 {
+        line-height: 1em;
+        font-family: $title_family;
+        font-size: 47px;
+        margin: 0;
+    }
 }
-
-
 
 #selectionBar {
     background-color: #f7f7f7;
@@ -42,9 +88,8 @@ $font_family: 微軟正黑體;
     color: rgba(0, 0, 0, .7);
     font-size: 14pt;
     font-weight: 100;
-    box-shadow: 0px 8px 20px rgba(0,0,0,.3);
+    box-shadow: 0px 10px 20px rgba(0,0,0,.1);
 }
-
 .selection {
     display: inline-block;
     padding: 0 4px;
@@ -53,4 +98,65 @@ $font_family: 微軟正黑體;
     transform: translate(0,-50%);
     margin: 0 30px;
     opacity: .5;
+}
+
+#block_1 {
+    min-height: 500px;
+    background-color: rgba(255,255,255,.1);
+    position: relative;
+    z-index: -1;
+    .container{
+        height: 500px;
+        widows: 100%;
+    }
+    .infocard{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        opacity: .8;
+        text-shadow: 0px 0px 10px rgba(0,0,0,.6);
+        transform: translate(-50%,-50%);
+        font-size: 48px;
+        font-weight: 100;
+        border: solid 1.2px black;
+        padding: 15px 15px;
+        letter-spacing: .15em;
+        font-family: $font_family;
+    }
+
+}
+
+
+.content_1{
+    width: 100%;
+    background-color: #f7f7f7;
+    .partical_1{
+        background-color: #f7f7f7;
+        width: 55%;
+        margin: 0 auto;
+        font-family: $font_family;
+        text-align: justify;
+        letter-spacing: 1.2pt;
+        h1{
+            width: 600px;
+            border-bottom: solid 1px;
+            padding-bottom: 3px;
+            margin: 1.6em 0;
+            font-size: $title_size;
+            font-weight: 400;
+        }
+        b{
+            color: #8b1616;
+            font-size: $subtitle_size;
+            font-weight: 400;
+            line-height: 0;
+        }
+        p{
+            font-size: $content_size;
+            padding: 0;
+            margin-top: 0;
+            margin-bottom: 1.6em;
+            line-height: 1.6em;
+        }
+    }
 }

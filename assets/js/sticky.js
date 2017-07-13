@@ -1,5 +1,5 @@
 require('./fixto.min.js');
 
 $(document).ready(function(){
-    $(".selectionBar").fixTo('body');
+    $("#Bar").fixTo('body');
 });
