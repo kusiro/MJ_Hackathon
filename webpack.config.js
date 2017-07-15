@@ -5,12 +5,11 @@ const autoprefixer = require('autoprefixer');
 module.exports = {
 
     entry: {
-        app:["./assets/main.js", "webpack-dev-server/client?http://localhost:8080/"]
+        app:["./assets/main.js"]
     },
 
     output: {
         path: path.resolve(__dirname, "public"),
-        publicPath: "/public/",
         filename: "bundle.js"
     },
 
@@ -57,6 +56,9 @@ module.exports = {
         port: 8080
     },
     plugins: [
+        new webpack.DefinePlugin({
+            'process.env.NODE_ENV': JSON.stringify('production')
+        }),
         new webpack.HotModuleReplacementPlugin(),
         new webpack.ProvidePlugin({
             $: "jquery",
