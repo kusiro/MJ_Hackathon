@@ -124,7 +124,12 @@ $title_size: 36px;
         font-family: $font_family;
     }
 }
-
+#block_2{
+    position: relative;
+    z-index: -1;
+    min-height: 500px;
+    background-color: rgba(0,0,0,.3);
+}
 
 .content_1{
     position: relative;
@@ -132,7 +137,7 @@ $title_size: 36px;
     width: 100%;
     opacity: .8;
     background-color: #f7f7f7;
-    .partical_1{
+    .partical{
         background-color: #f7f7f7;
         width: 55%;
         margin: 0 auto;
