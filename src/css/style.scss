@@ -14,9 +14,11 @@
 $title_family: fugaz one;
 $selector_family: 'Quicksand', sans-serif;
 $font_family: 微軟正黑體;
-$content_size: 20px;
-$subtitle_size: 24px;
+$content_size: 24px;
+$subtitle_size: 30px;
 $title_size: 36px;
+
+
 .navbar{
     height: 310px;
     background-color: #f7f7f7;
@@ -79,6 +81,10 @@ $title_size: 36px;
     }
 }
 
+#Bar{
+    position: sticky;
+    top: 0;
+}
 #selectionBar {
     background-color: #f7f7f7;
     width: 100%;
@@ -100,25 +106,30 @@ $title_size: 36px;
     opacity: .5;
 }
 
+.parent{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    clip: rect(0, auto, auto, 0);
+}
 #block_1 {
-    min-height: 500px;
-    background-color: rgba(255,255,255,.1);
     position: relative;
-    z-index: -1;
-    .container{
-        height: 500px;
-        widows: 100%;
+    z-index: -20;
+    height: 600px;
+    overflow: hidden;
+    .block_1_img{
+        z-index: -20;
+        width: 100%;
     }
     .infocard{
-        position: absolute;
-        top: 60%;
+        z-index: -20;
         left: 50%;
         opacity: .8;
         text-shadow: 0px 0px 10px rgba(0,0,0,.6);
-        transform: translate(-50%,-50%);
+        transform: translateX(-50%);
         font-size: 48px;
         font-weight: 100;
-        border: solid 1.2px black;
+        border: solid 2px rgba(0,0,0,.8);
         padding: 15px 15px;
         letter-spacing: .15em;
         font-family: $font_family;
@@ -126,16 +137,28 @@ $title_size: 36px;
 }
 #block_2{
     position: relative;
-    z-index: -1;
-    min-height: 500px;
+    height: 900px;
+    z-index: -100;
     background-color: rgba(0,0,0,.3);
+    .block_2_img{
+        z-index: -4;
+        width: 100%;
+        position: relative;
+        z-index: -100;
+    }
 }
 
+#intro{
+    padding-bottom: 8em;
+}
+#join_us{
+    padding-bottom: 2em;
+}
 .content_1{
+    padding-top: 5em;
     position: relative;
     z-index: -1;
     width: 100%;
-    opacity: .8;
     background-color: #f7f7f7;
     .partical{
         background-color: #f7f7f7;
@@ -146,24 +169,48 @@ $title_size: 36px;
         letter-spacing: 1.2pt;
         h1{
             width: 600px;
+            margin: 0;
             border-bottom: solid 1px;
-            padding-bottom: 6px;
-            margin-top: 1.6em;
-            margin-bottom: 1.2em;
+            padding-bottom: 8px;
             font-size: $title_size;
             font-weight: 400;
+            margin-bottom: .6em;
         }
         b{
             color: #8b1616;
             font-size: $subtitle_size;
             font-weight: 400;
-            line-height: 0;
         }
         p{
             font-size: $content_size;
-            padding: 0;
-            margin-top: 0;
-            margin-bottom: 2em;
+            margin: 0;
+            padding-top: .5em;
+            line-height: 1.6em;
+        }
+    }
+}
+.content_2{
+    padding-top: 5em;
+    position: relative;
+    z-index: -1;
+    width: 100%;
+    background-color: #f7f7f7;
+    .partical{
+        margin: 0 auto;
+        letter-spacing: 1.2pt;
+        position: relative;
+        text-align: justify;
+        z-index: -1;
+        width: 55%;
+        background-color: #f7f7f7;
+        font-family: $font_family;
+        padding-bottom: 6em;
+        h1{
+            font-weight: 400;
+            font-size: $title_size;
+        }
+        p{
+            font-size: $content_size;
             line-height: 1.6em;
         }
     }

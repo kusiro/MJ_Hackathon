@@ -1,10 +1,11 @@
 const path = require('path');
 const webpack = require('webpack');
 const autoprefixer = require('autoprefixer');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     entry: {
-        app: ["./assets/main.js"],
+        app: ["./src/main.js"],
     },
     output: {
         path: path.resolve(__dirname, "public"),
@@ -45,11 +46,16 @@ module.exports = {
         port: 8080,
     },
     plugins: [
-        new webpack.HotModuleReplacementPlugin(),
         new webpack.ProvidePlugin({
             $: "jquery",
             jQuery: "jquery",
             "window.jQuery": "jquery"
         }),
+        new HtmlWebpackPlugin({
+            title: '2017 梅竹黑客松',
+            template: 'src/template.html',
+            inject: 'true',
+        }),
+        new webpack.HotModuleReplacementPlugin(),
     ]
 }

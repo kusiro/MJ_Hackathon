@@ -1,10 +1,9 @@
-import styles from '../src/css/style.scss';
-import html from './index.html';
+import styles from './css/style.scss';
+import Html from './template.html';
 import React from "react";
 import ReactDOM from "react-dom";
-import sticky from "./js/sticky.js";
-import parall from "./js/parall.js"
-import seedContral from "./js/scrollSpeed.js"
+import scrollSpeed from "./js/scroll-parallax.js";
+
 
 class Selection_b extends React.Component {
     render() {
@@ -81,9 +80,47 @@ class Intro extends React.Component {
         );
     }
 }
+class Join extends React.Component{
+    render(){
+        return(
+            <div class="content_2">
+                <div class="partical">
+                    <h1>報名流程</h1>
+                    <p>填報名表及選企業志願序->收信確認該隊伍的引導企業->繳費->報名成功!
+                    報名程序分為兩步驟：「網路報名」及「繳費」。
+                    請注意！只完成「網路報名」但未「繳費」視同未完成報名程序，自動放棄參加資格，原名額將依序釋出給備取的參加者。<br/>
+                    網路報名：填寫基本資料、選填題目類型志願，10/04 截止。網路報名成功後，大會將寄發確認信。</p>
+                    <p>10/07 大會公告錄取參賽隊伍以及所屬企業
+                    10/07 第一階段報名成功隊伍繳費期限<br/>
+                    10/10 大會發出候補通知<br/>
+                    10/17 候補報名成功隊伍繳費期限<br/>
+                    10/29、10/30 Hackathon當天：實作。</p>
+                </div>
+                <div class="partical">
+                    <h1>報名須知</h1>
+                    <p>請注意：填寫完個人資料需按下報名表上方"提交該成員報名資訊"
+                    報名前請詳細閱讀活動規章
+                    報名費用：300 元+ 200 元保證金(全程參與活動將會"全額"退還保證金)
+                    越早報名機率越大
+                    </p>
+                    <p>參賽隊伍可自由使用各企業提供的資源做整合，但是一定要使用到自己所屬引導企業的資源
+                    企業資訊請詳見「合作引導企業」</p>
+                    <p>團隊報名者：每一隊2~5人，團隊中至少要有一人具備使用企業資源的能力。
+                    請於網路報名時依照志願序填寫心目中的企業，並且儘量在專長中說明團隊或個人所具備的技術或其他能力。
+                    完成後主辦單位將會分配適當的企業給各個團隊。</p>
+                    <p>個人報名者：個人報名者在報名表填寫隊伍隊長欄位即可。
+                    請務必明確填寫個人的專長，如果能夠在「備註」欄位自我介紹更好，
+                    以利主辦單位幫忙媒合適當的合作伙伴。</p>
+                    <p>主辦單位將會每天更新各企業剩下的組數，並於報名後一天通知隊伍選上的企業。
+                    主辦單位不提供電腦給參賽者，請自行攜帶筆記型電腦。活動當天提供電源和無線網路。</p>
+                </div>
+            </div>
+        );
+    }
+}
 
 
-
-ReactDOM.render(<Intro/>,document.getElementById('intro'))
+ReactDOM.render(<Join/>,document.getElementById('join_us'));
+ReactDOM.render(<Intro/>,document.getElementById('intro'));
 ReactDOM.render( <Top/>, document.getElementById("top"));
 ReactDOM.render( <Selection_b/>, document.getElementById("Bar"));
