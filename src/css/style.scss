@@ -162,8 +162,12 @@ $sub_color: #88c1ff;
 }
 #block_3{
     width: 100%;
-    height: 175px;
-    background-color: #7c0404;
+    position: relative;
+    z-index: -3;
+    top: -3em;
+    height: 400px;
+    background: linear-gradient(90deg, #2196F3, #2dd2e6);
+    clip-path: polygon(0 0%, 100% 15%, 100% 100%, 0% 85%);
 }
 
 #join_us{
@@ -244,7 +248,8 @@ $sub_color: #88c1ff;
     }
 }
 .content_3{
-    padding-top: 2em;
+    padding-top: 4em;
+    padding-bottom: 3em;
     position: relative;
     z-index: -1;
     width: 60%;
@@ -341,31 +346,57 @@ $sub_color: #88c1ff;
 }
 .content_4{
     height: 800px;
-    padding-top: 4em;
-    position: relative;
+    padding: 5em 5em 30px 5em;
+    .QA_title{
+        margin: 0;
+        padding-bottom: 2em;
+        text-align: center;
+        font-family: $selector_family;
+    }
     .section{
         position: relative;
-        width: 80%;
-        margin: 0 auto;
-        height: 200px;
+        padding-bottom: 2em;
         .QA_block{
             display: inline-block;
+            background-color: #f1f1f1;
             padding: 5px 30px 5px 30px;
-            margin-left: 5%;
+            margin-left: 1.95em;
             border-radius: 15px;
             border: solid 1px rgba(0,0,0,.8);
-            overflow: hidden;
             width: 300px;
             font-family: $font_family;
             h1{
                 font-size: 24px;
             }
             p{
+                text-align: justify;
                 overflow: hidden;
+                font-size: 18px;
+                letter-spacing: 2px;
+                line-height: 1.4em;
+                margin-top: 10px;
+                height: 150px;
+                position: relative;
+            }
+            p::after{
+                content: '';
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                box-shadow: inset 0 -40px 30px -15px #f1f1f1;
+                opacity: .9;
+                z-index: 20;
             }
         }
         .QA_block:first-of-type{
-            margin-left: 5%;
+            margin-left: 0%;
+        }
+        .read_more{
+            text-align: center;
+            color: #f08080;
+            font-weight: 900;
         }
     }
 }
