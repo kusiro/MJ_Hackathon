@@ -118,9 +118,54 @@ class Join extends React.Component{
         );
     }
 }
+class Q_A extends React.Component{
+    render(){
+        return(
+            <div class="content_4">
+                <h1 class="QA_title">Q & A</h1>
+                <div class="section">
+                    <div class="QA_block">
+                        <h1>Q1 : 為啥要來</h1>
+                        <p>與企業交流，直接認識業界的想法和需求，並以所學解決實際的問題
+                            ，創造價值。 認識與你理念相近的伙伴，歷經兩天一夜的密集合作，
+                            凝聚出深厚的革命情感。 體驗微型創業，培養團隊合作的能力，
+                            就算未來沒有真的選擇創業，也會是職場上炙手可熱的人才！
+                        </p>
+                        <div class="read_more">繼續閱讀</div>
+                    </div><div class="QA_block">
+                        <h1>Q1 : 為啥要來</h1>
+                        <p>與企業交流，直接認識業界的想法和需求，並以所學解決實際的問題
+                            ，創造價值。 認識與你理念相近的伙伴，歷經兩天一夜的密集合作，
+                            凝聚出深厚的革命情感。 體驗微型創業，培養團隊合作的能力，
+                            就算未來沒有真的選擇創業，也會是職場上炙手可熱的人才！
+                        </p>
+                        <div class="read_more">繼續閱讀</div>
+                    </div>
+                </div>
+            </div>
+        );
+    }
+}
+class Sponsor extends React.Component{
+    render(){
+        return(
+            <div class="content_5">
+                <h1>Sponsor</h1>
+                <hr/>
+                <div class="sonsor_logo">
+                    <img src="src/Img/Callyellow.png"/>
+                    <img src="src/Img/Callyellow.png"/>
+                    <img src="src/Img/Callyellow.png"/>
+                    <img src="src/Img/Callyellow.png"/>
+                    <img src="src/Img/Callyellow.png"/>
+                </div>
+            </div>
+        );
+    }
+}
 
-
-
+ReactDOM.render(<Sponsor/>,document.getElementById('sponsor'));
+ReactDOM.render(<Q_A/>,document.getElementById('QA'));
 ReactDOM.render(<Join/>,document.getElementById('join_us'));
 ReactDOM.render(<Intro/>,document.getElementById('intro'));
 ReactDOM.render( <Top/>, document.getElementById("top"));
