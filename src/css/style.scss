@@ -186,6 +186,11 @@ $sub_color: #88c1ff;
     position: relative;
     z-index: -2;
 }
+#sponsor{
+    width: 100%;
+    position: relative;
+    z-index: -2;
+}
 .content_1{
     padding-top: 5em;
     position: relative;
@@ -345,8 +350,7 @@ $sub_color: #88c1ff;
     }
 }
 .content_4{
-    height: 800px;
-    padding: 5em 5em 30px 5em;
+    padding: 5em 9em 6em 9em;
     .QA_title{
         margin: 0;
         padding-bottom: 2em;
@@ -360,10 +364,10 @@ $sub_color: #88c1ff;
             display: inline-block;
             background-color: #f1f1f1;
             padding: 5px 30px 5px 30px;
-            margin-left: 1.95em;
+            margin-left: 13.77%;
             border-radius: 15px;
             border: solid 1px rgba(0,0,0,.8);
-            width: 300px;
+            width: 500px;
             font-family: $font_family;
             h1{
                 font-size: 24px;
@@ -398,5 +402,30 @@ $sub_color: #88c1ff;
             color: #f08080;
             font-weight: 900;
         }
+    }
+}
+.content_5{
+    padding: 5em 8em 4em 8em;
+    background-color: #bae0ff;
+    h1{
+        text-align: center;
+        font-family: $selector_family;
+        margin: 0;
+        padding: .8em 0;
+    }
+    hr{
+        width: 80px;
+        border-top: none;
+        border-bottom: solid 2px rgba(0,0,0,.8);
+    }
+    .sponsor_logo{
+        position: relative;
+        top: -10px;
+    }
+    img{
+        display: inline-block;
+        margin-left: 13.3333333%;
+        width: 30%;
+        padding-top: 4em;
     }
 }
