@@ -120,6 +120,7 @@ class Join extends React.Component{
 }
 
 
+
 ReactDOM.render(<Join/>,document.getElementById('join_us'));
 ReactDOM.render(<Intro/>,document.getElementById('intro'));
 ReactDOM.render( <Top/>, document.getElementById("top"));
