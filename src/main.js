@@ -3,7 +3,8 @@ import Html from './template.html';
 import React from "react";
 import ReactDOM from "react-dom";
 import scrollSpeed from "./js/scroll-parallax.js";
-
+import ScrollEvent from "./js/scroll_event.js";
+import ClickEvent from "./js/click_event.js";
 
 class Selection_b extends React.Component {
     render() {
@@ -40,6 +41,7 @@ class Intro extends React.Component {
     render() {
         return(
             <div>
+                <img class="gear" src="src/Img/gear.png"/>
                 <div class="content_1">
                     <div class="partical">
                         <h1>什麼是黑客松(Hackathon)？</h1>
@@ -125,7 +127,10 @@ class Q_A extends React.Component{
                 <h1 class="QA_title">Q & A</h1>
                 <div class="section">
                     <div class="QA_block">
-                        <h1>Q1 : 為啥要來</h1>
+                        <div class="Q_section">
+                            <h1>Q1</h1>
+                        </div>
+                        <div className="A_section"></div>
                         <p>與企業交流，直接認識業界的想法和需求，並以所學解決實際的問題
                             ，創造價值。 認識與你理念相近的伙伴，歷經兩天一夜的密集合作，
                             凝聚出深厚的革命情感。 體驗微型創業，培養團隊合作的能力，
@@ -133,7 +138,7 @@ class Q_A extends React.Component{
                         </p>
                         <div class="read_more">繼續閱讀</div>
                     </div><div class="QA_block">
-                        <h1>Q1 : 為啥要來</h1>
+                        <h1>Q1</h1>
                         <p>與企業交流，直接認識業界的想法和需求，並以所學解決實際的問題
                             ，創造價值。 認識與你理念相近的伙伴，歷經兩天一夜的密集合作，
                             凝聚出深厚的革命情感。 體驗微型創業，培養團隊合作的能力，
@@ -154,16 +159,58 @@ class Sponsor extends React.Component{
                 <hr/>
                 <div class="sonsor_logo">
                     <img src="src/Img/Callyellow.png"/>
-                    <img src="src/Img/Callyellow.png"/>
-                    <img src="src/Img/Callyellow.png"/>
-                    <img src="src/Img/Callyellow.png"/>
-                    <img src="src/Img/Callyellow.png"/>
+                    <img src="src/Img/Garena.jpg"/>
+                    <img src="src/Img/Bank.png"/>
+                    <img src="src/Img/DNArails.png"/>
+                    <img src="src/Img/ironyun.png"/>
+                </div>
+            </div>
+        );
+    }
+}
+class Footer extends React.Component{
+    render(){
+        return(
+            <div class="content_6">
+                <div class="staff">
+                    <h1>工作人員</h1>
+                    <p>總召：魚丸</p>
+                    <p>副召：慈慈</p>
+                    <p>公關：ㄊㄟˇ博、涵宇、怡瑄、楷恩、抹茶、阿原</p>
+                    <p>文宣：雅瑄、彥傑、允真</p>
+                    <p>美宣：COLA</p>
+                    <p>總務：阿蓉</p>
+                    <p>活動：Vera</p>
+                    <p>場器：Donny、大頭、小蝸</p>
+                    <p>網路：奈奈、減薪、佳安、欣蓓、Sunset</p>
+                    <p>相手：湯圓</p>
+                </div>
+                <div class="staff">
+                    <h1>主辦單位</h1>
+                    <p>國立交通大學</p>
+                    <p>國立清華大學</p>
+                    <h1>協辦單位</h1>
+                    <p>高階繪圖與立體視訊基礎技術研發中心</p>
+                    <p>行動APP暨遊戲產業發展聯盟</p>
+                    <p>電腦視覺監控產學研聯盟</p>
+                    <p>交大產學運籌中心</p>
+                    <p>清大產學運籌中心</p>
+                    <p>AppUniverz</p>
+                </div>
+                <div class="staff">
+                    <h1>Email</h1>
+                    <p>hacknctu@googlegroups.com</p>
+                    <h1>Facebook專頁</h1>
+                    <p>https://www.facebook.com/HackMeiChu</p>
+                    <h1>Facebook社團</h1>
+                    <p>https://www.facebook.com/groups/hacknctu/</p>
                 </div>
             </div>
         );
     }
 }
 
+ReactDOM.render(<Footer/>,document.getElementById('footer'));
 ReactDOM.render(<Sponsor/>,document.getElementById('sponsor'));
 ReactDOM.render(<Q_A/>,document.getElementById('QA'));
 ReactDOM.render(<Join/>,document.getElementById('join_us'));

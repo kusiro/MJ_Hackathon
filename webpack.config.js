@@ -18,7 +18,25 @@ module.exports = {
                 loader: 'html-loader',
             },{
                 test: /\.(png|jpg|svg)$/,
-                loader: 'file-loader',
+                loaders: [
+                    'file-loader',
+                    {
+                        loader: 'image-webpack-loader',
+                        query:{
+                            progressive: true,
+                            optimizationLevel: 7,
+                            interlaced: false,
+                            mozjpg: {
+                                quality: '65-90',
+                                speed: 4,
+                            },
+                            pngquant: {
+                                quality: '65-90',
+                                speed: 4,
+                            },
+                        }
+                    },
+                ]
             },{
                 test: /\.js$/,
                 exclude: /(node_module)|(bower_components)/,
