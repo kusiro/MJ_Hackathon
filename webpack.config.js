@@ -24,15 +24,19 @@ module.exports = {
                         loader: 'image-webpack-loader',
                         query:{
                             progressive: true,
-                            optimizationLevel: 7,
-                            interlaced: false,
+                            gifsicle: {
+                                interlaced: false,
+                            },
+                            optipng: {
+                                optimizationLevel: 7,
+                            },
                             mozjpg: {
                                 quality: '65-90',
-                                speed: 4,
+                                speed: 1,
                             },
                             pngquant: {
                                 quality: '65-90',
-                                speed: 4,
+                                speed: 1,
                             },
                         }
                     },
