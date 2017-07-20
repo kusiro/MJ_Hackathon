@@ -1,10 +1,27 @@
 $(document).ready(function(){
     var lock = false;
     $('.selection').click(function(){
-        if( lock == false){
+        var location = $(window).scrollTop();
+        if( lock == false && location > 975 ){
             lock = true;
-            $('html,body').animate({scrollTop: $("#intro").offset().top},1500);
-            lock = false;
+            $('html,body').animate({scrollTop: $("#intro").offset().top},{
+                duration: 800,
+                complete: function(){
+                    return lock = false
+                    },
+                }
+            );
+        } else if ( lock == false && location < 975) {
+            lock = true;
+            $('html,body').animate({scrollTop: $("#intro").offset().top},{
+                duration: 800,
+                complete: function(){
+                    return lock = false
+                    },
+                }
+            );
+        } else {
+
         }
     })
 });
