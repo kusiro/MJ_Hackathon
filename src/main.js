@@ -47,7 +47,7 @@ class Intro extends React.Component {
             <div>
                 <div class="content_1">
                     <div class="partical">
-                        <h1>什麼是黑客松(Hackathon)？</h1>
+                        <h1>什麼是黑客松？</h1>
                         <div class="partical_block">
                             <b>Hackathon顧名思義，就像是工程界的馬拉松</b>
                             <p>在一兩天內，日以繼夜地用最短的時間，將腦海中的創意構想，

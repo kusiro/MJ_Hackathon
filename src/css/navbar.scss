@@ -102,8 +102,9 @@
     transition: cubic-bezier(0, 0.34, 0.17, 0.95) 1s;
     @include breakpoint(mobileonly){
         font-size: 5pt;
-        margin: 0 5px;
-        padding: 20px 0;
+        margin: 0 5.5px;
+        border-bottom: solid .5px rgba(0,0,0,.5);
+        padding: 1px 1px;
     }
     @include breakpoint(phablet){
         font-size: 10pt;

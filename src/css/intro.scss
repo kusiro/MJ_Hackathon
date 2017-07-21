@@ -21,25 +21,66 @@
         font-family: $font_family;
         text-align: justify;
         letter-spacing: 1.2pt;
+        @include breakpoint(mobileonly){
+            width: 75%;
+        }
+        @include breakpoint(phablet){
+            width: 80%;
+        }
+        @include breakpoint(laptop){
+            width: 55%;
+        }
         h1{
             width: 600px;
             margin: 0;
             border-bottom: solid 1px;
             padding-bottom: 8px;
             font-size: $title_size;
-            font-weight: 400;
+            font-weight: 300;
             margin-bottom: .6em;
-        }
-        b{
-            color: #8b1616;
-            font-size: $subtitle_size;
-            font-weight: 400;
+            @include breakpoint(mobileonly){
+                font-size: 24px;
+                font-weight: 700;
+                width: 100%;
+            }
+            @include breakpoint(phablet){
+                font-size: $title_size;
+                width: 100%;
+                font-weight: 500;
+            }
+            @include breakpoint(laptop){
+                font-size: $title_size;
+                width: 600px;
+                font-weight: 500;
+            }
         }
         p{
             font-size: $content_size;
             margin: 0;
             padding-top: .5em;
             line-height: 1.6em;
+            @include breakpoint(mobileonly){
+                font-size: 18px;
+                width: 100%;
+            }
+            @include breakpoint(phablet){
+                font-size: 22px;
+                width: 100%;
+            }
         }
+        b{
+            color: #8b1616;
+            font-size: $subtitle_size;
+            font-weight: 400;
+            @include breakpoint(mobileonly){
+                font-size: 18px;
+                width: 100%;
+                font-weight: 600;
+            }
+            @include breakpoint(phablet){
+                width: 100%;
+            }
+        }
+
     }
 }
