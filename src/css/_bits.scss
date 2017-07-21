@@ -42,13 +42,8 @@ $sub_color: #88c1ff;
 @import 'navbar';
 @import 'block_1';
 @import "intro";
+@import 'block_2';
 
-.parent_2{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    clip-path: polygon(0 35%, 100% 10%, 100% 75%, 0% 100%);
-}
 .parent_3{
     position: absolute;
     height: 100%;
@@ -56,17 +51,7 @@ $sub_color: #88c1ff;
     clip: rect(0 auto auto 0);
 }
 
-#block_2{
-    position: relative;
-    height: 800px;
-    z-index: -100;
-    .block_2_img{
-        z-index: -4;
-        width: 100%;
-        position: relative;
-        z-index: -100;
-    }
-}
+
 #block_3{
     width: 100%;
     position: relative;

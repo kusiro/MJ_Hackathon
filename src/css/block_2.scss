@@ -1,0 +1,50 @@
+.parent_2{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    clip-path: polygon(0 35%, 100% 10%, 100% 75%, 0% 100%);
+    @include breakpoint(mobileonly){
+        clip-path: polygon(0 20%, 100% 0%, 100% 80%, 0% 100%);
+    }
+    @include breakpoint(laptop){
+        clip-path: polygon(0 35%, 100% 10%, 100% 75%, 0% 100%);
+    }
+}
+#block_2{
+    position: relative;
+    height: 800px;
+    z-index: -100;
+    @include breakpoint(mobileonly){
+        height: 350px;
+    }
+    @include breakpoint(phablet){
+        height: 600px;
+    }
+    @include breakpoint(tablet){
+        height: 750px;
+    }
+    @include breakpoint(laptop){
+        height: 800px;
+    }
+    .block_2_img{
+        z-index: -4;
+        width: 120%;
+        position: relative;
+        z-index: -100;
+        @include breakpoint(mobileonly){
+            width: 500%;
+            left: -100px;
+        }
+        @include breakpoint(phablet){
+            width: 450%;
+            left: -100px;
+        }
+        @include breakpoint(tablet){
+            width: 250%;
+            left: -100px;
+        }
+        @include breakpoint(laptop){
+            width: 150%;
+        }
+    }
+}
