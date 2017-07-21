@@ -1,8 +1,15 @@
 $(document).ready(function(){
-    var lock = false;
+ 
+
+    // All navbar button share one lock
+    let lock = false;
 
     const scroll_to = (target_selector_id) => {
+
+        // Query target id position
         const target_offset_top = $(target_selector_id).offset().top;
+
+        // Scroll to that position
         $('html,body').animate({scrollTop: target_offset_top},
             {
                 duration: 800,
@@ -11,9 +18,13 @@ $(document).ready(function(){
         );
     };
 
+    // Bind click event for each .selction elements
     $('.selection').each((ith, elem) => {
+
+        // Get target element id store in `data-target`
         const target_selector_id = '#' + $(elem).data('target');
-        console.log(elem)
+
+        // Bind click event for this elements
         $(elem).click(() => {
             if( lock )
                 return;
@@ -21,5 +32,6 @@ $(document).ready(function(){
             scroll_to(target_selector_id);
         });
     });
+
 
 });

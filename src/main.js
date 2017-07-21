@@ -9,6 +9,10 @@ import ScrollReveal from "./js/scroll_reveal.js";
 
 class Selection_b extends React.Component {
     render() {
+        /*
+            Edit `data-target` to tell javascript which element id should it scrolls to.
+            Javascript can get the data in attributes prefixed with `data-`
+        */
         return(
             <div id="selectionBar">
                 <div class="selection" data-target="intro">Intro</div>
