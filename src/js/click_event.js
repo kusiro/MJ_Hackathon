@@ -1,27 +1,37 @@
 $(document).ready(function(){
-    var lock = false;
-    $('.selection').click(function(){
-        var location = $(window).scrollTop();
-        if( lock == false && location > 975 ){
-            lock = true;
-            $('html,body').animate({scrollTop: $("#intro").offset().top},{
-                duration: 800,
-                complete: function(){
-                    return lock = false
-                    },
-                }
-            );
-        } else if ( lock == false && location < 975) {
-            lock = true;
-            $('html,body').animate({scrollTop: $("#intro").offset().top},{
-                duration: 800,
-                complete: function(){
-                    return lock = false
-                    },
-                }
-            );
-        } else {
+ 
 
-        }
-    })
+    // All navbar button share one lock
+    let lock = false;
+
+    const scroll_to = (target_selector_id) => {
+
+        // Query target id position
+        const target_offset_top = $(target_selector_id).offset().top;
+
+        // Scroll to that position
+        $('html,body').animate({scrollTop: target_offset_top},
+            {
+                duration: 800,
+                complete: () => {lock = false;},
+            }
+        );
+    };
+
+    // Bind click event for each .selction elements
+    $('.selection').each((ith, elem) => {
+
+        // Get target element id store in `data-target`
+        const target_selector_id = '#' + $(elem).data('target');
+
+        // Bind click event for this elements
+        $(elem).click(() => {
+            if( lock )
+                return;
+            lock = true;
+            scroll_to(target_selector_id);
+        });
+    });
+
+
 });
