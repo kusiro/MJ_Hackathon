@@ -3,7 +3,6 @@ import Html from './template.html';
 import React from "react";
 import ReactDOM from "react-dom";
 import scrollSpeed from "./js/scroll-parallax.js";
-import ScrollEvent from "./js/scroll_event.js";
 import ClickEvent from "./js/click_event.js";
 import ScrollReveal from "./js/scroll_reveal.js";
 
@@ -46,7 +45,6 @@ class Intro extends React.Component {
     render() {
         return(
             <div>
-                <img class="gear" src="src/Img/gear.png"/>
                 <div class="content_1">
                     <div class="partical">
                         <h1>什麼是黑客松(Hackathon)？</h1>

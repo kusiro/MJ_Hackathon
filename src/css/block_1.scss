@@ -1,0 +1,91 @@
+.parent_1{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    clip: rect(0 auto auto 0);
+}
+#block_1 {
+    position: relative;
+    z-index: -20;
+    height: 600px;
+    @include breakpoint(mobileonly){
+        height: 300px;
+    }
+    @include breakpoint(phablet){
+        height: 300px;
+    }
+    @include breakpoint(tablet){
+        height: 450px;
+    }
+    @include breakpoint(laptop){
+        height: 600px;
+    }
+    .block_1_img{
+        z-index: -20;
+        position: absolute;
+        width: 100%;
+        @include breakpoint(mobileonly){
+            width: 350%;
+            left: -300px;
+        }
+        @include breakpoint(phablet){
+            width: 200%;
+            left: -100px;
+        }
+        @include breakpoint(tablet){
+            width: 150%;
+        }
+        @include breakpoint(laptop){
+            width: 120%;
+        }
+    }
+    .container{
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    .infocard{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: .8;
+        text-shadow: 0px 0px 10px rgba(0,0,0,.6);
+        font-size: 48px;
+        font-weight: 100;
+        border: solid 2px rgba(0,0,0,.8);
+        padding: 15px 15px;
+        letter-spacing: .15em;
+        text-align: center;
+        font-family: $font_family;
+        @include breakpoint(mobileonly){
+            font-size: 18px;
+            font-weight: 500;
+            border: solid 1px rgba(0,0,0,.8);
+            padding: 8px;
+            width: 240px;
+            text-align: center;
+        }
+        @include breakpoint(phablet){
+            font-size: 24px;
+            font-weight: 500;
+            border: solid 1px rgba(0,0,0,.8);
+            padding: 8px;
+            width: 300px;
+            text-align: center;
+        }
+        @include breakpoint(tablet){
+            width: 400px;
+            padding: 10px 0px;
+            font-size: 32px;
+
+        }
+        @include breakpoint(laptop){
+            width: 620px;
+            padding: 15px;
+            font-weight: 100;
+            font-size: 48px;
+            border: solid 2px rgba(0,0,0,.8);
+        }
+    }
+}
