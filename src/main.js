@@ -1,4 +1,4 @@
-import styles from './css/style.scss';
+import styles from './css/_bits.scss';
 import Html from './template.html';
 import React from "react";
 import ReactDOM from "react-dom";
@@ -134,7 +134,7 @@ class Join extends React.Component{
                         以利主辦單位幫忙媒合適當的合作伙伴。</p>
                         <p>主辦單位將會每天更新各企業剩下的組數，並於報名後一天通知隊伍選上的企業。
                         主辦單位不提供電腦給參賽者，請自行攜帶筆記型電腦。活動當天提供電源和無線網路。</p>
-                    </div>        
+                    </div>
                 </div>
             </div>
         );
