@@ -11,12 +11,12 @@ class Selection_b extends React.Component {
     render() {
         return(
             <div id="selectionBar">
-                <div class="selection">Intro</div>
-                <div class="selection">Join us</div>
-                <div class="selection">Q & A</div>
-                <div class="selection">Partners</div>
-                <div class="selection">Team</div>
-                <div class="selection">Contact</div>
+                <div class="selection" data-target="intro">Intro</div>
+                <div class="selection" data-target="join_us">Join us</div>
+                <div class="selection" data-target="QA">Q &amp; A</div>
+                <div class="selection" data-target="schedule">Partners</div>
+                <div class="selection" data-target="sponsor">Team</div>
+                <div class="selection" data-target="footer">Contact</div>
             </div>
         );
     }
