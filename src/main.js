@@ -153,11 +153,11 @@ class Sponsor extends React.Component{
                 <h1>Sponsor</h1>
                 <hr/>
                 <div class="sonsor_logo">
-                    <img src="src/Img/Callyellow.png"/>
-                    <img src="src/Img/Callyellow.png"/>
-                    <img src="src/Img/Callyellow.png"/>
-                    <img src="src/Img/Callyellow.png"/>
-                    <img src="src/Img/Callyellow.png"/>
+                    <img src="./src/Img/Callyellow.png"/>
+                    <img src="./src/Img/Callyellow.png"/>
+                    <img src="./src/Img/Callyellow.png"/>
+                    <img src="./src/Img/Callyellow.png"/>
+                    <img src="./src/Img/Callyellow.png"/>
                 </div>
             </div>
         );
