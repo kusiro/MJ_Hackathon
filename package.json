@@ -45,6 +45,7 @@
     "webpack-dev-server": "^2.5.1"
   },
   "dependencies": {
+    "fastdom": "^1.0.6",
     "parallaxer": "^1.0.0",
     "scroll-parallax": "^2.0.2",
     "scrollreveal": "^3.3.6"
