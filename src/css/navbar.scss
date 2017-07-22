@@ -121,21 +121,21 @@
         margin: 0 45px;
         padding: 20px 0;
     }
-}
-.selection:hover{
-    cursor: pointer;
-    opacity: 1;
-    font-size: 16pt;
-    @include breakpoint(mobileonly){
-        font-size: 9pt;
-    }
-    @include breakpoint(phablet){
-        font-size: 12pt;
-    }
-    @include breakpoint(tablet){
-        font-size: 14pt;
-    }
-    @include breakpoint(laptop){
-        font-size: 17pt;
+    &:hover, &.active {
+        cursor: pointer;
+        opacity: 1;
+        font-size: 16pt;
+        @include breakpoint(mobileonly){
+            font-size: 9pt;
+        }
+        @include breakpoint(phablet){
+            font-size: 12pt;
+        }
+        @include breakpoint(tablet){
+            font-size: 14pt;
+        }
+        @include breakpoint(laptop){
+            font-size: 17pt;
+        }
     }
 }
