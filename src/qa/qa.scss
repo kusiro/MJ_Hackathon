@@ -29,16 +29,40 @@ h2 {
     strong {
         font-size: 1.4em;
         vertical-align: text-bottom;
+        color: $color_r;
     }
 }
 
 article {
     max-width: 700px;
     margin: 0 auto 5em auto;
+
+    section {
+        padding-left: 1em;
+        position: relative;
+
+        &::after {
+            content: ' ';
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 10px;
+            height: 100%;
+            background-color: $color_gl;
+        }
+    }
 }
 
 p {
     margin: 1em 0 0 0;
     line-height: 1.6em;
     text-align: justify;
+}
+
+footer {
+    font-size: 1em;
+    display: block;
+    text-align: center;
+    padding-bottom: 4em;
 }
