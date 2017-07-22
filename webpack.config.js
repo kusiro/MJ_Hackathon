@@ -5,11 +5,12 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     entry: {
-        app: ["./src/main.js"],
+        bundle: "./src/main.js",
+        qa_bundle: "./src/qa/index.js",
     },
     output: {
         path: path.resolve(__dirname, "public"),
-        filename: "bundle.js",
+        filename: "[name].js",
     },
     module: {
         loaders: [
@@ -76,7 +77,13 @@ module.exports = {
         new HtmlWebpackPlugin({
             title: '2017 梅竹黑客松',
             template: 'src/template.html',
-            inject: 'true',
+            chunks: ['bundle'],
+        }),
+        new HtmlWebpackPlugin({
+            title: '2017 梅竹黑客松',
+            template: 'src/qa/qa_template.html',
+            chunks: ['qa_bundle'],
+            filename: 'qa.html',
         }),
         new webpack.HotModuleReplacementPlugin(),
     ]
