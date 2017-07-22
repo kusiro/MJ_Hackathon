@@ -19,14 +19,6 @@ $(document).ready(function(){
         opacity: 0,
         viewFactor: 0.5,
     });
-    sr.reveal('.QA_block',{
-        duration: 500,
-        origin: 'bottom',
-        distance: '30px',
-        scale: '1',
-        opacity: 0,
-        viewFactor: 0.5,
-    },100);
     sr.reveal('.date',{
         duration: 1000,
         scale: '1',
@@ -34,7 +26,7 @@ $(document).ready(function(){
         opacity: 0,
         viewFactor: 0.5,
     });
-    sr.reveal('.sche_cont',{
+    sr.reveal('.sche',{
         duration: 1000,
         scale: '1',
         distance: '0px',

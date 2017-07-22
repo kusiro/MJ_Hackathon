@@ -157,56 +157,61 @@ class Schedule extends React.Component{
                         Day 2
                     </div>
                 </div>
-                <div class="timeline">
-                    <div class="sche">
-                        <div class="time">
-                            <p class="time_text"><b>08</b>30</p>
-                            <p class="time_text"><b>09</b>00</p>
-                            <p class="time_text"><b>10</b>30</p>
-                            <p class="time_text"><b>12</b>00</p>
-                            <p class="time_text"><b>13</b>00</p>
-                            <p class="time_text"><b>15</b>30</p>
-                            <p class="time_text"><b>16</b>00</p>
-                            <p class="time_text"><b>18</b>30</p>
-                            <p class="time_text"><b>19</b>30</p>
-                            <p class="time_text"><b>19</b>30~~</p>
+                <div className="sche_cont">
+                    <div class="timeline">
+                        <div class="sche">
+                            <div class="time">
+                                <p class="time_text"><b>08</b>30</p>
+                                <p class="time_text"><b>09</b>00</p>
+                                <p class="time_text"><b>10</b>30</p>
+                                <p class="time_text"><b>12</b>00</p>
+                                <p class="time_text"><b>13</b>00</p>
+                                <p class="time_text"><b>15</b>30</p>
+                                <p class="time_text"><b>16</b>00</p>
+                                <p class="time_text"><b>18</b>30</p>
+                                <p class="time_text"><b>19</b>30</p>
+                                <p class="time_text"><b>19</b>30~~</p>
+                            </div>
+                            <div class="event">
+                                <p class="event_text" >報到 & 相見歡</p>
+                                <p class="event_text" >開場 & 來賓致詞</p>
+                                <p class="event_text" >公布題目&技術人員說明</p>
+                                <p class="event_text" >開始coding</p>
+                                <p class="event_text" >午餐時間</p>
+                                <p class="event_text" >持續coding</p>
+                                <p class="event_text" >下午茶</p>
+                                <p class="event_text" >持續coding</p>
+                                <p class="event_text" >晚餐時間+野台表演</p>
+                                <p class="event_text" >戰鬥永無止盡</p>
+                            </div>
                         </div>
-                        <div class="event">
-                            <p class="event_text" >報到 & 相見歡</p>
-                            <p class="event_text" >開場 & 來賓致詞</p>
-                            <p class="event_text" >公布題目&技術人員說明</p>
-                            <p class="event_text" >開始coding</p>
-                            <p class="event_text" >午餐時間</p>
-                            <p class="event_text" >持續coding</p>
-                            <p class="event_text" >下午茶</p>
-                            <p class="event_text" >持續coding</p>
-                            <p class="event_text" >晚餐時間+野台表演</p>
-                            <p class="event_text" >戰鬥永無止盡</p>
-                        </div>
-                    </div><div class="sche">
-                        <div class="time">
-                            <p class="time_text" ><b>07</b>00</p>
-                            <p class="time_text" ><b>08</b>00</p>
-                            <p class="time_text" ><b>11</b>00</p>
-                            <p class="time_text" ><b>12</b>00</p>
-                            <p class="time_text" ><b>14</b>00</p>
-                            <p class="time_text" ><b>15</b>30</p>
-                            <p class="time_text" ><b>16</b>00</p>
-                            <p class="time_text" ><b>16</b>40</p>
-                            <p class="time_text" ><b>17</b>00</p>
-                            <p class="time_text" ><b>17</b>10</p>
-                        </div>
-                        <div class="event">
-                            <p class="event_text" >早餐時間</p>
-                            <p class="event_text" >最後衝刺</p>
-                            <p class="event_text" >午餐時間</p>
-                            <p class="event_text" >最後衝刺</p>
-                            <p class="event_text" >各組擺攤demo</p>
-                            <p class="event_text" >交流時間</p>
-                            <p class="event_text" >決賽</p>
-                            <p class="event_text" >評審講評</p>
-                            <p class="event_text" >贊助商活動宣傳</p>
-                            <p class="event_text" >頒獎典禮及閉幕</p>
+                    </div>
+                    <div className="timeline">
+                        <div class="sche">
+                            <div class="time">
+                                <p class="time_text" ><b>07</b>00</p>
+                                <p class="time_text" ><b>08</b>00</p>
+                                <p class="time_text" ><b>11</b>00</p>
+                                <p class="time_text" ><b>12</b>00</p>
+                                <p class="time_text" ><b>14</b>00</p>
+                                <p class="time_text" ><b>15</b>30</p>
+                                <p class="time_text" ><b>16</b>00</p>
+                                <p class="time_text" ><b>16</b>40</p>
+                                <p class="time_text" ><b>17</b>00</p>
+                                <p class="time_text" ><b>17</b>10</p>
+                            </div>
+                            <div class="event">
+                                <p class="event_text" >早餐時間</p>
+                                <p class="event_text" >最後衝刺</p>
+                                <p class="event_text" >午餐時間</p>
+                                <p class="event_text" >最後衝刺</p>
+                                <p class="event_text" >各組擺攤demo</p>
+                                <p class="event_text" >交流時間</p>
+                                <p class="event_text" >決賽</p>
+                                <p class="event_text" >評審講評</p>
+                                <p class="event_text" >贊助商活動宣傳</p>
+                                <p class="event_text" >頒獎典禮及閉幕</p>
+                            </div>
                         </div>
                     </div>
                 </div>

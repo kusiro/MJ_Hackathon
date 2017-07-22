@@ -42,17 +42,11 @@
             padding: 25px 0;
         }
     }
-    .timeline{
+    .sche_cont{
         padding-bottom: 8em;
         font-family: $font_family;
-        ::before{
-            content: '';
-            position: absolute;
-            top: 0px;
-            left:calc(33% + 15px); //$gutter/2
-            bottom: 0px;
-            width: 4px;
-            background: #ddd;
+        .timeline{
+
         }
         .sche{
             position: relative;
@@ -74,7 +68,6 @@
             display: inline-block;
             position: relative;
             width:20%;
-            left: 15%;
             font-weight: 600;
         }
         b{
@@ -86,7 +79,6 @@
             line-height: 45px;
             position: relative;
             font-weight: 900;
-            left: 20%;
             display: inline-block;
         }
     }
