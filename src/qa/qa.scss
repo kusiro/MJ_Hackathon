@@ -1,0 +1,44 @@
+$color_w: #f7f7f7;
+$color_gd: #B2E4DB;
+$color_gl: #A9FBD7;
+$color_b: #88C1FF;
+$color_r: #FF6666;
+
+* {
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+body, html {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Quicksand", sans-serif;
+    background-color: $color_w;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+h2 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+
+    strong {
+        font-size: 1.4em;
+        vertical-align: text-bottom;
+    }
+}
+
+article {
+    max-width: 700px;
+    margin: 0 auto 5em auto;
+}
+
+p {
+    margin: 1em 0 0 0;
+    line-height: 1.6em;
+    text-align: justify;
+}
