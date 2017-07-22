@@ -16,9 +16,8 @@ class Selection_b extends React.Component {
             <div id="selectionBar">
                 <div class="selection" data-target="intro">Intro</div>
                 <div class="selection" data-target="join_us">Join us</div>
-                <div class="selection" data-target="QA">Q &amp; A</div>
-                <div class="selection" data-target="schedule">Partners</div>
-                <div class="selection" data-target="sponsor">Team</div>
+                <div class="selection" data-target="schedule">Schedule</div>
+                <div class="selection" data-target="sponsor">Partners</div>
                 <div class="selection" data-target="footer">Contact</div>
             </div>
         );
