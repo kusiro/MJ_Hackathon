@@ -46,7 +46,13 @@
         padding-bottom: 8em;
         font-family: $font_family;
         .timeline{
-
+            display: inline-block;
+            margin: 0;
+            padding: 0 20px;
+            margin-left: 10px;
+            border-left: solid 6px #4298c3;
+            list-style: none;
+            text-align: left;
         }
         .sche{
             position: relative;
