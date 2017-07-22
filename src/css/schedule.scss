@@ -1,0 +1,94 @@
+#schedule{
+    width: 100%;
+    position: relative;
+    z-index: -3;
+    background-color: #B2E4DB;
+}
+.content_3{
+    padding: 4em 10em 3em 10em;
+    position: relative;
+    z-index: -1;
+    h1{
+        font-family: 'Raleway', sans-serif;
+        font-size: 60px;
+        text-align: left;
+        font-weight: 900;
+        color: rgba(0,0,0,.7);
+        padding-bottom: .1em;
+        letter-spacing: .1em;
+        b{
+            padding-bottom: 6px;
+            border-bottom: solid 8px #88C1FF;
+        }
+    }
+    .date{
+        text-align: center;
+        font-family: $selector_family;
+        font-size: $subtitle_size;
+        font-weight: 900;
+        .day_1{
+            display: inline-block;
+            background-color: #f7f7f7;
+            opacity: .8;
+            width: 45%;
+            padding: 25px 0;
+        }
+        .day_2{
+            display: inline-block;
+            background-color: #f7f7f7;
+            opacity: .8;
+            width: 45%;
+            margin-left: 10%;
+            padding: 25px 0;
+        }
+    }
+    .sche_cont{
+        margin-top: 2em;
+        padding-bottom: 8em;
+        font-family: $font_family;
+        .sche_1{
+            position: relative;
+            background-color: #f7f7f7;
+            opacity: .8;
+            display: inline-block;
+            width: 45%;
+            padding: 1.5em 0;
+        }
+        .sche_2{
+            position: relative;
+            background-color: #f7f7f7;
+            opacity: .8;
+            display: inline-block;
+            width: 45%;
+            margin-left: 10%;
+            padding: 1.5em 0;
+        }
+        p{
+            padding: 0;
+            margin: 0;
+            font-size: 20px;
+            vertical-align: baseline;
+        }
+
+        .time{
+            letter-spacing: 2px;
+            display: inline-block;
+            position: relative;
+            width:20%;
+            left: 15%;
+            font-weight: 600;
+        }
+        b{
+            font-size: 25px;
+            vertical-align: baseline;
+            line-height: 45px;
+        }
+        .event{
+            line-height: 45px;
+            position: relative;
+            font-weight: 900;
+            left: 20%;
+            display: inline-block;
+        }
+    }
+}

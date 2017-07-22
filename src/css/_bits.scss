@@ -43,36 +43,9 @@ $sub_color: #88c1ff;
 @import 'block_1';
 @import "intro";
 @import 'block_2';
+@import 'join';
+@import 'schedule';
 
-.parent_3{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    clip: rect(0 auto auto 0);
-}
-
-
-#block_3{
-    width: 100%;
-    position: relative;
-    z-index: -3;
-    top: -3em;
-    height: 400px;
-    background: linear-gradient(90deg, #2196F3, #2dd2e6);
-    clip-path: polygon(0 0%, 100% 15%, 100% 100%, 0% 85%);
-}
-
-#join_us{
-    padding-bottom: 0em;
-}
-#schedule{
-    width: 100%;
-    position: relative;
-    img{
-        width: 100%;
-        z-index: -20;
-    }
-}
 #QA{
     width: 100%;
     position: relative;
@@ -90,131 +63,8 @@ $sub_color: #88c1ff;
     z-index: -2;
 }
 
-.content_2{
-    padding-top: 5em;
-    position: relative;
-    z-index: -1;
-    width: 100%;
-    background-color: #f7f7f7;
-    .partical{
-        margin: 0 auto;
-        letter-spacing: 1.2pt;
-        position: relative;
-        text-align: justify;
-        z-index: -1;
-        width: 55%;
-        background-color: #f7f7f7;
-        font-family: $font_family;
-        padding-bottom: 6em;
-        h1{
-            font-weight: 400;
-            font-size: $title_size;
-        }
-        p{
-            font-size: $content_size;
-            line-height: 1.6em;
-        }
-    }
-}
-.content_3{
-    padding-top: 4em;
-    padding-bottom: 3em;
-    position: relative;
-    z-index: -1;
-    width: 60%;
-    margin: 0 auto;
-    .square{
-        width: 10px;
-        height: 10px;
-        background-color: rgba(0,0,0,.7);
-        margin: 25px auto;
-        transform: rotate(45deg);
-    }
-    hr{
-        width: 15%;
-        border-width: 2px;
-        border-top: none;
-        border-color: rgba(0,0,0,.7);
-        margin-bottom: 2em;
-    }
-    h1{
-        font-family: $font_family;
-        font-size: $title_size;
-        text-align: center;
-        font-weight: 500;
-        color: rgba(0,0,0,.7);
-    }
-    .date{
-        text-align: center;
-        font-family: $selector_family;
-        font-size: $subtitle_size;
-        font-weight: 900;
-        .day_1{
-            display: inline-block;
-            background-color: #f7f7f7;
-            opacity: .8;
-            width: 45%;
-            padding: 25px 0;
-        }
-        .day_2{
-            display: inline-block;
-            background-color: #f7f7f7;
-            opacity: .8;
-            width: 45%;
-            margin-left: 10%;
-            padding: 25px 0;
-        }
-    }
-    .sche_cont{
-        margin-top: 2em;
-        padding-bottom: 8em;
-        font-family: $font_family;
-        .sche_1{
-            position: relative;
-            background-color: #f7f7f7;
-            opacity: .8;
-            display: inline-block;
-            width: 45%;
-            padding: 1.5em 0;
-        }
-        .sche_2{
-            position: relative;
-            background-color: #f7f7f7;
-            opacity: .8;
-            display: inline-block;
-            width: 45%;
-            margin-left: 10%;
-            padding: 1.5em 0;
-        }
-        p{
-            padding: 0;
-            margin: 0;
-            font-size: 20px;
-            vertical-align: baseline;
-        }
 
-        .time{
-            letter-spacing: 2px;
-            display: inline-block;
-            position: relative;
-            width:20%;
-            left: 15%;
-            font-weight: 600;
-        }
-        b{
-            font-size: 25px;
-            vertical-align: baseline;
-            line-height: 45px;
-        }
-        .event{
-            line-height: 45px;
-            position: relative;
-            font-weight: 900;
-            left: 20%;
-            display: inline-block;
-        }
-    }
-}
+
 .content_4{
     padding: 1.5em 4em 6em 4em;
     .QA_title{

@@ -7,9 +7,5 @@ parallaxer([{
         element: $(".block_2_img")[0],
         distance: 4,
         offset: 500,
-    },{
-        element: $(".schdule_bg")[0],
-        distance: 6,
-        offset: 800,
-    }
+    },
 ]);

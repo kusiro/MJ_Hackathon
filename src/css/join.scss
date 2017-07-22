@@ -1,0 +1,29 @@
+#join_us{
+    padding-bottom: 0em;
+}
+.content_2{
+    padding-top: 5em;
+    position: relative;
+    z-index: -1;
+    width: 100%;
+    background-color: #f7f7f7;
+    .partical{
+        margin: 0 auto;
+        letter-spacing: 1.2pt;
+        position: relative;
+        text-align: justify;
+        z-index: -1;
+        width: 55%;
+        background-color: #f7f7f7;
+        font-family: $font_family;
+        padding-bottom: 6em;
+        h1{
+            font-weight: 400;
+            font-size: $title_size;
+        }
+        p{
+            font-size: $content_size;
+            line-height: 1.6em;
+        }
+    }
+}
