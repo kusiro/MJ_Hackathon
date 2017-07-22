@@ -28,7 +28,7 @@ class Top extends React.Component {
         return(
             <div class="navbar">
                 <div class="logo_sqr">
-                    <p class="logo_day"><b>10/</b>29.30</p>
+                    <p class="date"><b>10/</b>29.30</p>
                     <div class="line"></div>
                     <p className="localtion">交大工程四館</p>
                 </div>
@@ -158,8 +158,9 @@ class Schedule extends React.Component{
                     </div>
                 </div>
                 <div className="sche_cont">
-                    <div class="timeline">
+
                         <div class="sche">
+
                             <div class="time">
                                 <p class="time_text"><b>08</b>30</p>
                                 <p class="time_text"><b>09</b>00</p>
@@ -172,21 +173,24 @@ class Schedule extends React.Component{
                                 <p class="time_text"><b>19</b>30</p>
                                 <p class="time_text"><b>19</b>30~~</p>
                             </div>
-                            <div class="event">
-                                <p class="event_text" >報到 & 相見歡</p>
-                                <p class="event_text" >開場 & 來賓致詞</p>
-                                <p class="event_text" >公布題目&技術人員說明</p>
-                                <p class="event_text" >開始coding</p>
-                                <p class="event_text" >午餐時間</p>
-                                <p class="event_text" >持續coding</p>
-                                <p class="event_text" >下午茶</p>
-                                <p class="event_text" >持續coding</p>
-                                <p class="event_text" >晚餐時間+野台表演</p>
-                                <p class="event_text" >戰鬥永無止盡</p>
-                            </div>
+
+                            <ul class="timeline">
+                                <div class="event">
+                                    <p class="event_text" >報到 & 相見歡</p>
+                                    <p class="event_text" >開場 & 來賓致詞</p>
+                                    <p class="event_text" >公布題目&技術人員說明</p>
+                                    <p class="event_text" >開始coding</p>
+                                    <p class="event_text" >午餐時間</p>
+                                    <p class="event_text" >持續coding</p>
+                                    <p class="event_text" >下午茶</p>
+                                    <p class="event_text" >持續coding</p>
+                                    <p class="event_text" >晚餐時間+野台表演</p>
+                                    <p class="event_text" >戰鬥永無止盡</p>
+                                </div>
+                            </ul>
+
                         </div>
-                    </div>
-                    <div className="timeline">
+
                         <div class="sche">
                             <div class="time">
                                 <p class="time_text" ><b>07</b>00</p>
@@ -213,7 +217,6 @@ class Schedule extends React.Component{
                                 <p class="event_text" >頒獎典禮及閉幕</p>
                             </div>
                         </div>
-                    </div>
                 </div>
             </div>
         );
