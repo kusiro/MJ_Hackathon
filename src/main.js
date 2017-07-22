@@ -158,8 +158,8 @@ class Schedule extends React.Component{
                         Day 2
                     </div>
                 </div>
-                <div class="sche_cont">
-                    <div class="sche_1">
+                <div class="timeline">
+                    <div class="sche">
                         <div class="time">
                             <p class="time_text"><b>08</b>30</p>
                             <p class="time_text"><b>09</b>00</p>
@@ -184,7 +184,7 @@ class Schedule extends React.Component{
                             <p class="event_text" >晚餐時間+野台表演</p>
                             <p class="event_text" >戰鬥永無止盡</p>
                         </div>
-                    </div><div class="sche_2">
+                    </div><div class="sche">
                         <div class="time">
                             <p class="time_text" ><b>07</b>00</p>
                             <p class="time_text" ><b>08</b>00</p>
@@ -208,54 +208,6 @@ class Schedule extends React.Component{
                             <p class="event_text" >評審講評</p>
                             <p class="event_text" >贊助商活動宣傳</p>
                             <p class="event_text" >頒獎典禮及閉幕</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        );
-    }
-}
-class Q_A extends React.Component{
-    render(){
-        return(
-            <div class="content_4">
-                <h1 class="QA_title">Q & A</h1>
-                <div class="section">
-                    <div class="QA_block">
-                        <div class="Q_section">
-                            <h1>Q1</h1>
-                            <p>如果我想要跟大會借用延長線或是申請其他器材怎麼申請？</p>
-                        </div><div class="A_section">
-                            <p>與企業交流，直接認識業界的想法和需求，並以所學解決實際的問題
-                                ，創造價值。 認識與你理念相近的伙伴，歷經兩天一夜的密集合作，
-                                凝聚出深厚的革命情感。 體驗微型創業，培養團隊合作的能力，
-                                就算未來沒有真的選擇創業，也會是職場上炙手可熱的人才！
-                            </p>
-                            <div class="read_more">繼續閱讀</div>
-                        </div>
-                    </div><div class="QA_block">
-                        <div class="Q_section">
-                            <h1>Q1</h1>
-                            <p>如果我想要跟大會借用延長線或是申請其他器材怎麼申請？</p>
-                        </div><div class="A_section">
-                            <p>與企業交流，直接認識業界的想法和需求，並以所學解決實際的問題
-                                ，創造價值。 認識與你理念相近的伙伴，歷經兩天一夜的密集合作，
-                                凝聚出深厚的革命情感。 體驗微型創業，培養團隊合作的能力，
-                                就算未來沒有真的選擇創業，也會是職場上炙手可熱的人才！
-                            </p>
-                            <div class="read_more">繼續閱讀</div>
-                        </div>
-                    </div><div class="QA_block">
-                        <div class="Q_section">
-                            <h1>Q1</h1>
-                            <p>如果我想要跟大會借用延長線或是申請其他器材怎麼申請？</p>
-                        </div><div class="A_section">
-                            <p>與企業交流，直接認識業界的想法和需求，並以所學解決實際的問題
-                                ，創造價值。 認識與你理念相近的伙伴，歷經兩天一夜的密集合作，
-                                凝聚出深厚的革命情感。 體驗微型創業，培養團隊合作的能力，
-                                就算未來沒有真的選擇創業，也會是職場上炙手可熱的人才！
-                            </p>
-                            <div class="read_more">繼續閱讀</div>
                         </div>
                     </div>
                 </div>
@@ -325,7 +277,6 @@ class Footer extends React.Component{
 ReactDOM.render(<Schedule/>,document.getElementById('schedule'));
 ReactDOM.render(<Footer/>,document.getElementById('footer'));
 ReactDOM.render(<Sponsor/>,document.getElementById('sponsor'));
-ReactDOM.render(<Q_A/>,document.getElementById('QA'));
 ReactDOM.render(<Join/>,document.getElementById('join_us'));
 ReactDOM.render(<Intro/>,document.getElementById('intro'));
 ReactDOM.render( <Top/>, document.getElementById("top"));

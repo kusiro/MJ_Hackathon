@@ -46,11 +46,7 @@ $sub_color: #88c1ff;
 @import 'join';
 @import 'schedule';
 
-#QA{
-    width: 100%;
-    position: relative;
-    z-index: -2;
-}
+
 #sponsor{
     width: 100%;
     position: relative;
@@ -64,84 +60,6 @@ $sub_color: #88c1ff;
 }
 
 
-
-.content_4{
-    padding: 1.5em 4em 6em 4em;
-    .QA_title{
-        margin: 0;
-        padding-bottom: 2em;
-        text-align: center;
-        font-family: $selector_family;
-    }
-    .section{
-        position: relative;
-        padding: 0 1.5em 2em 1.5em;
-        .QA_block{
-            display: inline-block;
-            background-color: #f7f7f7;
-            margin: 15px;
-            border: solid 1px rgba(0,0,0,.8);
-            border-radius: 12px;
-            width: 400px;
-            height: 350px;
-            font-family: $font_family;
-            .Q_section{
-                width: 100%;
-                height: 45%;
-                background-color: #FAE5D5;
-                padding: .8em 3em .8em 3em;
-                border-radius: 12px;
-                border-bottom-right-radius: 0px;
-                border-bottom-left-radius: 0px;
-                text-align: center;
-                h1{
-                    color: #656565;
-                    font-size: 30px;
-                    margin: 0;
-                    padding-bottom: .6em;
-                }
-                p{
-                    font-weight: 700;
-                    opacity: .8;
-                    margin: 0;
-                }
-            }
-            .A_section{
-                width: 100%;
-                height: 55%;
-                background-color: #f7f7f7;
-                padding: 1em 2em 1em 2em;
-                border-radius: 12px;
-                p{
-                    text-align: justify;
-                    height: 90%;
-                    overflow: hidden;
-                    font-size: 18px;
-                    letter-spacing: 2px;
-                    line-height: 1.4em;
-                    position: relative;
-                    margin: 0;
-                }
-                p::after{
-                    content: '';
-                    position: absolute;
-                    left: 0;
-                    top: 0;
-                    width: 100%;
-                    height: 100%;
-                    box-shadow: inset 0 -40px 30px -15px #f7f7f7;
-                    opacity: .9;
-                    z-index: 20;
-                }
-            }
-        }
-        .read_more{
-            text-align: center;
-            color: #f08080;
-            font-weight: 900;
-        }
-    }
-}
 .content_5{
     padding: 4em 6em 8em 6em;
     background-color: white;
