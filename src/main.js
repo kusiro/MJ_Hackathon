@@ -28,7 +28,7 @@ class Top extends React.Component {
         return(
             <div class="navbar">
                 <div class="logo_sqr">
-                    <p class="date"><b>10/</b>29.30</p>
+                    <p class="logo_day"><b>10/</b>29.30</p>
                     <div class="line"></div>
                     <p className="localtion">交大工程四館</p>
                 </div>
