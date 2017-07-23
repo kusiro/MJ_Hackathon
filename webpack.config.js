@@ -1,6 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
-const autoprefixer = require('autoprefixer');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
@@ -47,8 +47,8 @@ module.exports = {
                 exclude: /(node_module)|(bower_components)/,
                 loader: 'babel-loader',
                 query: {
-                    presets: ['ES2015', 'react', 'stage-0'],
-                    plugins: ['react-html-attrs', 'transform-class-properties', 'transform-decorators-legacy'],
+                    presets: ['ES2015', 'stage-0'],
+                    plugins: [],
                 }
             },{
                 test: /\.scss$/,
@@ -69,6 +69,7 @@ module.exports = {
         port: 8080,
     },
     plugins: [
+        new CleanWebpackPlugin(['public']),
         new webpack.ProvidePlugin({
             $: "jquery",
             jQuery: "jquery",
