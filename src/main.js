@@ -170,7 +170,6 @@ class Schedule extends React.Component{
                             <div class="event_text"><p className="schedule_contain">戰鬥永無止盡</p><p class="time_text"><b>19</b>30</p></div>
                         </div>
                     </div>
-                    <div className="sche_pad"></div>
                     <div class="sche">
                         <div class="day">
                             Day2
