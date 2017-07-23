@@ -30,9 +30,9 @@ $(window).scroll(() => {
 
     let deg_1 = 0;
     let deg_2 = 0;
-    
+
     fastdom.measure(() => {
-        deg_1 = $(window).scrollTop() / -5;
+        deg_1 = $(window).scrollTop() / -10;
         deg_2 = $(window).scrollTop() / 3;
     });
 
