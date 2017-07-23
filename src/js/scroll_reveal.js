@@ -26,27 +26,4 @@ $(document).ready(function(){
         opacity: 0,
         viewFactor: 0.5,
     });
-    sr.reveal('.sche',{
-        duration: 1000,
-        scale: '1',
-        distance: '0px',
-        opacity: 0,
-        viewFactor: 0.5,
-    });
-    sr.reveal('.time_text',{
-        duration: 1200,
-        scale: '0.2',
-        distance: '0px',
-        opacity: 0,
-        viewFactor: 0.5,
-        easing: 'cubic-bezier(0.5, 0.00, .1, 1)',
-    },100);
-    sr.reveal('.event_text',{
-        duration: 1200,
-        scale: '0.2',
-        distance: '0px',
-        opacity: 0,
-        viewFactor: 0.5,
-        easing: 'cubic-bezier(0.5, 0.00, .1, 1)',
-    },100);
 })
