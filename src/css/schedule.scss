@@ -29,26 +29,33 @@
         font-weight: 900;
         opacity: .8;
         top: -2em;
-        transform: translate(-25%,0);
+        transform: translate(-45%,0);
     }
 
     .sche_cont{
         padding-bottom: 8em;
         font-family: $font_family;
+        display: flex;
+        .sche_pad{
+            flex: 20;
+        }
         .sche{
+            flex: 30;
             position: relative;
             display: inline-block;
             width: 45%;
             border-left: solid 2px #333;
+
             .event{
                 position: relative;
                 display: inline-block;
-                color: #f7f7f7;
+                color: rgba(0,0,0,0.7);
                 margin-left: 20px;
                 .schedule_contain{
                     padding: 10px 20px;
                     background-color: #88C1FF;
                     border-radius: 8px;
+                    box-shadow: 2px 2px 5px 1px rgba(0,0,0,.5);
                 }
                 .event_text{
                     position: relative;

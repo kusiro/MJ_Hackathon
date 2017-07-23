@@ -153,40 +153,40 @@ class Schedule extends React.Component{
                 <h1><b>S</b>chedule</h1>
 
                 <div className="sche_cont">
+                    <div className="sche_pad"></div>
                     <div class="sche">
                         <div class="day">
                             Day1
                         </div>
-
                         <div class="event">
-                            <p class="event_text"><div className="schedule_contain">報到 & 相見歡</div><p class="time_text"><b>08</b>30</p></p>
-                            <p class="event_text"><div className="schedule_contain">開場 & 來賓致詞</div><p class="time_text"><b>09</b>00</p></p>
-                            <p class="event_text"><div className="schedule_contain">公布題目&技術人員說明</div><p class="time_text"><b>10</b>30</p></p>
-                            <p class="event_text"><div className="schedule_contain">開始coding</div><p class="time_text"><b>12</b>00</p></p>
-                            <p class="event_text"><div className="schedule_contain">午餐時間</div><p class="time_text"><b>13</b>00</p></p>
-                            <p class="event_text"><div className="schedule_contain">持續 coding</div><p class="time_text"><b>15</b>30</p></p>
-                            <p class="event_text"><div className="schedule_contain">下午茶</div><p class="time_text"><b>16</b>00</p></p>
-                            <p class="event_text"><div className="schedule_contain">持續coding</div><p class="time_text"><b>18</b>30</p></p>
-                            <p class="event_text"><div className="schedule_contain">晚餐時間+野台表演</div><p class="time_text"><b>19</b>30</p></p>
-                            <p class="event_text"><div className="schedule_contain">戰鬥永無止盡</div><p class="time_text"><b>19</b>30</p></p>
+                            <div class="event_text"><p className="schedule_contain">報到 & 相見歡</p><p class="time_text"><b>08</b>30</p></div>
+                            <div class="event_text"><p className="schedule_contain">開場 & 來賓致詞</p><p class="time_text"><b>09</b>00</p></div>
+                            <div class="event_text"><p className="schedule_contain">公布題目&技術人員說明</p><p class="time_text"><b>10</b>30</p></div>
+                            <div class="event_text"><p className="schedule_contain">開始coding</p><p class="time_text"><b>12</b>00</p></div>
+                            <div class="event_text"><p className="schedule_contain">午餐時間</p><p class="time_text"><b>13</b>00</p></div>
+                            <div class="event_text"><p className="schedule_contain">持續 coding</p><p class="time_text"><b>15</b>30</p></div>
+                            <div class="event_text"><p className="schedule_contain">下午茶</p><p class="time_text"><b>16</b>00</p></div>
+                            <div class="event_text"><p className="schedule_contain">持續coding</p><p class="time_text"><b>18</b>30</p></div>
+                            <div class="event_text"><p className="schedule_contain">晚餐時間+野台表演</p><p class="time_text"><b>19</b>30</p></div>
+                            <div class="event_text"><p className="schedule_contain">戰鬥永無止盡</p><p class="time_text"><b>19</b>30</p></div>
                         </div>
                     </div>
-
+                    <div className="sche_pad"></div>
                     <div class="sche">
                         <div class="day">
                             Day2
                         </div>
                         <div class="event">
-                            <p class="event_text" >早餐時間<p class="time_text" ><b>07</b>00</p></p>
-                            <p class="event_text" >最後衝刺<p class="time_text" ><b>08</b>00</p></p>
-                            <p class="event_text" >午餐時間<p class="time_text" ><b>11</b>00</p></p>
-                            <p class="event_text" >最後衝刺<p class="time_text" ><b>12</b>00</p></p>
-                            <p class="event_text" >各組擺攤demo<p class="time_text" ><b>14</b>00</p></p>
-                            <p class="event_text" >交流時間<p class="time_text" ><b>15</b>30</p></p>
-                            <p class="event_text" >決賽<p class="time_text" ><b>16</b>00</p></p>
-                            <p class="event_text" >評審講評<p class="time_text" ><b>16</b>40</p></p>
-                            <p class="event_text" >贊助商活動宣傳<p class="time_text" ><b>17</b>00</p></p>
-                            <p class="event_text" >頒獎典禮及閉幕<p class="time_text" ><b>17</b>10</p></p>
+                            <div class="event_text"><p className="schedule_contain">早餐時間</p><p class="time_text" ><b>07</b>00</p></div>
+                            <div class="event_text"><p className="schedule_contain">最後衝刺</p><p class="time_text" ><b>08</b>00</p></div>
+                            <div class="event_text"><p className="schedule_contain">午餐時間</p><p class="time_text" ><b>11</b>00</p></div>
+                            <div class="event_text"><p className="schedule_contain">最後衝刺</p><p class="time_text" ><b>12</b>00</p></div>
+                            <div class="event_text"><p className="schedule_contain">各組擺攤demo</p><p class="time_text" ><b>14</b>00</p></div>
+                            <div class="event_text"><p className="schedule_contain">交流時間</p><p class="time_text" ><b>15</b>30</p></div>
+                            <div class="event_text"><p className="schedule_contain">決賽</p><p class="time_text" ><b>16</b>00</p></div>
+                            <div class="event_text"><p className="schedule_contain">評審講評</p><p class="time_text" ><b>16</b>40</p></div>
+                            <div class="event_text"><p className="schedule_contain">贊助商活動宣傳</p><p class="time_text" ><b>17</b>00</p></div>
+                            <div class="event_text"><p className="schedule_contain">頒獎典禮及閉幕</p><p class="time_text" ><b>17</b>10</p></div>
                         </div>
                     </div>
                 </div>
