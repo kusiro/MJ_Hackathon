@@ -5,12 +5,11 @@
         <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Fugaz+One" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-        <title>2017 梅竹黑客松</title>
+        <title><%= htmlWebpackPlugin.options.title %></title>
     </head>
     <body>
-        <%- include src/ejs/selection_bar %>
-        <div id="top"></div>
-        <div id="Bar"></div>
+        <%- include src/ejs/top_of_all.ejs %>
+        <div id="Bar"><%- include src/ejs/selection_bar %></div>
         <div id="block_1">
             <div class="parent_1">
                 <img class="block_1_img" src="./Img/59612101_p0.png">
@@ -21,15 +20,15 @@
                 </div>
             </div>
         </div>
-        <div id="intro"></div>
+        <%- include src/ejs/intro.ejs %>
         <div id="block_2">
             <div class="parent_2">
                 <img class="block_2_img" src="./Img/pexels-photo-267507.jpg">
             </div>
         </div>
-        <div id="join_us"></div>
-        <div id="schedule"></div>
-        <div id="sponsor"></div>
-        <div id="footer"></div>
+        <%- include src/ejs/join.ejs %>
+        <%- include src/ejs/schedule.ejs %>
+        <%- include src/ejs/sponsor.ejs %>
+        <%- include src/ejs/footer.ejs %>
     </body>
 </html>
