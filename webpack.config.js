@@ -15,8 +15,8 @@ module.exports = {
     module: {
         loaders: [
             {
-                test: /\.html$/,
-                loader: 'html-loader',
+                test: /\.ejs$/,
+                loader: 'ejs-compiled-loader',
             },{
                 test: /\.(png|jpg|svg)$/,
                 loaders: [
@@ -76,12 +76,12 @@ module.exports = {
         }),
         new HtmlWebpackPlugin({
             title: '2017 梅竹黑客松',
-            template: 'src/template.html',
+            template: 'src/template.ejs',
             chunks: ['bundle'],
         }),
         new HtmlWebpackPlugin({
             title: '2017 梅竹黑客松',
-            template: 'src/qa/qa_template.html',
+            template: 'src/qa/qa_template.ejs',
             chunks: ['qa_bundle'],
             filename: 'qa.html',
         }),
