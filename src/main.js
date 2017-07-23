@@ -188,6 +188,9 @@ class Schedule extends React.Component{
                         </div>
                     </div>
                 </div>
+
+                <img id="sche_gear_1" src="/src/Img/gear.png" />
+                <img id="sche_gear_2" src="/src/Img/gear.png" />
             </div>
         );
     }
