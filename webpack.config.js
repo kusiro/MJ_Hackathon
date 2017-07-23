@@ -15,7 +15,7 @@ module.exports = {
     module: {
         loaders: [
             {
-                test: /\.ejs$/,
+                test: /\.html$/,
                 loader: 'underscore-template-loader',
             },{
                 test: /\.(png|jpg|svg)$/,
@@ -77,12 +77,12 @@ module.exports = {
         }),
         new HtmlWebpackPlugin({
             title: '2017 梅竹黑客松',
-            template: 'src/template.ejs',
+            template: 'src/template.html',
             chunks: ['bundle'],
         }),
         new HtmlWebpackPlugin({
             title: '2017 梅竹黑客松',
-            template: 'src/qa/qa_template.ejs',
+            template: 'src/qa/qa_template.html',
             chunks: ['qa_bundle'],
             filename: 'qa.html',
         }),
