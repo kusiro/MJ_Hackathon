@@ -1,6 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
-const autoprefixer = require('autoprefixer');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
@@ -69,6 +69,7 @@ module.exports = {
         port: 8080,
     },
     plugins: [
+        new CleanWebpackPlugin(['public']),
         new webpack.ProvidePlugin({
             $: "jquery",
             jQuery: "jquery",
