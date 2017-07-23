@@ -14,34 +14,24 @@
         text-align: left;
         font-weight: 900;
         color: rgba(0,0,0,.7);
-        padding-bottom: .1em;
+        padding-bottom: 1.6em;
         letter-spacing: .1em;
         b{
             padding-bottom: 6px;
             border-bottom: solid 8px #88C1FF;
         }
     }
-    .date{
-        text-align: center;
+
+    .day{
+        position: absolute;
         font-family: $selector_family;
         font-size: $subtitle_size;
         font-weight: 900;
-        .day_1{
-            display: inline-block;
-            background-color: #f7f7f7;
-            opacity: .8;
-            width: 45%;
-            padding: 25px 0;
-        }
-        .day_2{
-            display: inline-block;
-            background-color: #f7f7f7;
-            opacity: .8;
-            width: 45%;
-            margin-left: 10%;
-            padding: 25px 0;
-        }
+        opacity: .8;
+        top: -2em;
+        transform: translate(-25%,0);
     }
+
     .sche_cont{
         padding-bottom: 8em;
         font-family: $font_family;
@@ -53,11 +43,11 @@
             .event{
                 position: relative;
                 display: inline-block;
-                color: #333;
+                color: #f7f7f7;
                 margin-left: 20px;
                 .schedule_contain{
                     padding: 10px 20px;
-                    background-color: #A9FBD7;
+                    background-color: #88C1FF;
                     border-radius: 8px;
                 }
                 .event_text{

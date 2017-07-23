@@ -151,15 +151,13 @@ class Schedule extends React.Component{
         return(
             <div class="content_3">
                 <h1><b>S</b>chedule</h1>
-                <div class="date">
-                    <div class="day_1">
-                        Day 1
-                    </div><div class="day_2">
-                        Day 2
-                    </div>
-                </div>
+
                 <div className="sche_cont">
                     <div class="sche">
+                        <div class="day">
+                            Day1
+                        </div>
+
                         <div class="event">
                             <p class="event_text"><div className="schedule_contain">報到 & 相見歡</div><p class="time_text"><b>08</b>30</p></p>
                             <p class="event_text"><div className="schedule_contain">開場 & 來賓致詞</div><p class="time_text"><b>09</b>00</p></p>
@@ -175,6 +173,9 @@ class Schedule extends React.Component{
                     </div>
 
                     <div class="sche">
+                        <div class="day">
+                            Day2
+                        </div>
                         <div class="event">
                             <p class="event_text" >早餐時間<p class="time_text" ><b>07</b>00</p></p>
                             <p class="event_text" >最後衝刺<p class="time_text" ><b>08</b>00</p></p>
