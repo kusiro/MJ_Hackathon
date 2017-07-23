@@ -24,3 +24,26 @@ $(window).scroll(function(){
 
 });
 /*****************************************/
+
+/**** Schedule gear ****/
+$(window).scroll(() => {
+
+    let deg_1 = 0;
+    let deg_2 = 0;
+    
+    fastdom.measure(() => {
+        deg_1 = $(window).scrollTop() / -5;
+        deg_2 = $(window).scrollTop() / 3;
+    });
+
+    fastdom.mutate(() => {
+        $('#sche_gear_1').css({
+            transform: 'translate3d(-30%, 0, 0) rotate(' + deg_1 + 'deg)',
+        });
+        $('#sche_gear_2').css({
+            transform: 'translate3d(30%, 0, 0) rotate(' + deg_2 + 'deg)',
+        })
+    });
+
+});
+/***********************/
