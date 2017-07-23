@@ -3,6 +3,7 @@
     position: relative;
     z-index: -3;
     background-color: #B2E4DB;
+    overflow: hidden;
 }
 .content_3{
     padding: 4em 14em 3em 14em;
@@ -98,4 +99,23 @@
             }
         }
     }
+}
+
+#sche_gear_1, #sche_gear_2 {
+    position: absolute;
+    z-index: -1;
+    opacity: .5;
+    transform-origin: center center;
+}
+
+#sche_gear_1 {
+    width: 30em;
+    left: 0;
+    top: 6em;
+}
+
+#sche_gear_2 {
+    width: 20em;
+    right: 0;
+    bottom: 18em;
 }
