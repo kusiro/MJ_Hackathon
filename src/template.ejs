@@ -8,7 +8,7 @@
         <title><%= htmlWebpackPlugin.options.title %></title>
     </head>
     <body>
-        <%- include src/ejs/top_of_all.ejs %>
+        <%- include src/ejs/top.ejs %>
         <div id="Bar"><%- include src/ejs/selection_bar %></div>
         <div id="block_1">
             <div class="parent_1">
@@ -20,15 +20,15 @@
                 </div>
             </div>
         </div>
-        <%- include src/ejs/intro.ejs %>
+        <div id="intro"><%- include src/ejs/intro.ejs %></div>
         <div id="block_2">
             <div class="parent_2">
                 <img class="block_2_img" src="./Img/pexels-photo-267507.jpg">
             </div>
         </div>
-        <%- include src/ejs/join.ejs %>
-        <%- include src/ejs/schedule.ejs %>
-        <%- include src/ejs/sponsor.ejs %>
-        <%- include src/ejs/footer.ejs %>
+        <div id="join_us"><%- include src/ejs/join.ejs %></div>
+        <div id="schedule"><%- include src/ejs/schedule.ejs %></div>
+        <div id="sponsor"><%- include src/ejs/sponsor.ejs %></div>
+        <div id="footer"><%- include src/ejs/footer.ejs %></div>
     </body>
 </html>
