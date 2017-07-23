@@ -153,7 +153,6 @@ class Schedule extends React.Component{
                 <h1><b>S</b>chedule</h1>
 
                 <div className="sche_cont">
-                    <div className="sche_pad"></div>
                     <div class="sche">
                         <div class="day">
                             Day1
