@@ -47,8 +47,8 @@ module.exports = {
                 exclude: /(node_module)|(bower_components)/,
                 loader: 'babel-loader',
                 query: {
-                    presets: ['ES2015', 'react', 'stage-0'],
-                    plugins: ['react-html-attrs', 'transform-class-properties', 'transform-decorators-legacy'],
+                    presets: ['ES2015', 'stage-0'],
+                    plugins: [],
                 }
             },{
                 test: /\.scss$/,
