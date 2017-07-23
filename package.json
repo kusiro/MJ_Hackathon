@@ -32,6 +32,7 @@
     "postcss-loader": "^2.0.6",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.18.2",
+    "underscore-template-loader": "^0.7.3",
     "webpack": "^3.1.0",
     "webpack-dev-server": "^2.5.1"
   },

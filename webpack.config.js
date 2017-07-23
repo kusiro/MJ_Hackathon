@@ -16,7 +16,7 @@ module.exports = {
         loaders: [
             {
                 test: /\.ejs$/,
-                loader: 'ejs-compiled-loader',
+                loader: 'underscore-template-loader',
             },{
                 test: /\.(png|jpg|svg)$/,
                 loaders: [
