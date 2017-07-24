@@ -17,11 +17,11 @@ $(document).ready(function(){
         duration: 500,
         distance: '0px',
         opacity: 0,
-        viewFactor: 0.5,
+        viewFactor: 0.8,
     });
     sr.reveal('.schedule_contain',{
         duration: 1000,
-        rotate: {x: 90,y: 0,z: 0},
+        rotate: {x: 100,y: 0,z: 0},
         scale: '1',
         distance: '0px',
         opacity: 0,
