@@ -48,6 +48,11 @@ $sub_color: #88c1ff;
 @import 'sponsor';
 @import 'footer';
 
+.particles-js-canvas-el{
+    position: absolute;
+    top: 0;
+}
+
 .navbar, #block_1, #intro, #block_2, #join_us, #schedule, #sponsor, #footer{
     overflow: hidden;
 }
