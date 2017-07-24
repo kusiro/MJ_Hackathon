@@ -41,79 +41,13 @@ $sub_color: #88c1ff;
 
 @import 'navbar';
 @import 'block_1';
-@import "intro";
+@import 'intro';
 @import 'block_2';
 @import 'join';
 @import 'schedule';
+@import 'sponsor';
+@import 'footer';
 
-.navbar, #Bar, #block_1, #intro, #block_2, #join_us, #schedule, #sponsor, #footer{
+.navbar, #block_1, #intro, #block_2, #join_us, #schedule, #sponsor, #footer{
     overflow: hidden;
-}
-
-
-#sponsor{
-    width: 100%;
-    position: relative;
-    z-index: -2;
-}
-#footer{
-    background-color: #2b2b2b;
-    width: 100%;
-    position: relative;
-    z-index: -2;
-}
-
-
-.content_5{
-    padding: 4em 6em 8em 6em;
-    background-color: white;
-    h1{
-        text-align: center;
-        font-family: $selector_family;
-        margin: 0;
-        padding: .8em 0;
-    }
-    hr{
-        width: 80px;
-        border-top: none;
-        border-bottom: solid 2px rgba(0,0,0,.8);
-    }
-    .sponsor_logo{
-        position: relative;
-        top: -10px;
-    }
-    img{
-        display: inline-block;
-        margin-left: 13.3333333%;
-        width: 15%;
-        padding-top: 4em;
-    }
-}
-.content_6{
-    font-family: $font_family;
-    padding: 1em 4em 2em 4em;
-    .staff{
-        display: inline-block;
-        margin: 20px;
-        width: 30%;
-        letter-spacing: 2px;
-        line-height: 1.2em;
-        opacity: .8;
-        h1{
-            margin: 0;
-            font-size: 16px;
-            font-weight: 100;
-            margin-top: 1.8em;
-            margin-bottom: .5em;
-            color: #f7f7f7;
-            padding-bottom: 2px;
-            border-bottom: solid 1px ;
-        }
-        p{
-            font-size: 16px;
-            font-weight: 100;
-            margin: 0;
-            color: #f7f7f7;
-        }
-    }
 }

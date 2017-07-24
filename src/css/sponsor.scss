@@ -1,0 +1,75 @@
+#sponsor{
+    width: 100%;
+    position: relative;
+    z-index: -2;
+}
+.content_5{
+    padding: 4em 6em 8em 6em;
+    background-color: white;
+    @include breakpoint(mobileonly){
+        padding: 2em 0 4em 0;
+    }
+    @include breakpoint(phablet){
+        padding: 2em 1em 4em 1em;
+    }
+    @include breakpoint(laptop){
+        padding: 4em 6em 8em 6em;
+    }
+    h1{
+        text-align: center;
+        font-family: $selector_family;
+        margin: 0;
+        padding: .8em 0;
+        font-size: 2em;
+        @include breakpoint(mobileonly){
+            font-size: 1em;
+            padding: .3em 0;
+        }
+        @include breakpoint(phablet){
+            font-size: 1.5em;
+            padding: .5em 0;
+        }
+        @include breakpoint(laptop){
+            font-size: 2em;
+            padding: .8em 0;
+        }
+    }
+    hr{
+        width: 80px;
+        border-top: none;
+        border-bottom: solid 2px rgba(0,0,0,.8);
+    }
+    .sponsor_logo{
+        position: relative;
+        top: -10px;
+        padding: 0 1em 0 1em;
+    }
+    img{
+        display: inline-block;
+        margin-left: 13.3333333%;
+        width: 15%;
+        padding-top: 4em;
+        @include breakpoint(mobileonly){
+            display: block;
+            margin: 0 auto;
+            margin-top: 3em;
+            padding: 0;
+            width: 80%;
+            &:first-of-type{
+                margin-top: 2em;
+            }
+        }
+        @include breakpoint(phablet){
+            display: block;
+            margin: 0 auto;
+            margin-top: 5em;
+            padding: 0;
+            width: 50%;
+        }
+        @include breakpoint(laptop){
+            display: inline-block;
+            padding: 0;
+            width: 20%;
+        }
+    }
+}
