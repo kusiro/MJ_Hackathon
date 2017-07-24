@@ -2,9 +2,10 @@ import fastdom from 'fastdom';
 
 
 /**** Detect page position for navbar ****/
+let last_active_btn = '';
 $(window).scroll(function(){
 
-    let active_btn = null;
+    let active_btn = '';
 
     fastdom.measure(() => {
         let page_offset_top = $(window).scrollTop();
@@ -17,9 +18,12 @@ $(window).scroll(function(){
     });
 
     fastdom.mutate(() => {
-        $('.selection').removeClass('active');
-        if( active_btn )
-            $(active_btn).addClass('active');
+        if( active_btn !== last_active_btn ) {
+            $('.selection').removeClass('active');
+            if( active_btn )
+                $(active_btn).addClass('active');
+            last_active_btn = active_btn;
+        }
     });
 
 });
