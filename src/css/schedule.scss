@@ -6,9 +6,12 @@
     overflow: hidden;
 }
 .content_3{
-    padding: 4em 10em 3em 10em;
+    padding: 4em 5em 3em 5em;
     position: relative;
     z-index: -1;
+    @include breakpoint(mobileonly){
+        padding: 4em 0 3em 0;
+    }
     h1{
         font-family: 'Raleway', sans-serif;
         font-size: 60px;
@@ -18,6 +21,10 @@
         padding-bottom: 1em;
         letter-spacing: .1em;
         margin-left: 1.5em;
+        @include breakpoint(mobileonly){
+            font-size: 30px;
+            margin-left: 1em;
+        }
         b{
             padding-bottom: 6px;
             border-bottom: solid 8px #88C1FF;
@@ -37,15 +44,24 @@
     .sche_cont{
         padding-bottom: 8em;
         font-family: $font_family;
+        justify-content: center;
         display: flex;
         flex-wrap: wrap;
         .sche{
-            margin-left: 6em;
-            margin-top: 3em;
             flex: 40;
+            margin-top: 3em;
+            margin-left: 60px;
+            margin-right: 60px;
+            min-width: 10em;
+            max-width: 20em;
             position: relative;
             display: inline-block;
             border-left: solid 2px #333;
+            @include breakpoint(mobileonly){
+                min-width: 4em;
+                margin-left: 60px;
+                margin-right: 60px;
+            }
             .event{
                 position: relative;
                 display: inline-block;
@@ -54,14 +70,16 @@
                 width: 100%;
                 .schedule_contain{
                     transform-style: preserve-3d;
-                    min-width: 12em;
-                    max-width: 16em;
+                    min-width: 10em;
                     padding: 20px 20px;
                     background-color: #354441;
                     border-radius: 4px;
                     box-shadow: 0px 2px 5px 0px rgba(54, 69, 66, 0.7);
                     margin: 0;
                     color: #b2e4db;
+                    @include breakpoint(mobileonly){
+                        padding: 10px 12px;
+                    }
                 }
                 .event_text{
                     perspective: 1000px;
@@ -71,6 +89,10 @@
                     font-size: 1em;
                     padding: 8px 12px;
                     margin: 0;
+                    @include breakpoint(mobileonly){
+                        font-size: .8em;
+                        padding: 6px 6px;
+                    }
                     &:last-of-type{
                         padding-bottom: 2em;
                     }
@@ -81,6 +103,10 @@
                         transform: translate(-100%,-50%);
                         font-size: .6em;
                         margin: 0;
+                        @include breakpoint(mobileonly){
+                            font-size: .3em;
+                            font-weight: 900;
+                        }
                         &::after{
                             content: '';
                             position: absolute;
