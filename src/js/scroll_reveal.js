@@ -20,11 +20,11 @@ $(document).ready(function(){
         viewFactor: 0.8,
     });
     sr.reveal('.schedule_contain',{
-        duration: 1000,
+        duration: 700,
         rotate: {x: 100,y: 0,z: 0},
         scale: '1',
         distance: '0px',
         opacity: 0,
-        viewFactor: 0.5,
+        viewFactor: 0.3,
     },100);
 })

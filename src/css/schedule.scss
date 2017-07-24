@@ -6,7 +6,7 @@
     overflow: hidden;
 }
 .content_3{
-    padding: 4em 14em 3em 14em;
+    padding: 4em 10em 3em 10em;
     position: relative;
     z-index: -1;
     h1{
@@ -54,6 +54,8 @@
                 width: 100%;
                 .schedule_contain{
                     transform-style: preserve-3d;
+                    min-width: 12em;
+                    max-width: 16em;
                     padding: 20px 20px;
                     background-color: #354441;
                     border-radius: 4px;
