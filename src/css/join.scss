@@ -17,13 +17,49 @@
         background-color: #f7f7f7;
         font-family: $font_family;
         padding-bottom: 6em;
+        @include breakpoint(mobileonly){
+            width: 75%;
+        }
+        @include breakpoint(phablet){
+            width: 80%;
+        }
+        @include breakpoint(laptop){
+            width: 55%;
+        }
         h1{
             font-weight: 400;
             font-size: $title_size;
+            @include breakpoint(mobileonly){
+                font-size: 24px;
+                font-weight: 700;
+                width: 100%;
+            }
+            @include breakpoint(phablet){
+                font-size: $title_size;
+                width: 100%;
+                font-weight: 500;
+            }
+            @include breakpoint(laptop){
+                font-size: $title_size;
+                width: 600px;
+                font-weight: 500;
+            }
         }
         p{
             font-size: $content_size;
             line-height: 1.6em;
+            @include breakpoint(mobileonly){
+                font-size: 18px;
+                width: 100%;
+            }
+            @include breakpoint(phablet){
+                font-size: 20px;
+                width: 100%;
+            }
+            @include breakpoint(laptop){
+                font-size: 22px;
+                width: 100%;
+            }
         }
     }
 }

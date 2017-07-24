@@ -117,6 +117,15 @@
     width: 50em;
     left: 0;
     top: 0;
+    @include breakpoint(mobileonly){
+        width: 20em;
+    }
+    @include breakpoint(phablet){
+        width: 30em;
+    }
+    @include breakpoint(laptop){
+        width: 50em;
+    }
 }
 
 #sche_gear_2 {

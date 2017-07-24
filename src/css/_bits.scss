@@ -46,6 +46,10 @@ $sub_color: #88c1ff;
 @import 'join';
 @import 'schedule';
 
+.navbar, #Bar, #block_1, #intro, #block_2, #join_us, #schedule, #sponsor, #footer{
+    overflow: hidden;
+}
+
 
 #sponsor{
     width: 100%;
