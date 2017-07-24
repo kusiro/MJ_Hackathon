@@ -25,6 +25,14 @@
             font-size: 30px;
             margin-left: 1em;
         }
+        @include breakpoint(phablet){
+            font-size: 40px;
+            margin-left: 1em;
+        }
+        @include breakpoint(laptop){
+            font-size: 60px;
+            margin-left: 1.5em;
+        }
         b{
             padding-bottom: 6px;
             border-bottom: solid 8px #88C1FF;
