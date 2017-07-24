@@ -11,13 +11,35 @@
 .content_6{
     font-family: $font_family;
     padding: 1em 4em 2em 4em;
-    .staff{
-        display: inline-block;
-        margin: 20px;
-        width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    @include breakpoint(mobileonly){
+        padding: 1em 0 2em 0;
+    }
+    @include breakpoint(phablet){
+        padding: 1em 0 2em 0;
+    }
+    .footer_block{
+        margin: 40px;
+        width: 25%;
         letter-spacing: 2px;
         line-height: 1.2em;
         opacity: .8;
+        @include breakpoint(mobileonly){
+            display: block;
+            width: 80%;
+        }
+        @include breakpoint(phablet){
+            display: block;
+            width: 80%;
+            margin: 10px;
+        }
+        @include breakpoint(laptop){
+            width: 25%;
+            margin: 40px;
+            display: inline-block;
+        }
         h1{
             margin: 0;
             font-size: 16px;
@@ -33,6 +55,20 @@
             font-weight: 100;
             margin: 0;
             color: #f7f7f7;
+            @include breakpoint(mobileonly){
+                font-size: 13px;
+                text-align: left;
+                letter-spacing: 1px;
+            }
+            @include breakpoint(phablet){
+                font-size: 14px;
+                text-align: left;
+                letter-spacing: 1px;
+            }
+            @include breakpoint(laptop){
+                font-size: 16px;
+                letter-spacing: 2px;
+            }
         }
     }
 }
