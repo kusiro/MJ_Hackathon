@@ -9,7 +9,7 @@ var laptop = 1024;
 window.sr = ScrollReveal();
 
 $(document).ready(function(){
-    if( my_width <= mobileonly ){
+    if( my_width <= phablet ){
         sr.reveal('.partical_block',{
             duration: 500,
             origin: 'bottom',
@@ -22,20 +22,6 @@ $(document).ready(function(){
             distance: '0px',
             opacity: 0,
             viewFactor: 0.3,
-        });
-    } else if ( my_width > mobileonly && my_width<= phablet ) {
-        sr.reveal('.partical_block',{
-            duration: 500,
-            origin: 'bottom',
-            opacity: 0,
-            distance: '10px',
-            viewFactor: 0.5,
-        });
-        sr.reveal('.container',{
-            duration: 500,
-            distance: '0px',
-            opacity: 0,
-            viewFactor: 0.5,
         });
     } else {
         sr.reveal('.partical_block',{
