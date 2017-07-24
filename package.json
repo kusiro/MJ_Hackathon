@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "autoprefixer": "^7.1.2",
     "autoprefixer-loader": "^3.2.0",
     "babel-core": "^6.25.0",
     "babel-loader": "^7.1.1",
@@ -25,15 +26,15 @@
     "jquery": "^3.2.1",
     "node-sass": "^4.5.3",
     "plugin": "^0.3.3",
-    "postcss": "^6.0.6",
+    "postcss": "^6.0.8",
     "postcss-import": "^10.0.0",
     "postcss-load-config": "^1.2.0",
     "postcss-loader": "^2.0.6",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.18.2",
     "underscore-template-loader": "^0.7.3",
-    "webpack": "^3.1.0",
-    "webpack-dev-server": "^2.5.1"
+    "webpack": "^3.3.0",
+    "webpack-dev-server": "^2.6.1"
   },
   "dependencies": {
     "fastdom": "^1.0.6",
