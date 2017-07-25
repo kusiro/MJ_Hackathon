@@ -5,3 +5,7 @@ import ScrollEvent from './js/scroll_event.js';
 import ScrollReveal from "./js/scroll_reveal.js";
 import scrollSpeed from "./js/scroll-parallax.js";
 import particles from "./js/perfect_particles.js";
+
+window.addEventListener("load",function(){
+    $('.loading_cover').css("opacity","0")
+})

@@ -1,0 +1,27 @@
+<style>
+    .loading_cover{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background-color: white;
+        z-index: 999;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 1s;
+    }
+    .loading_gear{
+        width: 100px;
+        opacity: .2;
+        animation: rotate 4s infinite linear;
+    }
+    @keyframes rotate{
+        from{ transform: rotate(0deg); }
+        to{ transform: rotate(359deg);}
+    }
+</style>
+
+<div class="loading_cover">
+    <img class="loading_gear" src="../Img/gear-1119298_960_720.png">
+</div>
