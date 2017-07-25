@@ -99,7 +99,8 @@
             position: relative;
             z-index: 5;
             font-weight: 900;
-            font-size: 22px;
+            font-size: $subtitle_size;
+            font-family: $selector_family;
             bottom: -1.5em;
             transition: .5s;
             @include breakpoint(mobileonly){
