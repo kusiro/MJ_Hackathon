@@ -60,7 +60,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "ab87bbdab01a8e3b84b6"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "44ec713aaf4f5ee25d1f"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -12117,7 +12117,7 @@ var laptop = 1024;
 window.sr = (0, _scrollreveal2.default)();
 
 $(document).ready(function () {
-    if (my_width <= tablet) {
+    if (my_width <= laptop) {
         sr.reveal('.partical_block', {
             duration: 500,
             origin: 'bottom',
@@ -13044,7 +13044,7 @@ var phablet = 430;
 var tablet = 768;
 var laptop = 1024;
 
-if (my_width >= tablet) {
+if (my_width >= laptop) {
     (0, _parallaxer2.default)([{
         element: $(".block_1_img")[0],
         distance: 6,
