@@ -9,6 +9,34 @@
         <title>2017 梅竹黑客松</title>
     </head>
     <body>
+        <style>
+    .loading_cover{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        background-color: white;
+        z-index: 999;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 1s;
+    }
+    .loading_gear{
+        width: 100px;
+        opacity: .2;
+        animation: rotate 4s infinite linear;
+    }
+    @keyframes rotate{
+        from{ transform: rotate(0deg); }
+        to{ transform: rotate(359deg);}
+    }
+</style>
+
+<div class="loading_cover">
+    <img class="loading_gear" src="2e69523a1f1a3a5aa9612348974ef547.png">
+</div>
+
          <div class="navbar">
     <div class="logo_sqr">
         <p class="logo_day"><b>10/</b>29.30</p>
@@ -80,7 +108,7 @@
                 另外，主辦單位將據依當天參與者的整體表現，選出幾組表現優秀隊伍 (視報名人數情況調整)額外頒授獎勵。
                 除此之外，主辦單位亦將甄選出UI/UX表現優秀的隊伍另外頒予獎勵。</p>
 
-                <a target="blank" href="qa.html">了解更多</a>
+                <a target="blank" href="qa.html">FAQ</a>
             </div>
 
         </div>

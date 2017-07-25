@@ -60,7 +60,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "c9852f837628a2c3b721"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "8618439523e0415145f7"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -705,7 +705,7 @@
 /******/ 	__webpack_require__.h = function() { return hotCurrentHash; };
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return hotCreateRequire(7)(__webpack_require__.s = 7);
+/******/ 	return hotCreateRequire(9)(__webpack_require__.s = 9);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -10977,7 +10977,7 @@ exports = module.exports = __webpack_require__(2)(undefined);
 
 
 // module
-exports.push([module.i, "@charset \"UTF-8\";\n* {\n  vertical-align: top;\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box; }\n\nbody, html {\n  padding: 0px;\n  margin: 0px;\n  position: relative;\n  z-index: -2;\n  background-color: #f7f7f7; }\n\n.navbar {\n  height: 310px;\n  background-color: #f7f7f7;\n  position: relative; }\n\n.logo_sqr {\n  opacity: .9;\n  position: relative;\n  top: 40px;\n  width: 210px;\n  height: 210px;\n  margin: 0 auto;\n  background-color: #88c1ff;\n  text-align: center; }\n  .logo_sqr p {\n    font-size: 16px;\n    font-family: 微軟正黑體;\n    padding-top: 28px; }\n  .logo_sqr .line {\n    margin: auto;\n    margin-top: 125px;\n    width: 40px;\n    height: .8px;\n    background-color: black; }\n  .logo_sqr .logo_day {\n    margin: 0;\n    font-family: \"Quicksand\", sans-serif;\n    line-height: 8px; }\n  .logo_sqr b {\n    margin: 0;\n    padding: 0;\n    font-size: 24px;\n    line-height: 0;\n    font-weight: 400; }\n  .logo_sqr .localtion {\n    margin-top: 12px;\n    padding-top: 0px; }\n\n.title {\n  opacity: .85;\n  display: inline-block;\n  position: absolute;\n  text-align: center;\n  left: 50%;\n  transform: translate(-50%);\n  top: 95px; }\n  .title h1 {\n    line-height: 1em;\n    font-family: \"Fugaz One\", cursive;\n    font-size: 47px;\n    margin: 0; }\n\n#Bar {\n  z-index: 100; }\n\n#selectionBar {\n  z-index: 10;\n  position: relative;\n  background-color: #f7f7f7;\n  width: 100%;\n  height: 65px;\n  text-align: center;\n  color: rgba(0, 0, 0, 0.7);\n  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); }\n  @media (max-width: 390px) {\n    #selectionBar {\n      height: 50px; } }\n  @media (min-width: 391px) {\n    #selectionBar {\n      height: 55px; } }\n  @media (min-width: 600px) {\n    #selectionBar {\n      height: 55px; } }\n  @media (min-width: 1024px) {\n    #selectionBar {\n      height: 65px; } }\n\n.selection {\n  font-family: \"Quicksand\", sans-serif;\n  display: inline-block;\n  font-weight: 700;\n  padding: 20px 4px;\n  position: relative;\n  font-size: 14pt;\n  top: 50%;\n  transform: translate(0, -50%);\n  margin: 0 40px;\n  opacity: .5;\n  transition: cubic-bezier(0, 0.34, 0.17, 0.95) 1s; }\n  @media (max-width: 390px) {\n    .selection {\n      font-size: 10pt;\n      margin: 0 5px;\n      padding: 1px .8px; } }\n  @media (min-width: 391px) {\n    .selection {\n      font-size: 12pt;\n      margin: 0 8px;\n      padding: 20px 0; } }\n  @media (min-width: 600px) {\n    .selection {\n      font-size: 12pt;\n      margin: 0 20px;\n      padding: 20px 0; } }\n  @media (min-width: 1024px) {\n    .selection {\n      font-size: 15pt;\n      margin: 0 55px;\n      padding: 20px 0; } }\n  .selection:hover, .selection.active {\n    cursor: pointer;\n    opacity: 1;\n    font-size: 16pt; }\n    @media (max-width: 390px) {\n      .selection:hover, .selection.active {\n        font-size: 12pt; } }\n    @media (min-width: 391px) {\n      .selection:hover, .selection.active {\n        font-size: 12pt; } }\n    @media (min-width: 600px) {\n      .selection:hover, .selection.active {\n        font-size: 14pt; } }\n    @media (min-width: 1024px) {\n      .selection:hover, .selection.active {\n        font-size: 17pt; } }\n\n.parent_1 {\n  position: absolute;\n  height: 100%;\n  width: 100%;\n  clip: rect(0 auto auto 0); }\n\n#block_1 {\n  position: relative;\n  z-index: -20;\n  height: 600px; }\n  @media (max-width: 390px) {\n    #block_1 {\n      height: 300px; } }\n  @media (min-width: 391px) {\n    #block_1 {\n      height: 300px; } }\n  @media (min-width: 600px) {\n    #block_1 {\n      height: 450px; } }\n  @media (min-width: 1024px) {\n    #block_1 {\n      height: 600px; } }\n  #block_1 .block_1_img {\n    z-index: -20;\n    position: absolute;\n    width: 100%; }\n    @media (max-width: 390px) {\n      #block_1 .block_1_img {\n        width: 350%;\n        left: -300px; } }\n    @media (min-width: 391px) {\n      #block_1 .block_1_img {\n        width: 200%;\n        left: -100px; } }\n    @media (min-width: 600px) {\n      #block_1 .block_1_img {\n        width: 150%; } }\n    @media (min-width: 1024px) {\n      #block_1 .block_1_img {\n        width: 120%; } }\n  #block_1 .container {\n    position: relative;\n    width: 100%;\n    height: 100%; }\n  #block_1 .infocard {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    opacity: .8;\n    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);\n    font-size: 48px;\n    font-weight: 100;\n    border: solid 2px rgba(0, 0, 0, 0.8);\n    padding: 15px 15px;\n    letter-spacing: .15em;\n    text-align: center;\n    font-family: 微軟正黑體; }\n    @media (max-width: 390px) {\n      #block_1 .infocard {\n        font-size: 18px;\n        font-weight: 500;\n        border: solid 1px rgba(0, 0, 0, 0.8);\n        padding: 8px;\n        width: 240px;\n        text-align: center; } }\n    @media (min-width: 391px) {\n      #block_1 .infocard {\n        font-size: 24px;\n        font-weight: 500;\n        border: solid 1px rgba(0, 0, 0, 0.8);\n        padding: 8px;\n        width: 300px;\n        text-align: center; } }\n    @media (min-width: 600px) {\n      #block_1 .infocard {\n        width: 400px;\n        padding: 10px 0px;\n        font-size: 32px; } }\n    @media (min-width: 1024px) {\n      #block_1 .infocard {\n        width: 620px;\n        padding: 15px;\n        font-weight: 100;\n        font-size: 48px;\n        border: solid 2px rgba(0, 0, 0, 0.8); } }\n\n#intro {\n  position: relative;\n  overflow: hidden;\n  z-index: -2;\n  padding-bottom: 6em; }\n  #intro .gear {\n    position: absolute;\n    background-color: black;\n    width: 300px;\n    z-index: 1; }\n\n#particles_container {\n  position: relative;\n  z-index: -1; }\n\n.content_1 {\n  position: relative;\n  z-index: -2;\n  padding-top: 5em;\n  width: 100%;\n  background-color: #f7f7f7; }\n  .content_1 .partical {\n    background-color: #f7f7f7;\n    width: 55%;\n    margin: 0 auto;\n    font-family: 微軟正黑體;\n    text-align: justify;\n    letter-spacing: 1.2pt; }\n    @media (max-width: 390px) {\n      .content_1 .partical {\n        width: 75%; } }\n    @media (min-width: 391px) {\n      .content_1 .partical {\n        width: 80%; } }\n    @media (min-width: 1024px) {\n      .content_1 .partical {\n        width: 55%; } }\n    .content_1 .partical h1 {\n      width: 600px;\n      margin: 0;\n      border-bottom: solid 1px;\n      padding-bottom: 8px;\n      font-size: 30px;\n      font-weight: 300;\n      margin-bottom: .6em; }\n      @media (max-width: 390px) {\n        .content_1 .partical h1 {\n          font-size: 24px;\n          font-weight: 700;\n          width: 100%; } }\n      @media (min-width: 391px) {\n        .content_1 .partical h1 {\n          font-size: 30px;\n          width: 100%;\n          font-weight: 500; } }\n      @media (min-width: 1024px) {\n        .content_1 .partical h1 {\n          font-size: 30px;\n          width: 600px;\n          font-weight: 500; } }\n    .content_1 .partical p {\n      font-size: 20px;\n      margin: 0;\n      padding-top: .5em;\n      line-height: 1.6em; }\n      @media (max-width: 390px) {\n        .content_1 .partical p {\n          font-size: 18px;\n          width: 100%; } }\n      @media (min-width: 391px) {\n        .content_1 .partical p {\n          font-size: 20px;\n          width: 100%; } }\n      @media (min-width: 1024px) {\n        .content_1 .partical p {\n          font-size: 22px;\n          width: 100%; } }\n    .content_1 .partical b {\n      color: #8b1616;\n      font-size: 25px;\n      font-weight: 400; }\n      @media (max-width: 390px) {\n        .content_1 .partical b {\n          font-size: 18px;\n          width: 100%;\n          font-weight: 600; } }\n      @media (min-width: 391px) {\n        .content_1 .partical b {\n          width: 100%; } }\n    .content_1 .partical a {\n      text-decoration: none;\n      color: #8b1616;\n      border: solid 1px #8b1616;\n      padding: 3px 6px;\n      position: relative;\n      z-index: 5;\n      font-weight: 900;\n      font-size: 22px;\n      bottom: -1.5em;\n      transition: .5s; }\n      @media (max-width: 390px) {\n        .content_1 .partical a {\n          font-size: 19px;\n          padding: 2px 4px; } }\n      .content_1 .partical a:hover {\n        background-color: #8b1616;\n        color: #f7f7f7; }\n\n.parent_2 {\n  position: absolute;\n  height: 100%;\n  width: 100%;\n  clip-path: polygon(0 35%, 100% 10%, 100% 75%, 0% 100%); }\n  @media (max-width: 390px) {\n    .parent_2 {\n      clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%); } }\n  @media (min-width: 1024px) {\n    .parent_2 {\n      clip-path: polygon(0 35%, 100% 10%, 100% 75%, 0% 100%); } }\n\n#block_2 {\n  position: relative;\n  height: 800px;\n  z-index: -100; }\n  @media (max-width: 390px) {\n    #block_2 {\n      height: 350px; } }\n  @media (min-width: 391px) {\n    #block_2 {\n      height: 600px; } }\n  @media (min-width: 600px) {\n    #block_2 {\n      height: 750px; } }\n  @media (min-width: 1024px) {\n    #block_2 {\n      height: 800px; } }\n  #block_2 .block_2_img {\n    z-index: -4;\n    width: 120%;\n    position: relative;\n    z-index: -100; }\n    @media (max-width: 390px) {\n      #block_2 .block_2_img {\n        width: 500%;\n        left: -100px; } }\n    @media (min-width: 391px) {\n      #block_2 .block_2_img {\n        width: 450%;\n        left: -100px; } }\n    @media (min-width: 600px) {\n      #block_2 .block_2_img {\n        width: 250%;\n        left: -100px; } }\n    @media (min-width: 1024px) {\n      #block_2 .block_2_img {\n        width: 150%; } }\n\n#join_us {\n  padding-bottom: 0em;\n  position: relative;\n  z-index: -2; }\n\n.content_2 {\n  padding-top: 5em;\n  position: relative;\n  z-index: -1;\n  width: 100%;\n  background-color: #f7f7f7; }\n  .content_2 .partical {\n    margin: 0 auto;\n    letter-spacing: 1.2pt;\n    position: relative;\n    text-align: justify;\n    z-index: -1;\n    width: 55%;\n    background-color: #f7f7f7;\n    font-family: 微軟正黑體;\n    padding-bottom: 6em; }\n    @media (max-width: 390px) {\n      .content_2 .partical {\n        width: 75%; } }\n    @media (min-width: 391px) {\n      .content_2 .partical {\n        width: 80%; } }\n    @media (min-width: 1024px) {\n      .content_2 .partical {\n        width: 55%; } }\n    .content_2 .partical h1 {\n      font-weight: 400;\n      font-size: 30px; }\n      @media (max-width: 390px) {\n        .content_2 .partical h1 {\n          font-size: 24px;\n          font-weight: 700;\n          width: 100%; } }\n      @media (min-width: 391px) {\n        .content_2 .partical h1 {\n          font-size: 30px;\n          width: 100%;\n          font-weight: 500; } }\n      @media (min-width: 1024px) {\n        .content_2 .partical h1 {\n          font-size: 30px;\n          width: 600px;\n          font-weight: 500; } }\n    .content_2 .partical p {\n      font-size: 20px;\n      line-height: 1.6em; }\n      @media (max-width: 390px) {\n        .content_2 .partical p {\n          font-size: 18px;\n          width: 100%; } }\n      @media (min-width: 391px) {\n        .content_2 .partical p {\n          font-size: 20px;\n          width: 100%; } }\n      @media (min-width: 1024px) {\n        .content_2 .partical p {\n          font-size: 22px;\n          width: 100%; } }\n\n#schedule {\n  width: 100%;\n  position: relative;\n  z-index: -3;\n  overflow: hidden;\n  background: linear-gradient(90deg, #bae0ff, #8292cc); }\n\n.content_3 {\n  padding: 4em 5em 3em 5em;\n  position: relative;\n  z-index: -1; }\n  @media (max-width: 390px) {\n    .content_3 {\n      padding: 4em 0 3em 0; } }\n  .content_3 h1 {\n    font-family: 'Raleway', sans-serif;\n    font-size: 60px;\n    text-align: left;\n    font-weight: 900;\n    color: rgba(0, 0, 0, 0.7);\n    padding-bottom: 1em;\n    letter-spacing: .1em;\n    margin-left: 1.5em; }\n    @media (max-width: 390px) {\n      .content_3 h1 {\n        font-size: 30px;\n        margin-left: 1em; } }\n    @media (min-width: 391px) {\n      .content_3 h1 {\n        font-size: 40px;\n        margin-left: 1em; } }\n    @media (min-width: 1024px) {\n      .content_3 h1 {\n        font-size: 60px;\n        margin-left: 1.5em; } }\n    .content_3 h1 b {\n      padding-bottom: 6px;\n      border-bottom: solid 8px #88C1FF; }\n  .content_3 .day {\n    position: absolute;\n    font-family: \"Quicksand\", sans-serif;\n    font-size: 25px;\n    font-weight: 900;\n    opacity: .8;\n    top: -2em;\n    transform: translate(-45%, 0); }\n  .content_3 .sche_cont {\n    padding-bottom: 8em;\n    font-family: 微軟正黑體;\n    justify-content: center;\n    display: flex;\n    flex-wrap: wrap; }\n    .content_3 .sche_cont .sche {\n      flex: 40;\n      margin-top: 3em;\n      margin-left: 60px;\n      margin-right: 60px;\n      min-width: 10em;\n      max-width: 20em;\n      position: relative;\n      display: inline-block;\n      border-left: solid 2px #333; }\n      @media (max-width: 390px) {\n        .content_3 .sche_cont .sche {\n          min-width: 4em;\n          margin-left: 60px;\n          margin-right: 60px; } }\n      .content_3 .sche_cont .sche .event {\n        position: relative;\n        display: inline-block;\n        color: rgba(0, 0, 0, 0.7);\n        margin-left: 20px;\n        width: 100%; }\n        .content_3 .sche_cont .sche .event .schedule_contain {\n          transform-style: preserve-3d;\n          min-width: 10em;\n          padding: 20px 20px;\n          background-color: #354441;\n          border-radius: 4px;\n          box-shadow: 0px 2px 5px 0px rgba(54, 69, 66, 0.7);\n          margin: 0;\n          color: #bbcfe8; }\n          @media (max-width: 390px) {\n            .content_3 .sche_cont .sche .event .schedule_contain {\n              padding: 10px 12px; } }\n        .content_3 .sche_cont .sche .event .event_text {\n          perspective: 1000px;\n          position: relative;\n          font-weight: 700;\n          letter-spacing: 1.2px;\n          font-size: 1em;\n          padding: 8px 12px;\n          margin: 0; }\n          @media (max-width: 390px) {\n            .content_3 .sche_cont .sche .event .event_text {\n              font-size: .8em;\n              padding: 6px 6px; } }\n          .content_3 .sche_cont .sche .event .event_text:last-of-type {\n            padding-bottom: 2em; }\n          .content_3 .sche_cont .sche .event .event_text .time_text {\n            position: absolute;\n            top: 0em;\n            left: -32px;\n            transform: translate(-100%, -50%);\n            font-size: .6em;\n            margin: 0; }\n            @media (max-width: 390px) {\n              .content_3 .sche_cont .sche .event .event_text .time_text {\n                font-size: .3em;\n                font-weight: 900; } }\n            .content_3 .sche_cont .sche .event .event_text .time_text::after {\n              content: '';\n              position: absolute;\n              width: 8px;\n              height: 8px;\n              border: 2px solid #333;\n              border-radius: 100%;\n              top: 50%;\n              right: 0;\n              background: #88C1FF;\n              transform: translate(17px, -50%); }\n            .content_3 .sche_cont .sche .event .event_text .time_text b {\n              margin: 0;\n              font-weight: 900;\n              vertical-align: baseline;\n              font-size: 1.5em; }\n\n#sche_gear_1, #sche_gear_2 {\n  position: absolute;\n  z-index: -1;\n  opacity: .3;\n  transform-origin: center center; }\n\n#sche_gear_1 {\n  width: 50em;\n  left: 0;\n  top: 0; }\n  @media (max-width: 390px) {\n    #sche_gear_1 {\n      width: 20em; } }\n  @media (min-width: 391px) {\n    #sche_gear_1 {\n      width: 30em; } }\n  @media (min-width: 1024px) {\n    #sche_gear_1 {\n      width: 50em; } }\n\n#sche_gear_2 {\n  width: 20em;\n  right: 0;\n  bottom: 6em; }\n\n#sponsor {\n  width: 100%;\n  position: relative;\n  z-index: -2; }\n\n.content_5 {\n  padding: 4em 6em 8em 6em;\n  background-color: white; }\n  @media (max-width: 390px) {\n    .content_5 {\n      padding: 2em 0 4em 0; } }\n  @media (min-width: 391px) {\n    .content_5 {\n      padding: 2em 1em 4em 1em; } }\n  @media (min-width: 1024px) {\n    .content_5 {\n      padding: 4em 6em 8em 6em; } }\n  .content_5 h1 {\n    text-align: center;\n    font-family: \"Quicksand\", sans-serif;\n    margin: 0;\n    padding: .8em 0;\n    font-size: 2em; }\n    @media (max-width: 390px) {\n      .content_5 h1 {\n        font-size: 1em;\n        padding: .3em 0; } }\n    @media (min-width: 391px) {\n      .content_5 h1 {\n        font-size: 1.5em;\n        padding: .5em 0; } }\n    @media (min-width: 1024px) {\n      .content_5 h1 {\n        font-size: 2em;\n        padding: .8em 0; } }\n  .content_5 hr {\n    width: 80px;\n    border-top: none;\n    border-bottom: solid 2px rgba(0, 0, 0, 0.8); }\n  .content_5 .sponsor_logo {\n    display: flex;\n    flex-wrap: wrap;\n    align-items: center;\n    justify-content: center;\n    margin-top: 40px; }\n  .content_5 img {\n    display: inline-block;\n    width: 15%;\n    margin: 0 40px 30px 40px; }\n    @media (max-width: 390px) {\n      .content_5 img {\n        width: 65%;\n        margin-bottom: 40px; } }\n    @media (min-width: 391px) {\n      .content_5 img {\n        width: 30%;\n        margin-bottom: 60px;\n        margin-left: 30px;\n        margin-right: 30px; } }\n    @media (min-width: 1024px) {\n      .content_5 img {\n        width: 15%;\n        margin: 0 40px 30px 40px; } }\n\n#footer {\n  background-color: #2b2b2b;\n  width: 100%;\n  position: relative;\n  z-index: -2; }\n\n.content_6 {\n  font-family: 微軟正黑體;\n  padding: 1em 4em 2em 4em;\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: center; }\n  @media (max-width: 390px) {\n    .content_6 {\n      padding: 1em 0 2em 0; } }\n  @media (min-width: 391px) {\n    .content_6 {\n      padding: 1em 0 2em 0; } }\n  .content_6 .footer_block {\n    margin: 40px;\n    width: 25%;\n    letter-spacing: 2px;\n    line-height: 1.2em;\n    opacity: .8;\n    display: flex;\n    flex-wrap: wrap;\n    align-items: center;\n    justify-content: center; }\n    @media (max-width: 390px) {\n      .content_6 .footer_block {\n        display: block;\n        width: 80%; } }\n    @media (min-width: 391px) {\n      .content_6 .footer_block {\n        display: block;\n        width: 80%;\n        margin: 10px; } }\n    @media (min-width: 1024px) {\n      .content_6 .footer_block {\n        width: 25%;\n        margin: 40px;\n        display: inline-block; } }\n    .content_6 .footer_block h1 {\n      margin: 0;\n      font-size: 16px;\n      font-weight: 100;\n      margin-top: 1.8em;\n      margin-bottom: .5em;\n      color: #f7f7f7;\n      padding-bottom: 2px;\n      border-bottom: solid 1px; }\n    .content_6 .footer_block p {\n      font-size: 16px;\n      font-weight: 100;\n      margin: 0;\n      color: #f7f7f7; }\n      @media (max-width: 390px) {\n        .content_6 .footer_block p {\n          font-size: 12px;\n          text-align: left;\n          letter-spacing: 1px; } }\n      @media (min-width: 391px) {\n        .content_6 .footer_block p {\n          font-size: 14px;\n          text-align: left;\n          letter-spacing: 1px; } }\n      @media (min-width: 1024px) {\n        .content_6 .footer_block p {\n          font-size: 16px;\n          letter-spacing: 2px; } }\n\n.particles-js-canvas-el {\n  position: absolute;\n  top: 0; }\n\n.navbar, #block_1, #intro, #block_2, #join_us, #schedule, #sponsor, #footer {\n  overflow: hidden; }\n", ""]);
+exports.push([module.i, "@charset \"UTF-8\";\n* {\n  vertical-align: top;\n  -webkit-box-sizing: border-box;\n  box-sizing: border-box; }\n\nbody, html {\n  padding: 0px;\n  margin: 0px;\n  position: relative;\n  z-index: -2;\n  background-color: #f7f7f7; }\n\n.navbar {\n  height: 310px;\n  background-color: #f7f7f7;\n  position: relative; }\n\n.logo_sqr {\n  opacity: .9;\n  position: relative;\n  top: 40px;\n  width: 210px;\n  height: 210px;\n  margin: 0 auto;\n  background-color: #88c1ff;\n  text-align: center; }\n  .logo_sqr p {\n    font-size: 16px;\n    font-family: 微軟正黑體;\n    padding-top: 28px; }\n  .logo_sqr .line {\n    margin: auto;\n    margin-top: 125px;\n    width: 40px;\n    height: .8px;\n    background-color: black; }\n  .logo_sqr .logo_day {\n    margin: 0;\n    font-family: \"Quicksand\", sans-serif;\n    line-height: 8px; }\n  .logo_sqr b {\n    margin: 0;\n    padding: 0;\n    font-size: 24px;\n    line-height: 0;\n    font-weight: 400; }\n  .logo_sqr .localtion {\n    margin-top: 12px;\n    padding-top: 0px; }\n\n.title {\n  opacity: .85;\n  display: inline-block;\n  position: absolute;\n  text-align: center;\n  left: 50%;\n  transform: translate(-50%);\n  top: 95px; }\n  .title h1 {\n    line-height: 1em;\n    font-family: \"Fugaz One\", cursive;\n    font-size: 47px;\n    margin: 0; }\n\n#Bar {\n  z-index: 100; }\n\n#selectionBar {\n  z-index: 10;\n  position: relative;\n  background-color: #f7f7f7;\n  width: 100%;\n  height: 65px;\n  text-align: center;\n  color: rgba(0, 0, 0, 0.7);\n  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); }\n  @media (max-width: 390px) {\n    #selectionBar {\n      height: 50px; } }\n  @media (min-width: 391px) {\n    #selectionBar {\n      height: 55px; } }\n  @media (min-width: 600px) {\n    #selectionBar {\n      height: 55px; } }\n  @media (min-width: 1024px) {\n    #selectionBar {\n      height: 65px; } }\n\n.selection {\n  font-family: \"Quicksand\", sans-serif;\n  display: inline-block;\n  font-weight: 700;\n  padding: 20px 4px;\n  position: relative;\n  font-size: 14pt;\n  top: 50%;\n  transform: translate(0, -50%);\n  margin: 0 40px;\n  opacity: .5;\n  transition: cubic-bezier(0, 0.34, 0.17, 0.95) 1s; }\n  @media (max-width: 390px) {\n    .selection {\n      font-size: 10pt;\n      margin: 0 5px;\n      padding: 1px .8px; } }\n  @media (min-width: 391px) {\n    .selection {\n      font-size: 12pt;\n      margin: 0 8px;\n      padding: 20px 0; } }\n  @media (min-width: 600px) {\n    .selection {\n      font-size: 12pt;\n      margin: 0 20px;\n      padding: 20px 0; } }\n  @media (min-width: 1024px) {\n    .selection {\n      font-size: 15pt;\n      margin: 0 55px;\n      padding: 20px 0; } }\n  .selection:hover, .selection.active {\n    cursor: pointer;\n    opacity: 1;\n    font-size: 16pt; }\n    @media (max-width: 390px) {\n      .selection:hover, .selection.active {\n        font-size: 12pt; } }\n    @media (min-width: 391px) {\n      .selection:hover, .selection.active {\n        font-size: 12pt; } }\n    @media (min-width: 600px) {\n      .selection:hover, .selection.active {\n        font-size: 14pt; } }\n    @media (min-width: 1024px) {\n      .selection:hover, .selection.active {\n        font-size: 17pt; } }\n\n.parent_1 {\n  position: absolute;\n  height: 100%;\n  width: 100%;\n  clip: rect(0 auto auto 0); }\n\n#block_1 {\n  position: relative;\n  z-index: -20;\n  height: 600px; }\n  @media (max-width: 390px) {\n    #block_1 {\n      height: 300px; } }\n  @media (min-width: 391px) {\n    #block_1 {\n      height: 300px; } }\n  @media (min-width: 600px) {\n    #block_1 {\n      height: 450px; } }\n  @media (min-width: 1024px) {\n    #block_1 {\n      height: 600px; } }\n  #block_1 .block_1_img {\n    z-index: -20;\n    position: absolute;\n    width: 100%; }\n    @media (max-width: 390px) {\n      #block_1 .block_1_img {\n        width: 350%;\n        left: -300px; } }\n    @media (min-width: 391px) {\n      #block_1 .block_1_img {\n        width: 200%;\n        left: -100px; } }\n    @media (min-width: 600px) {\n      #block_1 .block_1_img {\n        width: 150%; } }\n    @media (min-width: 1024px) {\n      #block_1 .block_1_img {\n        width: 120%; } }\n  #block_1 .container {\n    position: relative;\n    width: 100%;\n    height: 100%; }\n  #block_1 .infocard {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    opacity: .8;\n    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);\n    font-size: 30px;\n    font-weight: 100;\n    border: solid 2px rgba(0, 0, 0, 0.8);\n    padding: 15px 15px;\n    letter-spacing: .15em;\n    text-align: center;\n    font-family: 微軟正黑體; }\n    @media (max-width: 390px) {\n      #block_1 .infocard {\n        font-size: 18px;\n        font-weight: 500;\n        border: solid 1px rgba(0, 0, 0, 0.8);\n        padding: 8px;\n        width: 240px;\n        text-align: center; } }\n    @media (min-width: 391px) {\n      #block_1 .infocard {\n        font-size: 24px;\n        font-weight: 500;\n        border: solid 1px rgba(0, 0, 0, 0.8);\n        padding: 8px;\n        width: 300px;\n        text-align: center; } }\n    @media (min-width: 600px) {\n      #block_1 .infocard {\n        width: 400px;\n        padding: 10px 0px;\n        font-size: 32px; } }\n    @media (min-width: 1024px) {\n      #block_1 .infocard {\n        width: 620px;\n        padding: 15px;\n        font-weight: 100;\n        font-size: 40px;\n        border: solid 2px rgba(0, 0, 0, 0.8); } }\n\n#intro {\n  position: relative;\n  overflow: hidden;\n  z-index: -2;\n  padding-bottom: 6em; }\n  #intro .gear {\n    position: absolute;\n    background-color: black;\n    width: 300px;\n    z-index: 1; }\n\n#particles_container {\n  position: relative;\n  z-index: -1; }\n\n.content_1 {\n  position: relative;\n  z-index: -2;\n  padding-top: 5em;\n  width: 100%;\n  background-color: #f7f7f7; }\n  .content_1 .partical {\n    background-color: #f7f7f7;\n    width: 55%;\n    margin: 0 auto;\n    font-family: 微軟正黑體;\n    text-align: justify;\n    letter-spacing: 1.2pt; }\n    @media (max-width: 390px) {\n      .content_1 .partical {\n        width: 75%; } }\n    @media (min-width: 391px) {\n      .content_1 .partical {\n        width: 80%; } }\n    @media (min-width: 1024px) {\n      .content_1 .partical {\n        width: 55%; } }\n    .content_1 .partical h1 {\n      width: 600px;\n      margin: 0;\n      border-bottom: solid 1px;\n      padding-bottom: 8px;\n      font-size: 30px;\n      font-weight: 300;\n      margin-bottom: .6em; }\n      @media (max-width: 390px) {\n        .content_1 .partical h1 {\n          font-size: 24px;\n          font-weight: 700;\n          width: 100%; } }\n      @media (min-width: 391px) {\n        .content_1 .partical h1 {\n          font-size: 30px;\n          width: 100%;\n          font-weight: 500; } }\n      @media (min-width: 1024px) {\n        .content_1 .partical h1 {\n          font-size: 30px;\n          width: 600px;\n          font-weight: 500; } }\n    .content_1 .partical p {\n      font-size: 22px;\n      margin: 0;\n      padding-top: .5em;\n      line-height: 1.6em; }\n      @media (max-width: 390px) {\n        .content_1 .partical p {\n          font-size: 18px;\n          width: 100%; } }\n      @media (min-width: 391px) {\n        .content_1 .partical p {\n          font-size: 20px;\n          width: 100%; } }\n      @media (min-width: 1024px) {\n        .content_1 .partical p {\n          font-size: 22px;\n          width: 100%; } }\n    .content_1 .partical b {\n      color: #8b1616;\n      font-size: 24px;\n      font-weight: 400; }\n      @media (max-width: 390px) {\n        .content_1 .partical b {\n          font-size: 18px;\n          width: 100%;\n          font-weight: 600; } }\n      @media (min-width: 391px) {\n        .content_1 .partical b {\n          width: 100%; } }\n    .content_1 .partical a {\n      text-decoration: none;\n      color: #8b1616;\n      border: solid 1px #8b1616;\n      padding: 3px 6px;\n      position: relative;\n      z-index: 5;\n      font-weight: 900;\n      font-size: 24px;\n      font-family: \"Quicksand\", sans-serif;\n      bottom: -1.5em;\n      transition: .5s; }\n      @media (max-width: 390px) {\n        .content_1 .partical a {\n          font-size: 19px;\n          padding: 2px 4px; } }\n      .content_1 .partical a:hover {\n        background-color: #8b1616;\n        color: #f7f7f7; }\n\n.parent_2 {\n  position: absolute;\n  height: 100%;\n  width: 100%;\n  clip-path: polygon(0 35%, 100% 10%, 100% 75%, 0% 100%); }\n  @media (max-width: 390px) {\n    .parent_2 {\n      clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%); } }\n  @media (min-width: 1024px) {\n    .parent_2 {\n      clip-path: polygon(0 35%, 100% 10%, 100% 75%, 0% 100%); } }\n\n#block_2 {\n  position: relative;\n  height: 800px;\n  z-index: -100; }\n  @media (max-width: 390px) {\n    #block_2 {\n      height: 350px; } }\n  @media (min-width: 391px) {\n    #block_2 {\n      height: 600px; } }\n  @media (min-width: 600px) {\n    #block_2 {\n      height: 750px; } }\n  @media (min-width: 1024px) {\n    #block_2 {\n      height: 800px; } }\n  #block_2 .block_2_img {\n    z-index: -4;\n    width: 120%;\n    position: relative;\n    z-index: -100; }\n    @media (max-width: 390px) {\n      #block_2 .block_2_img {\n        width: 500%;\n        left: -100px; } }\n    @media (min-width: 391px) {\n      #block_2 .block_2_img {\n        width: 450%;\n        left: -100px; } }\n    @media (min-width: 600px) {\n      #block_2 .block_2_img {\n        width: 250%;\n        left: -100px; } }\n    @media (min-width: 1024px) {\n      #block_2 .block_2_img {\n        width: 150%; } }\n\n#join_us {\n  padding-bottom: 0em;\n  position: relative;\n  z-index: -2; }\n\n.content_2 {\n  padding-top: 5em;\n  position: relative;\n  z-index: -1;\n  width: 100%;\n  background-color: #f7f7f7; }\n  .content_2 .partical {\n    margin: 0 auto;\n    letter-spacing: 1.2pt;\n    position: relative;\n    text-align: justify;\n    z-index: -1;\n    width: 55%;\n    background-color: #f7f7f7;\n    font-family: 微軟正黑體;\n    padding-bottom: 6em; }\n    @media (max-width: 390px) {\n      .content_2 .partical {\n        width: 75%; } }\n    @media (min-width: 391px) {\n      .content_2 .partical {\n        width: 80%; } }\n    @media (min-width: 1024px) {\n      .content_2 .partical {\n        width: 55%; } }\n    .content_2 .partical h1 {\n      font-weight: 400;\n      font-size: 30px; }\n      @media (max-width: 390px) {\n        .content_2 .partical h1 {\n          font-size: 24px;\n          font-weight: 700;\n          width: 100%; } }\n      @media (min-width: 391px) {\n        .content_2 .partical h1 {\n          font-size: 30px;\n          width: 100%;\n          font-weight: 500; } }\n      @media (min-width: 1024px) {\n        .content_2 .partical h1 {\n          font-size: 30px;\n          width: 600px;\n          font-weight: 500; } }\n    .content_2 .partical p {\n      font-size: 22px;\n      line-height: 1.6em; }\n      @media (max-width: 390px) {\n        .content_2 .partical p {\n          font-size: 18px;\n          width: 100%; } }\n      @media (min-width: 391px) {\n        .content_2 .partical p {\n          font-size: 20px;\n          width: 100%; } }\n      @media (min-width: 1024px) {\n        .content_2 .partical p {\n          font-size: 22px;\n          width: 100%; } }\n\n#schedule {\n  width: 100%;\n  position: relative;\n  z-index: -3;\n  overflow: hidden;\n  background: linear-gradient(90deg, #bae0ff, #8292cc); }\n\n.content_3 {\n  padding: 4em 5em 3em 5em;\n  position: relative;\n  z-index: -1; }\n  @media (max-width: 390px) {\n    .content_3 {\n      padding: 4em 0 3em 0; } }\n  .content_3 h1 {\n    font-family: 'Raleway', sans-serif;\n    font-size: 60px;\n    text-align: left;\n    font-weight: 900;\n    color: rgba(0, 0, 0, 0.7);\n    padding-bottom: 1em;\n    letter-spacing: .1em;\n    margin-left: 1.5em; }\n    @media (max-width: 390px) {\n      .content_3 h1 {\n        font-size: 30px;\n        margin-left: 1em; } }\n    @media (min-width: 391px) {\n      .content_3 h1 {\n        font-size: 40px;\n        margin-left: 1em; } }\n    @media (min-width: 1024px) {\n      .content_3 h1 {\n        font-size: 60px;\n        margin-left: 1.5em; } }\n    .content_3 h1 b {\n      padding-bottom: 6px;\n      border-bottom: solid 8px #88C1FF; }\n  .content_3 .day {\n    position: absolute;\n    font-family: \"Quicksand\", sans-serif;\n    font-size: 24px;\n    font-weight: 900;\n    opacity: .8;\n    top: -2em;\n    transform: translate(-45%, 0); }\n  .content_3 .sche_cont {\n    padding-bottom: 8em;\n    font-family: 微軟正黑體;\n    justify-content: center;\n    display: flex;\n    flex-wrap: wrap; }\n    .content_3 .sche_cont .sche {\n      flex: 40;\n      margin-top: 3em;\n      margin-left: 60px;\n      margin-right: 60px;\n      min-width: 10em;\n      max-width: 20em;\n      position: relative;\n      display: inline-block;\n      border-left: solid 2px #333; }\n      @media (max-width: 390px) {\n        .content_3 .sche_cont .sche {\n          min-width: 4em;\n          margin-left: 60px;\n          margin-right: 60px; } }\n      .content_3 .sche_cont .sche .event {\n        position: relative;\n        display: inline-block;\n        color: rgba(0, 0, 0, 0.7);\n        margin-left: 20px;\n        width: 100%; }\n        .content_3 .sche_cont .sche .event .schedule_contain {\n          transform-style: preserve-3d;\n          min-width: 10em;\n          padding: 20px 20px;\n          background-color: #354441;\n          border-radius: 4px;\n          box-shadow: 0px 2px 5px 0px rgba(54, 69, 66, 0.7);\n          margin: 0;\n          color: #bbcfe8; }\n          @media (max-width: 390px) {\n            .content_3 .sche_cont .sche .event .schedule_contain {\n              padding: 10px 12px; } }\n        .content_3 .sche_cont .sche .event .event_text {\n          perspective: 1000px;\n          position: relative;\n          font-weight: 700;\n          letter-spacing: 1.2px;\n          font-size: 1em;\n          padding: 8px 12px;\n          margin: 0; }\n          @media (max-width: 390px) {\n            .content_3 .sche_cont .sche .event .event_text {\n              font-size: .8em;\n              padding: 6px 6px; } }\n          .content_3 .sche_cont .sche .event .event_text:last-of-type {\n            padding-bottom: 2em; }\n          .content_3 .sche_cont .sche .event .event_text .time_text {\n            position: absolute;\n            top: 0em;\n            left: -32px;\n            transform: translate(-100%, -50%);\n            font-size: .6em;\n            margin: 0; }\n            @media (max-width: 390px) {\n              .content_3 .sche_cont .sche .event .event_text .time_text {\n                font-size: .3em;\n                font-weight: 900; } }\n            .content_3 .sche_cont .sche .event .event_text .time_text::after {\n              content: '';\n              position: absolute;\n              width: 8px;\n              height: 8px;\n              border: 2px solid #333;\n              border-radius: 100%;\n              top: 50%;\n              right: 0;\n              background: #88C1FF;\n              transform: translate(17px, -50%); }\n            .content_3 .sche_cont .sche .event .event_text .time_text b {\n              margin: 0;\n              font-weight: 900;\n              vertical-align: baseline;\n              font-size: 1.5em; }\n\n#sche_gear_1, #sche_gear_2 {\n  position: absolute;\n  z-index: -1;\n  opacity: .3;\n  transform-origin: center center; }\n\n#sche_gear_1 {\n  width: 50em;\n  left: 0;\n  top: 0; }\n  @media (max-width: 390px) {\n    #sche_gear_1 {\n      width: 20em; } }\n  @media (min-width: 391px) {\n    #sche_gear_1 {\n      width: 30em; } }\n  @media (min-width: 1024px) {\n    #sche_gear_1 {\n      width: 50em; } }\n\n#sche_gear_2 {\n  width: 20em;\n  right: 0;\n  bottom: 6em; }\n\n#sponsor {\n  width: 100%;\n  position: relative;\n  z-index: -2; }\n\n.content_5 {\n  padding: 4em 6em 8em 6em;\n  background-color: white; }\n  @media (max-width: 390px) {\n    .content_5 {\n      padding: 2em 0 4em 0; } }\n  @media (min-width: 391px) {\n    .content_5 {\n      padding: 2em 1em 4em 1em; } }\n  @media (min-width: 1024px) {\n    .content_5 {\n      padding: 4em 6em 8em 6em; } }\n  .content_5 h1 {\n    text-align: center;\n    font-family: \"Quicksand\", sans-serif;\n    margin: 0;\n    padding: .8em 0;\n    font-size: 2em; }\n    @media (max-width: 390px) {\n      .content_5 h1 {\n        font-size: 1em;\n        padding: .3em 0; } }\n    @media (min-width: 391px) {\n      .content_5 h1 {\n        font-size: 1.5em;\n        padding: .5em 0; } }\n    @media (min-width: 1024px) {\n      .content_5 h1 {\n        font-size: 2em;\n        padding: .8em 0; } }\n  .content_5 hr {\n    width: 80px;\n    border-top: none;\n    border-bottom: solid 2px rgba(0, 0, 0, 0.8); }\n  .content_5 .sponsor_logo {\n    display: flex;\n    flex-wrap: wrap;\n    align-items: center;\n    justify-content: center;\n    margin-top: 40px; }\n  .content_5 img {\n    display: inline-block;\n    width: 15%;\n    margin: 0 40px 30px 40px; }\n    @media (max-width: 390px) {\n      .content_5 img {\n        width: 65%;\n        margin-bottom: 40px; } }\n    @media (min-width: 391px) {\n      .content_5 img {\n        width: 30%;\n        margin-bottom: 60px;\n        margin-left: 30px;\n        margin-right: 30px; } }\n    @media (min-width: 1024px) {\n      .content_5 img {\n        width: 15%;\n        margin: 0 40px 30px 40px; } }\n\n#footer {\n  background-color: #2b2b2b;\n  width: 100%;\n  position: relative;\n  z-index: -2; }\n\n.content_6 {\n  font-family: 微軟正黑體;\n  padding: 1em 4em 2em 4em;\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: center; }\n  @media (max-width: 390px) {\n    .content_6 {\n      padding: 1em 0 2em 0; } }\n  @media (min-width: 391px) {\n    .content_6 {\n      padding: 1em 0 2em 0; } }\n  .content_6 .footer_block {\n    margin: 40px;\n    width: 25%;\n    letter-spacing: 2px;\n    line-height: 1.2em;\n    opacity: .8;\n    display: flex;\n    flex-wrap: wrap;\n    align-items: center;\n    justify-content: center; }\n    @media (max-width: 390px) {\n      .content_6 .footer_block {\n        display: block;\n        width: 80%; } }\n    @media (min-width: 391px) {\n      .content_6 .footer_block {\n        display: block;\n        width: 80%;\n        margin: 10px; } }\n    @media (min-width: 1024px) {\n      .content_6 .footer_block {\n        width: 25%;\n        margin: 40px;\n        display: inline-block; } }\n    .content_6 .footer_block h1 {\n      margin: 0;\n      font-size: 16px;\n      font-weight: 100;\n      margin-top: 1.8em;\n      margin-bottom: .5em;\n      color: #f7f7f7;\n      padding-bottom: 2px;\n      border-bottom: solid 1px; }\n    .content_6 .footer_block p {\n      font-size: 16px;\n      font-weight: 100;\n      margin: 0;\n      color: #f7f7f7; }\n      @media (max-width: 390px) {\n        .content_6 .footer_block p {\n          font-size: 12px;\n          text-align: left;\n          letter-spacing: 1px; } }\n      @media (min-width: 391px) {\n        .content_6 .footer_block p {\n          font-size: 14px;\n          text-align: left;\n          letter-spacing: 1px; } }\n      @media (min-width: 1024px) {\n        .content_6 .footer_block p {\n          font-size: 16px;\n          letter-spacing: 2px; } }\n\n.particles-js-canvas-el {\n  position: absolute;\n  top: 0; }\n\n.navbar, #block_1, #intro, #block_2, #join_us, #schedule, #sponsor, #footer {\n  overflow: hidden; }\n", ""]);
 
 // exports
 
@@ -11519,51 +11519,75 @@ module.exports = function (css) {
 
 
 /***/ }),
-/* 5 */,
+/* 5 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = function(obj){
+var __t,__p='',__j=Array.prototype.join,print=function(){__p+=__j.call(arguments,'');};
+with(obj||{}){
+__p+='<style>\r\n    .loading_cover{\r\n        width: 100%;\r\n        height: 100%;\r\n        position: fixed;\r\n        background-color: white;\r\n        z-index: 999;\r\n        top: 0;\r\n        display: flex;\r\n        justify-content: center;\r\n        align-items: center;\r\n        transition: 1s;\r\n    }\r\n    .loading_gear{\r\n        width: 100px;\r\n        opacity: .2;\r\n        animation: rotate 4s infinite linear;\r\n    }\r\n    @keyframes rotate{\r\n        from{ transform: rotate(0deg); }\r\n        to{ transform: rotate(359deg);}\r\n    }\r\n</style>\r\n\r\n<div class="loading_cover">\r\n    <img class="loading_gear" src="' + __webpack_require__(6) + '">\r\n</div>\r\n';
+}
+return __p;
+};
+
+
+/***/ }),
 /* 6 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "2e69523a1f1a3a5aa9612348974ef547.png";
+
+/***/ }),
+/* 7 */,
+/* 8 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "7d2c11fd0385cbb4656c859a990686ad.png";
 
 /***/ }),
-/* 7 */
+/* 9 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+/* WEBPACK VAR INJECTION */(function($) {
 
-
-var _bits = __webpack_require__(8);
+var _bits = __webpack_require__(10);
 
 var _bits2 = _interopRequireDefault(_bits);
 
-var _template = __webpack_require__(9);
+var _template = __webpack_require__(11);
 
 var _template2 = _interopRequireDefault(_template);
 
-var _click_event = __webpack_require__(24);
+var _click_event = __webpack_require__(26);
 
 var _click_event2 = _interopRequireDefault(_click_event);
 
-var _scroll_event = __webpack_require__(25);
+var _scroll_event = __webpack_require__(27);
 
 var _scroll_event2 = _interopRequireDefault(_scroll_event);
 
-var _scroll_reveal = __webpack_require__(27);
+var _scroll_reveal = __webpack_require__(29);
 
 var _scroll_reveal2 = _interopRequireDefault(_scroll_reveal);
 
-var _scrollParallax = __webpack_require__(29);
+var _scrollParallax = __webpack_require__(31);
 
 var _scrollParallax2 = _interopRequireDefault(_scrollParallax);
 
-var _perfect_particles = __webpack_require__(31);
+var _perfect_particles = __webpack_require__(33);
 
 var _perfect_particles2 = _interopRequireDefault(_perfect_particles);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+window.addEventListener("load", function () {
+    $('.loading_cover').css("opacity", "0");
+});
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
+
 /***/ }),
-/* 8 */
+/* 10 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
@@ -11594,7 +11618,7 @@ if(true) {
 }
 
 /***/ }),
-/* 9 */
+/* 11 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = function(obj){
@@ -11602,14 +11626,14 @@ var __t,__p='',__j=Array.prototype.join,print=function(){__p+=__j.call(arguments
 with(obj||{}){
 __p+='<!DOCTYPE html>\r\n<html lang="en">\r\n    <head>\r\n        <meta charset="utf-8">\r\n        <meta name="viewport" content="width=device-width,initial-scale=1">\r\n        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">\r\n        <link href="https://fonts.googleapis.com/css?family=Fugaz+One" rel="stylesheet">\r\n        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">\r\n        <title>'+
 ((__t=( htmlWebpackPlugin.options.title ))==null?'':__t)+
-'</title>\r\n    </head>\r\n    <body>\r\n         ' + __webpack_require__(10).apply(null,arguments) + '\r\n        <div id="Bar">' + __webpack_require__(11).apply(null,arguments) + '</div>\r\n        <div id="block_1">\r\n            <div class="parent_1">\r\n                <img class="block_1_img" src="' + __webpack_require__(12) + '">\r\n                <div class="container">\r\n                    <div class=\'infocard\'>\r\n                        你就是轉動世界的齒輪\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n        <div id="intro">' + __webpack_require__(13).apply(null,arguments) + '</div>\r\n        <div id="block_2">\r\n            <div class="parent_2">\r\n                <img class="block_2_img" src="' + __webpack_require__(14) + '">\r\n            </div>\r\n        </div>\r\n        <div id="join_us">' + __webpack_require__(15).apply(null,arguments) + '</div>\r\n        <div id="schedule">' + __webpack_require__(16).apply(null,arguments) + '</div>\r\n        <div id="sponsor">' + __webpack_require__(17).apply(null,arguments) + '</div>\r\n        <div id="footer">' + __webpack_require__(23).apply(null,arguments) + '</div>\r\n    </body>\r\n    <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>\r\n</html>\r\n';
+'</title>\r\n    </head>\r\n    <body>\r\n        ' + __webpack_require__(5).apply(null,arguments) + '\r\n         ' + __webpack_require__(12).apply(null,arguments) + '\r\n        <div id="Bar">' + __webpack_require__(13).apply(null,arguments) + '</div>\r\n        <div id="block_1">\r\n            <div class="parent_1">\r\n                <img class="block_1_img" src="' + __webpack_require__(14) + '">\r\n                <div class="container">\r\n                    <div class=\'infocard\'>\r\n                        你就是轉動世界的齒輪\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n        <div id="intro">' + __webpack_require__(15).apply(null,arguments) + '</div>\r\n        <div id="block_2">\r\n            <div class="parent_2">\r\n                <img class="block_2_img" src="' + __webpack_require__(16) + '">\r\n            </div>\r\n        </div>\r\n        <div id="join_us">' + __webpack_require__(17).apply(null,arguments) + '</div>\r\n        <div id="schedule">' + __webpack_require__(18).apply(null,arguments) + '</div>\r\n        <div id="sponsor">' + __webpack_require__(19).apply(null,arguments) + '</div>\r\n        <div id="footer">' + __webpack_require__(25).apply(null,arguments) + '</div>\r\n    </body>\r\n    <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>\r\n</html>\r\n';
 }
 return __p;
 };
 
 
 /***/ }),
-/* 10 */
+/* 12 */
 /***/ (function(module, exports) {
 
 module.exports = function(obj){
@@ -11622,7 +11646,7 @@ return __p;
 
 
 /***/ }),
-/* 11 */
+/* 13 */
 /***/ (function(module, exports) {
 
 module.exports = function(obj){
@@ -11635,32 +11659,32 @@ return __p;
 
 
 /***/ }),
-/* 12 */
+/* 14 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "06351ed160460b985c7a64ac4a62fd8b.png";
 
 /***/ }),
-/* 13 */
+/* 15 */
 /***/ (function(module, exports) {
 
 module.exports = function(obj){
 var __t,__p='',__j=Array.prototype.join,print=function(){__p+=__j.call(arguments,'');};
 with(obj||{}){
-__p+='<div id="particles_container">\r\n    <div class="content_1">\r\n        <div class="partical">\r\n            <h1>什麼是黑客松？</h1>\r\n            <div class="partical_block">\r\n                <b>Hackathon顧名思義，就像是工程界的馬拉松</b>\r\n                <p>在一兩天內，日以繼夜地用最短的時間，將腦海中的創意構想，\r\n                實作成系統的雛型(prototype)，然後發表讓大家觀摩或給予建議。\r\n                參加的團隊組成不限於程式設計師，還包括：美術設計、專案經理……等等。\r\n                最後作品的成敗否還不僅考驗團隊成員的技術熟練度也包含：\r\n                團隊的合作精神以及對需求的觀察力和構思的創新度等等。</p>\r\n            </div>\r\n        </div>\r\n    </div>\r\n    <div class="content_1">\r\n        <div class="partical">\r\n            <h1>梅竹黑客松有什麼不一樣？</h1>\r\n            <div class ="partical_block">\r\n                <p>目前坊間的類似活動，分為兩種：「傳統黑客松」以及「企業自行舉辦的黑客松」\r\n                傳統黑客松由參加隊伍發想提案，擁有近乎絕對的自由，但提供的協助與引導少，\r\n                不利經驗較少的學生團隊，完成作品的門檻提高，構想容易偏離現實考量，落入為創新而創新的迷思；</p>\r\n                <p>反之，企業自行舉辦的黑客松多半聚焦在自家公司所遇到的瓶頸，出題的範圍比較侷限，\r\n                所提供的工具也以主辦企業本身自家的技術為主。有鑑於前兩者各有利弊，「梅竹黑客松」應運而生，\r\n                這次活動的開發主題皆由活躍於業界的企業所建議，開發主題的大方向與市場接軌\r\n                同時來自不同企業，各自提供獨家技術與資源，輔助參加者開發作品，\r\n                兼顧發想的自由空間與提案本身的市場可行性。參賽者可以發揮所長，\r\n                藉著企業的協助實現創意，並能和企業先進面對面交流想法。\r\n                而負責決定主題與引導的企業，不僅能挖掘人才，也同時藉此刺激自身一同創新思考。\r\n                </p>\r\n            </div>\r\n        </div>\r\n    </div>\r\n    <div class="content_1">\r\n        <div class="partical">\r\n            <h1>參加梅竹黑客松的好處</h1>\r\n            <div class ="partical_block">\r\n                <p>此活動是與企業合作出資源(硬體或API等)的方式進行，參加者能與企業在第一線接觸交流，並且提升其技術力。\r\n                只要完整參與兩天一夜的活動，一律授予梅竹黑客松專屬紀念品和活動參與證書！\r\n                另外，主辦單位將據依當天參與者的整體表現，選出幾組表現優秀隊伍 (視報名人數情況調整)額外頒授獎勵。\r\n                除此之外，主辦單位亦將甄選出UI/UX表現優秀的隊伍另外頒予獎勵。</p>\r\n\r\n                <a target="blank" href="qa.html">了解更多</a>\r\n            </div>\r\n\r\n        </div>\r\n    </div>\r\n</div>\r\n';
+__p+='<div id="particles_container">\r\n    <div class="content_1">\r\n        <div class="partical">\r\n            <h1>什麼是黑客松？</h1>\r\n            <div class="partical_block">\r\n                <b>Hackathon顧名思義，就像是工程界的馬拉松</b>\r\n                <p>在一兩天內，日以繼夜地用最短的時間，將腦海中的創意構想，\r\n                實作成系統的雛型(prototype)，然後發表讓大家觀摩或給予建議。\r\n                參加的團隊組成不限於程式設計師，還包括：美術設計、專案經理……等等。\r\n                最後作品的成敗否還不僅考驗團隊成員的技術熟練度也包含：\r\n                團隊的合作精神以及對需求的觀察力和構思的創新度等等。</p>\r\n            </div>\r\n        </div>\r\n    </div>\r\n    <div class="content_1">\r\n        <div class="partical">\r\n            <h1>梅竹黑客松有什麼不一樣？</h1>\r\n            <div class ="partical_block">\r\n                <p>目前坊間的類似活動，分為兩種：「傳統黑客松」以及「企業自行舉辦的黑客松」\r\n                傳統黑客松由參加隊伍發想提案，擁有近乎絕對的自由，但提供的協助與引導少，\r\n                不利經驗較少的學生團隊，完成作品的門檻提高，構想容易偏離現實考量，落入為創新而創新的迷思；</p>\r\n                <p>反之，企業自行舉辦的黑客松多半聚焦在自家公司所遇到的瓶頸，出題的範圍比較侷限，\r\n                所提供的工具也以主辦企業本身自家的技術為主。有鑑於前兩者各有利弊，「梅竹黑客松」應運而生，\r\n                這次活動的開發主題皆由活躍於業界的企業所建議，開發主題的大方向與市場接軌\r\n                同時來自不同企業，各自提供獨家技術與資源，輔助參加者開發作品，\r\n                兼顧發想的自由空間與提案本身的市場可行性。參賽者可以發揮所長，\r\n                藉著企業的協助實現創意，並能和企業先進面對面交流想法。\r\n                而負責決定主題與引導的企業，不僅能挖掘人才，也同時藉此刺激自身一同創新思考。\r\n                </p>\r\n            </div>\r\n        </div>\r\n    </div>\r\n    <div class="content_1">\r\n        <div class="partical">\r\n            <h1>參加梅竹黑客松的好處</h1>\r\n            <div class ="partical_block">\r\n                <p>此活動是與企業合作出資源(硬體或API等)的方式進行，參加者能與企業在第一線接觸交流，並且提升其技術力。\r\n                只要完整參與兩天一夜的活動，一律授予梅竹黑客松專屬紀念品和活動參與證書！\r\n                另外，主辦單位將據依當天參與者的整體表現，選出幾組表現優秀隊伍 (視報名人數情況調整)額外頒授獎勵。\r\n                除此之外，主辦單位亦將甄選出UI/UX表現優秀的隊伍另外頒予獎勵。</p>\r\n\r\n                <a target="blank" href="qa.html">FAQ</a>\r\n            </div>\r\n\r\n        </div>\r\n    </div>\r\n</div>\r\n';
 }
 return __p;
 };
 
 
 /***/ }),
-/* 14 */
+/* 16 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "15b8d7b992757a6dc2bce026e2dbbf9e.jpg";
 
 /***/ }),
-/* 15 */
+/* 17 */
 /***/ (function(module, exports) {
 
 module.exports = function(obj){
@@ -11673,63 +11697,63 @@ return __p;
 
 
 /***/ }),
-/* 16 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = function(obj){
-var __t,__p='',__j=Array.prototype.join,print=function(){__p+=__j.call(arguments,'');};
-with(obj||{}){
-__p+='<div class="content_3">\r\n    <h1><b>S</b>chedule</h1>\r\n\r\n    <div class="sche_cont">\r\n        <div class="sche">\r\n            <div class="day">\r\n                Day1\r\n            </div>\r\n            <div class="event">\r\n                <div class="event_text"><p class="schedule_contain">報到 & 相見歡</p><p class="time_text"><b>08</b>30</p></div>\r\n                <div class="event_text"><p class="schedule_contain">開場 & 來賓致詞</p><p class="time_text"><b>09</b>00</p></div>\r\n                <div class="event_text"><p class="schedule_contain">公布題目&技術人員說明</p><p class="time_text"><b>10</b>30</p></div>\r\n                <div class="event_text"><p class="schedule_contain">開始coding</p><p class="time_text"><b>12</b>00</p></div>\r\n                <div class="event_text"><p class="schedule_contain">午餐時間</p><p class="time_text"><b>13</b>00</p></div>\r\n                <div class="event_text"><p class="schedule_contain">持續 coding</p><p class="time_text"><b>15</b>30</p></div>\r\n                <div class="event_text"><p class="schedule_contain">下午茶</p><p class="time_text"><b>16</b>00</p></div>\r\n                <div class="event_text"><p class="schedule_contain">持續coding</p><p class="time_text"><b>18</b>30</p></div>\r\n                <div class="event_text"><p class="schedule_contain">晚餐時間+野台表演</p><p class="time_text"><b>19</b>30</p></div>\r\n                <div class="event_text"><p class="schedule_contain">戰鬥永無止盡</p><p class="time_text"><b>19</b>30</p></div>\r\n            </div>\r\n        </div>\r\n        <div class="sche">\r\n            <div class="day">\r\n                Day2\r\n            </div>\r\n            <div class="event">\r\n                <div class="event_text"><p class="schedule_contain">早餐時間</p><p class="time_text" ><b>07</b>00</p></div>\r\n                <div class="event_text"><p class="schedule_contain">最後衝刺</p><p class="time_text" ><b>08</b>00</p></div>\r\n                <div class="event_text"><p class="schedule_contain">午餐時間</p><p class="time_text" ><b>11</b>00</p></div>\r\n                <div class="event_text"><p class="schedule_contain">最後衝刺</p><p class="time_text" ><b>12</b>00</p></div>\r\n                <div class="event_text"><p class="schedule_contain">各組擺攤demo</p><p class="time_text" ><b>14</b>00</p></div>\r\n                <div class="event_text"><p class="schedule_contain">交流時間</p><p class="time_text" ><b>15</b>30</p></div>\r\n                <div class="event_text"><p class="schedule_contain">決賽</p><p class="time_text" ><b>16</b>00</p></div>\r\n                <div class="event_text"><p class="schedule_contain">評審講評</p><p class="time_text" ><b>16</b>40</p></div>\r\n                <div class="event_text"><p class="schedule_contain">贊助商活動宣傳</p><p class="time_text" ><b>17</b>00</p></div>\r\n                <div class="event_text"><p class="schedule_contain">頒獎典禮及閉幕</p><p class="time_text" ><b>17</b>10</p></div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n\r\n    <img id="sche_gear_1" src="' + __webpack_require__(6) + '" />\r\n    <img id="sche_gear_2" src="' + __webpack_require__(6) + '" />\r\n</div>\r\n';
-}
-return __p;
-};
-
-
-/***/ }),
-/* 17 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = function(obj){
-var __t,__p='',__j=Array.prototype.join,print=function(){__p+=__j.call(arguments,'');};
-with(obj||{}){
-__p+='<div class="content_5">\r\n    <h1>Sponsor</h1>\r\n    <hr/>\r\n    <div class="sponsor_logo">\r\n        <img class="sponsor_reveal" src="' + __webpack_require__(18) + '"/>\r\n        <img class="sponsor_reveal" src="' + __webpack_require__(19) + '"/>\r\n        <img class="sponsor_reveal" src="' + __webpack_require__(20) + '"/>\r\n        <img class="sponsor_reveal" src="' + __webpack_require__(21) + '"/>\r\n        <img class="sponsor_reveal" src="' + __webpack_require__(22) + '"/>\r\n    </div>\r\n</div>\r\n';
-}
-return __p;
-};
-
-
-/***/ }),
 /* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "21f76ba3c55ae65c99f23fab2ccd911c.png";
+module.exports = function(obj){
+var __t,__p='',__j=Array.prototype.join,print=function(){__p+=__j.call(arguments,'');};
+with(obj||{}){
+__p+='<div class="content_3">\r\n    <h1><b>S</b>chedule</h1>\r\n\r\n    <div class="sche_cont">\r\n        <div class="sche">\r\n            <div class="day">\r\n                Day1\r\n            </div>\r\n            <div class="event">\r\n                <div class="event_text"><p class="schedule_contain">報到 & 相見歡</p><p class="time_text"><b>08</b>30</p></div>\r\n                <div class="event_text"><p class="schedule_contain">開場 & 來賓致詞</p><p class="time_text"><b>09</b>00</p></div>\r\n                <div class="event_text"><p class="schedule_contain">公布題目&技術人員說明</p><p class="time_text"><b>10</b>30</p></div>\r\n                <div class="event_text"><p class="schedule_contain">開始coding</p><p class="time_text"><b>12</b>00</p></div>\r\n                <div class="event_text"><p class="schedule_contain">午餐時間</p><p class="time_text"><b>13</b>00</p></div>\r\n                <div class="event_text"><p class="schedule_contain">持續 coding</p><p class="time_text"><b>15</b>30</p></div>\r\n                <div class="event_text"><p class="schedule_contain">下午茶</p><p class="time_text"><b>16</b>00</p></div>\r\n                <div class="event_text"><p class="schedule_contain">持續coding</p><p class="time_text"><b>18</b>30</p></div>\r\n                <div class="event_text"><p class="schedule_contain">晚餐時間+野台表演</p><p class="time_text"><b>19</b>30</p></div>\r\n                <div class="event_text"><p class="schedule_contain">戰鬥永無止盡</p><p class="time_text"><b>19</b>30</p></div>\r\n            </div>\r\n        </div>\r\n        <div class="sche">\r\n            <div class="day">\r\n                Day2\r\n            </div>\r\n            <div class="event">\r\n                <div class="event_text"><p class="schedule_contain">早餐時間</p><p class="time_text" ><b>07</b>00</p></div>\r\n                <div class="event_text"><p class="schedule_contain">最後衝刺</p><p class="time_text" ><b>08</b>00</p></div>\r\n                <div class="event_text"><p class="schedule_contain">午餐時間</p><p class="time_text" ><b>11</b>00</p></div>\r\n                <div class="event_text"><p class="schedule_contain">最後衝刺</p><p class="time_text" ><b>12</b>00</p></div>\r\n                <div class="event_text"><p class="schedule_contain">各組擺攤demo</p><p class="time_text" ><b>14</b>00</p></div>\r\n                <div class="event_text"><p class="schedule_contain">交流時間</p><p class="time_text" ><b>15</b>30</p></div>\r\n                <div class="event_text"><p class="schedule_contain">決賽</p><p class="time_text" ><b>16</b>00</p></div>\r\n                <div class="event_text"><p class="schedule_contain">評審講評</p><p class="time_text" ><b>16</b>40</p></div>\r\n                <div class="event_text"><p class="schedule_contain">贊助商活動宣傳</p><p class="time_text" ><b>17</b>00</p></div>\r\n                <div class="event_text"><p class="schedule_contain">頒獎典禮及閉幕</p><p class="time_text" ><b>17</b>10</p></div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n\r\n    <img id="sche_gear_1" src="' + __webpack_require__(8) + '" />\r\n    <img id="sche_gear_2" src="' + __webpack_require__(8) + '" />\r\n</div>\r\n';
+}
+return __p;
+};
+
 
 /***/ }),
 /* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "f8c3ef05cbbcc817bb2bbde6c6c279ac.jpg";
+module.exports = function(obj){
+var __t,__p='',__j=Array.prototype.join,print=function(){__p+=__j.call(arguments,'');};
+with(obj||{}){
+__p+='<div class="content_5">\r\n    <h1>Sponsor</h1>\r\n    <hr/>\r\n    <div class="sponsor_logo">\r\n        <img class="sponsor_reveal" src="' + __webpack_require__(20) + '"/>\r\n        <img class="sponsor_reveal" src="' + __webpack_require__(21) + '"/>\r\n        <img class="sponsor_reveal" src="' + __webpack_require__(22) + '"/>\r\n        <img class="sponsor_reveal" src="' + __webpack_require__(23) + '"/>\r\n        <img class="sponsor_reveal" src="' + __webpack_require__(24) + '"/>\r\n    </div>\r\n</div>\r\n';
+}
+return __p;
+};
+
 
 /***/ }),
 /* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "fdd7e06655f9a8a397b74111735ada01.png";
+module.exports = __webpack_require__.p + "21f76ba3c55ae65c99f23fab2ccd911c.png";
 
 /***/ }),
 /* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "5d203b60b13e396554f6c71cc720989e.png";
+module.exports = __webpack_require__.p + "f8c3ef05cbbcc817bb2bbde6c6c279ac.jpg";
 
 /***/ }),
 /* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "f3609fcb9f366785883f5f03aafcd7ed.png";
+module.exports = __webpack_require__.p + "fdd7e06655f9a8a397b74111735ada01.png";
 
 /***/ }),
 /* 23 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "5d203b60b13e396554f6c71cc720989e.png";
+
+/***/ }),
+/* 24 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "f3609fcb9f366785883f5f03aafcd7ed.png";
+
+/***/ }),
+/* 25 */
 /***/ (function(module, exports) {
 
 module.exports = function(obj){
@@ -11742,7 +11766,7 @@ return __p;
 
 
 /***/ }),
-/* 24 */
+/* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11784,13 +11808,13 @@ $(document).ready(function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 25 */
+/* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function($) {
 
-var _fastdom = __webpack_require__(26);
+var _fastdom = __webpack_require__(28);
 
 var _fastdom2 = _interopRequireDefault(_fastdom);
 
@@ -11845,7 +11869,7 @@ $(window).scroll(function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 26 */
+/* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_RESULT__;!(function(win) {
@@ -12094,13 +12118,13 @@ else if ((typeof module) == 'object') module.exports = exports;
 
 
 /***/ }),
-/* 27 */
+/* 29 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function($) {
 
-var _scrollreveal = __webpack_require__(28);
+var _scrollreveal = __webpack_require__(30);
 
 var _scrollreveal2 = _interopRequireDefault(_scrollreveal);
 
@@ -12164,7 +12188,7 @@ $(document).ready(function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 28 */
+/* 30 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_RESULT__;/////    /////    /////    /////
@@ -13031,13 +13055,13 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/////    /////    /////    /////
 
 
 /***/ }),
-/* 29 */
+/* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function($) {
 
-var _parallaxer = __webpack_require__(30);
+var _parallaxer = __webpack_require__(32);
 
 var _parallaxer2 = _interopRequireDefault(_parallaxer);
 
@@ -13079,7 +13103,7 @@ $(window).scroll(function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 30 */
+/* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13192,229 +13216,233 @@ var __WEBPACK_AMD_DEFINE_RESULT__;
 
 
 /***/ }),
-/* 31 */
+/* 33 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+/* WEBPACK VAR INJECTION */(function($) {
 
-
-var _particles = __webpack_require__(32);
+var _particles = __webpack_require__(34);
 
 var _particles2 = _interopRequireDefault(_particles);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-particlesJS('particles_container', {
-  "particles": {
-    "number": {
-      "value": 80,
-      "density": {
-        "enable": true,
-        "value_area": 800
-      }
-    },
-    "color": {
-      "value": "#333"
-    },
-    "shape": {
-      "type": "circle",
-      "stroke": {
-        "width": 0,
-        "color": "#000000"
-      },
-      "polygon": {
-        "nb_sides": 5
-      }
-    },
-    "opacity": {
-      "value": 0.3,
-      "random": true,
-      "anim": {
-        "enable": false,
-        "speed": 1,
-        "opacity_min": 0.1,
-        "sync": false
-      }
-    },
-    "size": {
-      "value": 5,
-      "random": true,
-      "anim": {
-        "enable": false,
-        "speed": 40,
-        "size_min": 0.1,
-        "sync": false
-      }
-    },
-    "line_linked": {
-      "enable": false,
-      "distance": 150,
-      "color": "#333",
-      "opacity": 0.4,
-      "width": 1
-    },
-    "move": {
-      "enable": true,
-      "speed": 4,
-      "direction": "none",
-      "random": false,
-      "straight": false,
-      "out_mode": "out",
-      "attract": {
-        "enable": false,
-        "rotateX": 600,
-        "rotateY": 1200
-      }
-    }
-  },
-  "interactivity": {
-    "detect_on": "canvas",
-    "events": {
-      "onhover": {
-        "enable": true,
-        "mode": "grab"
-      },
-      "onclick": {
-        "enable": true,
-        "mode": "push"
-      },
-      "resize": true
-    },
-    "modes": {
-      "grab": {
-        "distance": 300,
-        "line_linked": {
-          "opacity": 1
+if ($(window).width() >= 1024) {
+
+  particlesJS('particles_container', {
+    "particles": {
+      "number": {
+        "value": 80,
+        "density": {
+          "enable": true,
+          "value_area": 800
         }
       },
-      "bubble": {
-        "distance": 200,
-        "size": 30,
-        "duration": 2,
-        "opacity": 8,
-        "speed": 3
+      "color": {
+        "value": "#333"
       },
-      "repulse": {
-        "distance": 200
-      },
-      "push": {
-        "particles_nb": 10
-      },
-      "remove": {
-        "particles_nb": 2
-      }
-    }
-  },
-  "retina_detect": true,
-  "config_demo": {}
-});
-particlesJS('join_us', {
-  "particles": {
-    "number": {
-      "value": 30,
-      "density": {
-        "enable": true,
-        "value_area": 800
-      }
-    },
-    "color": {
-      "value": "#333"
-    },
-    "shape": {
-      "type": "triangle",
-      "stroke": {
-        "width": 0,
-        "color": "#000000"
-      },
-      "polygon": {
-        "nb_sides": 5
-      }
-    },
-    "opacity": {
-      "value": 0.4,
-      "random": false,
-      "anim": {
-        "enable": false,
-        "speed": 1,
-        "opacity_min": 0.1,
-        "sync": false
-      }
-    },
-    "size": {
-      "value": 10,
-      "random": true,
-      "anim": {
-        "enable": false,
-        "speed": 40,
-        "size_min": 0.1,
-        "sync": false
-      }
-    },
-    "line_linked": {
-      "enable": false,
-      "distance": 150,
-      "color": "#333",
-      "opacity": 0.4,
-      "width": 1
-    },
-    "move": {
-      "enable": true,
-      "speed": 4,
-      "direction": "none",
-      "random": false,
-      "straight": false,
-      "out_mode": "out",
-      "attract": {
-        "enable": false,
-        "rotateX": 600,
-        "rotateY": 1200
-      }
-    }
-  },
-  "interactivity": {
-    "detect_on": "canvas",
-    "events": {
-      "onhover": {
-        "enable": true,
-        "mode": "bubble"
-      },
-      "onclick": {
-        "enable": true,
-        "mode": "repulse"
-      },
-      "resize": true
-    },
-    "modes": {
-      "grab": {
-        "distance": 300,
-        "line_linked": {
-          "opacity": 1
+      "shape": {
+        "type": "circle",
+        "stroke": {
+          "width": 0,
+          "color": "#000000"
+        },
+        "polygon": {
+          "nb_sides": 5
         }
       },
-      "bubble": {
-        "distance": 200,
-        "size": 30,
-        "duration": 2,
-        "opacity": 0.8,
-        "speed": 3
+      "opacity": {
+        "value": 0.3,
+        "random": true,
+        "anim": {
+          "enable": false,
+          "speed": 1,
+          "opacity_min": 0.1,
+          "sync": false
+        }
       },
-      "repulse": {
-        "distance": 200
+      "size": {
+        "value": 5,
+        "random": true,
+        "anim": {
+          "enable": false,
+          "speed": 40,
+          "size_min": 0.1,
+          "sync": false
+        }
       },
-      "push": {
-        "particles_nb": 10
+      "line_linked": {
+        "enable": false,
+        "distance": 150,
+        "color": "#333",
+        "opacity": 0.4,
+        "width": 1
       },
-      "remove": {
-        "particles_nb": 2
+      "move": {
+        "enable": true,
+        "speed": 4,
+        "direction": "none",
+        "random": false,
+        "straight": false,
+        "out_mode": "out",
+        "attract": {
+          "enable": false,
+          "rotateX": 600,
+          "rotateY": 1200
+        }
       }
-    }
-  },
-  "retina_detect": true,
-  "config_demo": {}
-});
+    },
+    "interactivity": {
+      "detect_on": "canvas",
+      "events": {
+        "onhover": {
+          "enable": true,
+          "mode": "grab"
+        },
+        "onclick": {
+          "enable": true,
+          "mode": "push"
+        },
+        "resize": true
+      },
+      "modes": {
+        "grab": {
+          "distance": 300,
+          "line_linked": {
+            "opacity": 1
+          }
+        },
+        "bubble": {
+          "distance": 200,
+          "size": 30,
+          "duration": 2,
+          "opacity": 8,
+          "speed": 3
+        },
+        "repulse": {
+          "distance": 200
+        },
+        "push": {
+          "particles_nb": 10
+        },
+        "remove": {
+          "particles_nb": 2
+        }
+      }
+    },
+    "retina_detect": true,
+    "config_demo": {}
+  });
+  particlesJS('join_us', {
+    "particles": {
+      "number": {
+        "value": 30,
+        "density": {
+          "enable": true,
+          "value_area": 800
+        }
+      },
+      "color": {
+        "value": "#333"
+      },
+      "shape": {
+        "type": "triangle",
+        "stroke": {
+          "width": 0,
+          "color": "#000000"
+        },
+        "polygon": {
+          "nb_sides": 5
+        }
+      },
+      "opacity": {
+        "value": 0.4,
+        "random": false,
+        "anim": {
+          "enable": false,
+          "speed": 1,
+          "opacity_min": 0.1,
+          "sync": false
+        }
+      },
+      "size": {
+        "value": 10,
+        "random": true,
+        "anim": {
+          "enable": false,
+          "speed": 40,
+          "size_min": 0.1,
+          "sync": false
+        }
+      },
+      "line_linked": {
+        "enable": false,
+        "distance": 150,
+        "color": "#333",
+        "opacity": 0.4,
+        "width": 1
+      },
+      "move": {
+        "enable": true,
+        "speed": 4,
+        "direction": "none",
+        "random": false,
+        "straight": false,
+        "out_mode": "out",
+        "attract": {
+          "enable": false,
+          "rotateX": 600,
+          "rotateY": 1200
+        }
+      }
+    },
+    "interactivity": {
+      "detect_on": "canvas",
+      "events": {
+        "onhover": {
+          "enable": true,
+          "mode": "bubble"
+        },
+        "onclick": {
+          "enable": true,
+          "mode": "repulse"
+        },
+        "resize": true
+      },
+      "modes": {
+        "grab": {
+          "distance": 300,
+          "line_linked": {
+            "opacity": 1
+          }
+        },
+        "bubble": {
+          "distance": 200,
+          "size": 30,
+          "duration": 2,
+          "opacity": 0.8,
+          "speed": 3
+        },
+        "repulse": {
+          "distance": 200
+        },
+        "push": {
+          "particles_nb": 10
+        },
+        "remove": {
+          "particles_nb": 2
+        }
+      }
+    },
+    "retina_detect": true,
+    "config_demo": {}
+  });
+} else {}
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 32 */
+/* 34 */
 /***/ (function(module, exports) {
 
 /* -----------------------------------------------
