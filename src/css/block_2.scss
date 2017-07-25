@@ -4,7 +4,7 @@
     width: 100%;
     clip-path: polygon(0 35%, 100% 10%, 100% 75%, 0% 100%);
     @include breakpoint(mobileonly){
-        clip-path: polygon(0 20%, 100% 0%, 100% 80%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
     }
     @include breakpoint(laptop){
         clip-path: polygon(0 35%, 100% 10%, 100% 75%, 0% 100%);
