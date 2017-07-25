@@ -60,7 +60,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "861ffaba8743ef73f44c"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "c9852f837628a2c3b721"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -705,7 +705,7 @@
 /******/ 	__webpack_require__.h = function() { return hotCurrentHash; };
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return hotCreateRequire(32)(__webpack_require__.s = 32);
+/******/ 	return hotCreateRequire(33)(__webpack_require__.s = 33);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -11414,17 +11414,17 @@ function updateLink (link, options, obj) {
 
 /***/ }),
 
-/***/ 32:
+/***/ 33:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function($) {
 
-var _qa = __webpack_require__(33);
+var _qa = __webpack_require__(34);
 
 var _qa2 = _interopRequireDefault(_qa);
 
-var _qa_template = __webpack_require__(34);
+var _qa_template = __webpack_require__(35);
 
 var _qa_template2 = _interopRequireDefault(_qa_template);
 
@@ -11437,7 +11437,7 @@ $('article > h2 > strong').each(function (idx, elem) {
 
 /***/ }),
 
-/***/ 33:
+/***/ 34:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
@@ -11469,7 +11469,7 @@ if(true) {
 
 /***/ }),
 
-/***/ 34:
+/***/ 35:
 /***/ (function(module, exports) {
 
 module.exports = function(obj){
