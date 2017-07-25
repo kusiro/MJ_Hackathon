@@ -15,7 +15,7 @@ $(document).ready(function(){
             origin: 'bottom',
             opacity: 0,
             distance: '10px',
-            viewFactor: 0.3,
+            viewFactor: 0.2,
         });
         sr.reveal('.container',{
             duration: 500,
