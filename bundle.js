@@ -60,7 +60,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "566e74dc866ce8d29fed"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "861ffaba8743ef73f44c"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -11560,7 +11560,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 __webpack_require__(31);
 
-particlesJS.load('particles_container', '../src/json/intro_partical.json');
+particlesJS.load('particles_container', '/intro_partical.json');
 
 particlesJS.load('join_us', '/src/json/join_us_partical.json');
 
