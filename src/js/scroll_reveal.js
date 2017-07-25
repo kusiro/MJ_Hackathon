@@ -9,7 +9,7 @@ var laptop = 1024;
 window.sr = ScrollReveal();
 
 $(document).ready(function(){
-    if( my_width <= tablet ){
+    if( my_width <= laptop ){
         sr.reveal('.partical_block',{
             duration: 500,
             origin: 'bottom',

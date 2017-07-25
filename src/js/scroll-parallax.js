@@ -7,7 +7,7 @@ var phablet = 430;
 var tablet = 768;
 var laptop = 1024;
 
-if( my_width >= tablet ){
+if( my_width >= laptop ){
     parallaxer([{
             element: $(".block_1_img")[0],
             distance: 6,
