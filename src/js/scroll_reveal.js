@@ -47,4 +47,11 @@ $(document).ready(function(){
         opacity: 0,
         viewFactor: 0.3,
     },100);
+    sr.reveal('.sponsor_reveal',{
+        duration: 700,
+        scale: '.8',
+        distance: '0px',
+        opacity: 0,
+        viewFactor: 0.3,
+    },100);
 })
