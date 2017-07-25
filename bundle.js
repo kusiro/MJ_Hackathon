@@ -60,7 +60,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "ed3169088bb1904195c6"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "566e74dc866ce8d29fed"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -11560,7 +11560,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 __webpack_require__(31);
 
-particlesJS.load('particles_container', '/src/json/intro_partical.json');
+particlesJS.load('particles_container', '../src/json/intro_partical.json');
 
 particlesJS.load('join_us', '/src/json/join_us_partical.json');
 
@@ -11604,7 +11604,7 @@ var __t,__p='',__j=Array.prototype.join,print=function(){__p+=__j.call(arguments
 with(obj||{}){
 __p+='<!DOCTYPE html>\r\n<html lang="en">\r\n    <head>\r\n        <meta charset="utf-8">\r\n        <meta name="viewport" content="width=device-width,initial-scale=1">\r\n        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">\r\n        <link href="https://fonts.googleapis.com/css?family=Fugaz+One" rel="stylesheet">\r\n        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">\r\n        <title>'+
 ((__t=( htmlWebpackPlugin.options.title ))==null?'':__t)+
-'</title>\r\n    </head>\r\n    <body>\r\n         ' + __webpack_require__(10).apply(null,arguments) + '\r\n        <div id="Bar">' + __webpack_require__(11).apply(null,arguments) + '</div>\r\n        <div id="block_1">\r\n            <div class="parent_1">\r\n                <img class="block_1_img" src="' + __webpack_require__(12) + '">\r\n                <div class="container">\r\n                    <div class=\'infocard\'>\r\n                        你就是轉動世界的齒輪\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n        <div id="intro">' + __webpack_require__(13).apply(null,arguments) + '</div>\r\n        <div id="block_2">\r\n            <div class="parent_2">\r\n                <img class="block_2_img" src="' + __webpack_require__(14) + '">\r\n            </div>\r\n        </div>\r\n        <div id="join_us">' + __webpack_require__(15).apply(null,arguments) + '</div>\r\n        <div id="schedule">' + __webpack_require__(16).apply(null,arguments) + '</div>\r\n        <div id="sponsor">' + __webpack_require__(17).apply(null,arguments) + '</div>\r\n        <div id="footer">' + __webpack_require__(23).apply(null,arguments) + '</div>\r\n    </body>\r\n    <script type="text/javascript" src="./src/js/particles.js">\r\n    </script>\r\n</html>\r\n';
+'</title>\r\n    </head>\r\n    <body>\r\n         ' + __webpack_require__(10).apply(null,arguments) + '\r\n        <div id="Bar">' + __webpack_require__(11).apply(null,arguments) + '</div>\r\n        <div id="block_1">\r\n            <div class="parent_1">\r\n                <img class="block_1_img" src="' + __webpack_require__(12) + '">\r\n                <div class="container">\r\n                    <div class=\'infocard\'>\r\n                        你就是轉動世界的齒輪\r\n                    </div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n        <div id="intro">' + __webpack_require__(13).apply(null,arguments) + '</div>\r\n        <div id="block_2">\r\n            <div class="parent_2">\r\n                <img class="block_2_img" src="' + __webpack_require__(14) + '">\r\n            </div>\r\n        </div>\r\n        <div id="join_us">' + __webpack_require__(15).apply(null,arguments) + '</div>\r\n        <div id="schedule">' + __webpack_require__(16).apply(null,arguments) + '</div>\r\n        <div id="sponsor">' + __webpack_require__(17).apply(null,arguments) + '</div>\r\n        <div id="footer">' + __webpack_require__(23).apply(null,arguments) + '</div>\r\n    </body>\r\n    <script type="text/javascript" src="./particles.js">\r\n    </script>\r\n</html>\r\n';
 }
 return __p;
 };
