@@ -19,3 +19,19 @@ if( my_width >= laptop ){
         },
     ]);
 }
+
+const sticky_bar = $("#Bar").offset().top;
+
+$(window).scroll(function(){
+    let window_top = $(window).scrollTop();
+    if( window_top >= sticky_bar ){
+        $('#selectionBar').css({
+            "position": "fixed",
+            "top": "0",
+        });
+    } else {
+        $('#selectionBar').css({
+            "position": "relative",
+        });
+    }
+})

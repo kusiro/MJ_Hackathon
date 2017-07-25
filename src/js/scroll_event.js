@@ -1,6 +1,9 @@
 import fastdom from 'fastdom';
 
 
+
+
+
 /**** Detect page position for navbar ****/
 let last_active_btn = '';
 $(window).scroll(function(){
