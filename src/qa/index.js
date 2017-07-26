@@ -7,7 +7,14 @@ $('article > h2 > strong').each((idx, elem) => {
 
 
 window.addEventListener("load",function(){
+    
+    $('.loading_gear').css({
+        "top": "-50px",
+        "opacity": "0",
+    });
+
     $('.loading_cover').css({
         "opacity": "0",
-    })
+    });
+
 })
