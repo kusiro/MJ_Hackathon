@@ -4,21 +4,24 @@
     z-index: -2;
 }
 .content_2{
-    padding-top: 5em;
+    padding-top: 3em;
+    padding-bottom: 8em;
     position: relative;
     z-index: -1;
     width: 100%;
-    background-color: #f7f7f7;
+    background: linear-gradient(90deg, #bae0ff, #8292cc);
     .partical{
         margin: 0 auto;
         letter-spacing: 1.2pt;
         position: relative;
         text-align: justify;
+        margin-top: 6em;
         z-index: -1;
         width: 55%;
-        background-color: #f7f7f7;
+        border-radius: 20px;
+        padding: 3em;
+        background-color: rgba(255,255,255,.7);
         font-family: $font_family;
-        padding-bottom: 6em;
         @include breakpoint(mobileonly){
             width: 75%;
         }

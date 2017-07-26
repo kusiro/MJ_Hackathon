@@ -1,31 +1,29 @@
 #intro{
     position: relative;
     overflow: hidden;
-    z-index: -2;
-    padding-bottom: 6em;
-    .gear{
-        position: absolute;
-        background-color: black;
-        width: 300px;
-        z-index: 1;
-    }
+    z-index: 1;
 }
 #particles_container{
     position: relative;
-    z-index: -1;
+    z-index: 1;
+    background: linear-gradient(90deg, #bae0ff, #8292cc);
 }
 .content_1{
     position: relative;
-    z-index: -2;
+    z-index: 1;
     padding-top: 5em;
     width: 100%;
-    background-color: #f7f7f7;
+    &:last-of-type{
+        padding-bottom: 8em;
+    }
     .partical{
-        background-color: #f7f7f7;
+        background-color: rgba(255,255,255,.7);
         width: 55%;
         margin: 0 auto;
         font-family: $font_family;
         text-align: justify;
+        padding: 3em;
+        border-radius: 15px;
         letter-spacing: 1.2pt;
         @include breakpoint(mobileonly){
             width: 75%;

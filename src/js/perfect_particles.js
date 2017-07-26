@@ -13,7 +13,7 @@ if ( $(window).width() >= 1024  ) {
               }
             },
             "color": {
-              "value": "#8292cc"
+              "value": "#CEE4FF"
             },
             "shape": {
               "type": "circle",
