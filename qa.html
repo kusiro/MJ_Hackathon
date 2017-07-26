@@ -21,23 +21,27 @@
         align-items: center;
         transition: 2s;
         transition-delay: 1s;
-        animation: fall_down 1s linear;
-        animation-delay: 2.5s;
+        animation: z_index_down 1s linear;
+        animation-delay: 2.3s;
         animation-fill-mode: forwards;
     }
     .loading_gear{
+        position: relative;
         width: 100px;
+        top: 0;
         opacity: .2;
+        transition: 1s;
         animation: rotate 4s infinite linear;
     }
     @keyframes rotate{
         from{ transform: rotate(0deg); }
         to{ transform: rotate(359deg);}
     }
-    @keyframes fall_down {
+    @keyframes z_index_down {
         from{ z-index: 999; }
         to{z-index: -999; }
     }
+
 </style>
 
 <div class="loading_cover">
