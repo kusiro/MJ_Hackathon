@@ -7,5 +7,7 @@ import scrollSpeed from "./js/scroll-parallax.js";
 import particles from "./js/perfect_particles.js";
 
 window.addEventListener("load",function(){
-    $('.loading_cover').css("opacity","0")
+    $('.loading_cover').css({
+        "opacity": "0",
+    })
 })

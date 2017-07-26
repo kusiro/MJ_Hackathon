@@ -7,9 +7,7 @@ $('article > h2 > strong').each((idx, elem) => {
 
 
 window.addEventListener("load",function(){
-    $('.loading_cover').css("opacity","0")
+    $('.loading_cover').css({
+        "opacity": "0",
+    })
 })
-
-// $(() => {
-//     $('.loading_cover').hide();
-// })

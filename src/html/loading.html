@@ -3,13 +3,17 @@
         width: 100%;
         height: 100%;
         position: fixed;
-        background-color: white;
         z-index: 999;
+        background-color: white;
         top: 0;
         display: flex;
         justify-content: center;
         align-items: center;
-        transition: 1s;
+        transition: 2s;
+        transition-delay: 1s;
+        animation: fall_down 1s linear;
+        animation-delay: 2.5s;
+        animation-fill-mode: forwards;
     }
     .loading_gear{
         width: 100px;
@@ -19,6 +23,10 @@
     @keyframes rotate{
         from{ transform: rotate(0deg); }
         to{ transform: rotate(359deg);}
+    }
+    @keyframes fall_down {
+        from{ z-index: 999; }
+        to{z-index: -999; }
     }
 </style>
 
