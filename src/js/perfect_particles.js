@@ -6,14 +6,14 @@ if ( $(window).width() >= 1024  ) {
     particlesJS('particles_container', {
           "particles": {
             "number": {
-              "value": 80,
+              "value": 70,
               "density": {
                 "enable": true,
                 "value_area": 800
               }
             },
             "color": {
-              "value": "#333"
+              "value": "#8292cc"
             },
             "shape": {
               "type": "circle",
@@ -26,7 +26,7 @@ if ( $(window).width() >= 1024  ) {
               }
             },
             "opacity": {
-              "value": 0.3,
+              "value": 0.7,
               "random": true,
               "anim": {
                 "enable": false,
@@ -54,7 +54,7 @@ if ( $(window).width() >= 1024  ) {
             },
             "move": {
               "enable": true,
-              "speed": 4,
+              "speed": 2,
               "direction": "none",
               "random": false,
               "straight": false,
@@ -83,7 +83,7 @@ if ( $(window).width() >= 1024  ) {
               "grab": {
                 "distance": 300,
                 "line_linked": {
-                  "opacity": 1
+                  "opacity": .5,
                 }
               },
               "bubble": {
@@ -112,17 +112,17 @@ if ( $(window).width() >= 1024  ) {
     particlesJS('join_us', {
           "particles": {
             "number": {
-              "value": 30,
+              "value": 80,
               "density": {
                 "enable": true,
                 "value_area": 800
               }
             },
             "color": {
-              "value": "#333"
+              "value": "#8292cc"
             },
             "shape": {
-              "type": "triangle",
+              "type": "circle",
               "stroke": {
                 "width": 0,
                 "color": "#000000"
@@ -133,7 +133,7 @@ if ( $(window).width() >= 1024  ) {
             },
             "opacity": {
               "value": 0.4,
-              "random": false,
+              "random": true,
               "anim": {
                 "enable": false,
                 "speed": 1,
@@ -142,7 +142,7 @@ if ( $(window).width() >= 1024  ) {
               }
             },
             "size": {
-              "value": 10,
+              "value": 5,
               "random": true,
               "anim": {
                 "enable": false,
@@ -160,7 +160,7 @@ if ( $(window).width() >= 1024  ) {
             },
             "move": {
               "enable": true,
-              "speed": 4,
+              "speed": 2,
               "direction": "none",
               "random": false,
               "straight": false,
@@ -194,7 +194,7 @@ if ( $(window).width() >= 1024  ) {
               },
               "bubble": {
                 "distance": 200,
-                "size": 30,
+                "size": 15,
                 "duration": 2,
                 "opacity": 0.8,
                 "speed": 3
