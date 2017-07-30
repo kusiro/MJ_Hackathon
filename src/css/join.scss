@@ -19,7 +19,7 @@
         z-index: -1;
         width: 55%;
         border-radius: 20px;
-        padding: 3em;
+        padding: 2em 3em;
         background-color: rgba(255,255,255,.7);
         font-family: $font_family;
         @include breakpoint(mobileonly){
@@ -34,6 +34,7 @@
         h1{
             font-weight: 400;
             font-size: $title_size;
+            padding-bottom: .6em;
             @include breakpoint(mobileonly){
                 font-size: 24px;
                 font-weight: 700;
@@ -50,9 +51,25 @@
                 font-weight: 500;
             }
         }
+        b{
+            font-size: 24px;
+            border: solid 1px #8b1616;
+            border-radius: 10px;
+            padding: .8em 1.8em;
+            margin-top: 20em;
+            position: relative;
+            letter-spacing: 5px;
+            top: 50px;
+            color: #8b1616;
+        }
         p{
             font-size: $content_size;
             line-height: 1.6em;
+            padding-top: 1em;
+            margin: 0;
+            &:last-of-type{
+                padding-bottom: 2em;
+            }
             @include breakpoint(mobileonly){
                 font-size: 18px;
                 width: 100%;

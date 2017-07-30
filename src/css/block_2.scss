@@ -29,7 +29,7 @@
     }
     .block_2_img{
         z-index: -4;
-        width: 120%;
+        width: 80%;
         position: relative;
         z-index: -100;
         @include breakpoint(mobileonly){
@@ -45,7 +45,8 @@
             left: -100px;
         }
         @include breakpoint(laptop){
-            width: 150%;
+            left: 0;
+            width: 100%;
         }
     }
 }
