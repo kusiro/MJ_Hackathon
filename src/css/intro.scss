@@ -1,20 +1,17 @@
 #intro{
     position: relative;
     overflow: hidden;
-    z-index: 1;
 }
 #particles_container{
     position: relative;
-    z-index: 1;
     background: linear-gradient(90deg, #bae0ff, #8292cc);
 }
 .content_1{
     position: relative;
-    z-index: 1;
     padding-top: 5em;
     width: 100%;
     &:last-of-type{
-        padding-bottom: 8em;
+        padding-bottom: 6em;
     }
     .partical{
         background-color: rgba(255,255,255,.7);
@@ -25,25 +22,30 @@
         padding: 3em;
         border-radius: 15px;
         letter-spacing: 1.2pt;
+        position: relative;
         @include breakpoint(mobileonly){
+            padding: 1em;
             width: 75%;
         }
         @include breakpoint(phablet){
+            padding: 2em;
             width: 80%;
         }
         @include breakpoint(laptop){
+            padding: 3em;
             width: 55%;
         }
         h1{
             width: 600px;
             margin: 0;
+            text-align: left;
             border-bottom: solid 1px;
             padding-bottom: 8px;
-            font-size: $title_size;
+            font-size: 24px;
             font-weight: 300;
             margin-bottom: .6em;
             @include breakpoint(mobileonly){
-                font-size: 24px;
+                font-size: 21px;
                 font-weight: 700;
                 width: 100%;
             }
@@ -54,7 +56,7 @@
             }
             @include breakpoint(laptop){
                 font-size: $title_size;
-                width: 600px;
+                width: 80%;
                 font-weight: 500;
             }
         }
@@ -89,27 +91,49 @@
                 width: 100%;
             }
         }
+    }
+    .last_partical{
+        @include breakpoint(mobileonly){
+            padding-bottom: 5em;
+        }
+        @include breakpoint(phablet){
+            padding-bottom: 5em;
+        }
+        @include breakpoint(laptop){
+            padding-bottom: 8em;
+        }
         a{
             text-decoration: none;
             color: #8b1616;
-            border: solid 1px #8b1616;
-            padding: 3px 6px;
-            position: relative;
+            border: solid 2px #8b1616;
+            left: 50%;
+            transform: translate(-50%,0);
+            position: absolute;
             z-index: 5;
             font-weight: 900;
-            font-size: $subtitle_size;
             font-family: $selector_family;
-            bottom: -1.5em;
+            text-align: center;
             transition: .5s;
+            border-radius: 15px;
+            width: 55%;
+            padding: .3em 0;
             @include breakpoint(mobileonly){
-                font-size: 19px;
-                padding: 2px 4px;
-            };
+                bottom: 1em;
+                font-size: 24px;
+            }
+            @include breakpoint(phablet){
+                font-size: 24px;
+                bottom: 1em;
+            }
+            @include breakpoint(laptop){
+                font-size: $title_size;
+                bottom: 1.5em;
+            }
+
             &:hover{
                 background-color: #8b1616;
                 color: #f7f7f7;
             }
         }
-
     }
 }

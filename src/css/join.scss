@@ -1,13 +1,11 @@
 #join_us{
     padding-bottom: 0em;
     position: relative;
-    z-index: -2;
 }
 .content_2{
     padding-top: 3em;
     padding-bottom: 8em;
     position: relative;
-    z-index: -1;
     width: 100%;
     background: linear-gradient(90deg, #bae0ff, #8292cc);
     .partical{
@@ -16,20 +14,64 @@
         position: relative;
         text-align: justify;
         margin-top: 6em;
-        z-index: -1;
         width: 55%;
         border-radius: 20px;
         padding: 2em 3em;
         background-color: rgba(255,255,255,.7);
         font-family: $font_family;
         @include breakpoint(mobileonly){
+            padding: 1em;
             width: 75%;
+            padding-bottom: 5em;
         }
         @include breakpoint(phablet){
+            padding: 2em;
             width: 80%;
+            padding-bottom: 5em;
         }
         @include breakpoint(laptop){
+            padding: 2em 3em;
             width: 55%;
+            padding-bottom: 5em;
+        }
+        &:last-of-type{
+            padding-bottom: 0;
+        }
+        a{
+            text-decoration: none;
+            color: #8b1616;
+            border: solid 2px #8b1616;
+            left: 50%;
+            transform: translate(-50%,0);
+            position: absolute;
+            z-index: 2;
+            font-weight: 500;
+            font-family: $font_family;
+            text-align: center;
+            transition: .5s;
+            border-radius: 15px;
+            width: 55%;
+            @include breakpoint(mobileonly){
+                bottom: 2em;
+                padding: .3em 0;
+                font-size: 24px;
+            }
+            @include breakpoint(phablet){
+                font-size: 24px;
+                padding: .3em 0;
+                bottom: 2em;
+
+            }
+            @include breakpoint(laptop){
+                padding: .3em 0;
+                font-size: $title_size;
+                bottom: 1.5em;
+            }
+
+            &:hover{
+                background-color: #8b1616;
+                color: #f7f7f7;
+            }
         }
         h1{
             font-weight: 400;
@@ -65,7 +107,6 @@
         p{
             font-size: $content_size;
             line-height: 1.6em;
-            padding-top: 1em;
             margin: 0;
             &:last-of-type{
                 padding-bottom: 2em;
@@ -81,6 +122,23 @@
             @include breakpoint(laptop){
                 font-size: 22px;
                 width: 100%;
+            }
+        }
+        ul{
+            padding-left: .5em;
+        }
+        li{
+            font-size: $content_size;
+            margin: 0;
+            padding: 0;
+            @include breakpoint(mobileonly){
+                font-size: 18px;
+            }
+            @include breakpoint(phablet){
+                font-size: 20px;
+            }
+            @include breakpoint(laptop){
+                font-size: 22px;
             }
         }
     }

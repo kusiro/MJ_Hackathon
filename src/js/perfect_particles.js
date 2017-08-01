@@ -193,8 +193,8 @@ if ( $(window).width() >= 1024  ) {
                 }
               },
               "bubble": {
-                "distance": 200,
-                "size": 15,
+                "distance": 150,
+                "size": 10,
                 "duration": 2,
                 "opacity": 0.8,
                 "speed": 3
