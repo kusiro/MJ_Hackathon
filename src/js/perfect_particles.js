@@ -81,7 +81,7 @@ if ( $(window).width() >= 1024  ) {
             },
             "modes": {
               "grab": {
-                "distance": 300,
+                "distance": 200,
                 "line_linked": {
                   "opacity": .5,
                 }

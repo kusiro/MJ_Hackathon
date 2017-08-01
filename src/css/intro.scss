@@ -25,11 +25,11 @@
         position: relative;
         @include breakpoint(mobileonly){
             padding: 1em;
-            width: 75%;
+            width: 90%;
         }
         @include breakpoint(phablet){
             padding: 2em;
-            width: 80%;
+            width: 85%;
         }
         @include breakpoint(laptop){
             padding: 3em;
@@ -63,10 +63,11 @@
         p{
             font-size: $content_size;
             margin: 0;
-            padding-top: .5em;
+            padding-top: .6em;
+            padding-bottom: .6em;
             line-height: 1.6em;
             @include breakpoint(mobileonly){
-                font-size: 18px;
+                font-size: 16px;
                 width: 100%;
             }
             @include breakpoint(phablet){
