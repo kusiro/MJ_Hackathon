@@ -47,6 +47,14 @@ $(document).ready(function(){
         opacity: 0,
         viewFactor: 0.3,
     },100);
+    sr.reveal('.schedule_contain_2',{
+        duration: 700,
+        rotate: {x: 100,y: 0,z: 0},
+        scale: '1',
+        distance: '0px',
+        opacity: 0,
+        viewFactor: 0.3,
+    },100);
     sr.reveal('.sponsor_reveal',{
         duration: 700,
         scale: '.8',
