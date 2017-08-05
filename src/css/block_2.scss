@@ -24,9 +24,16 @@
         clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
         background: $linear_color;
         transform-origin: center;
-        opacity: .5;
         transition: .5s;
+        background: transparent;
 
+        img{
+            opacity: .5;
+            transition: .5s;
+            &:hover{
+                opacity: 1;
+            }
+        }
         @include breakpoint(mobileonly){
             width: 8px * 19 ;
             height: 7px * 19;
