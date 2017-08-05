@@ -37,9 +37,12 @@ $content_size: 22px;
 $subtitle_size: 24px;
 $title_size: 30px;
 
-$supprot_color: #7c0404;
-$main_color: #f7f7f7;
-$sub_color: #88c1ff;
+$main_color: #1f2945;
+$sub_color: #1dcb8b;
+$supprot_color: #e82929;
+
+$linear_color: linear-gradient(90deg, #bae0ff, #8292cc);
+$bottom_color: #8b1616;
 
 @import 'navbar';
 @import 'block_1';

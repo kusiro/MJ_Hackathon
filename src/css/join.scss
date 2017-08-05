@@ -7,7 +7,7 @@
     padding-bottom: 8em;
     position: relative;
     width: 100%;
-    background: linear-gradient(90deg, #bae0ff, #8292cc);
+    background-color: $main_color;
     .partical{
         margin: 0 auto;
         letter-spacing: 1.2pt;
@@ -15,9 +15,8 @@
         text-align: justify;
         margin-top: 6em;
         width: 55%;
-        border-radius: 20px;
         padding: 2em 3em;
-        background-color: rgba(255,255,255,.7);
+        background-color: #f7f7f7;
         font-family: $font_family;
         @include breakpoint(mobileonly){
             padding: 1em;
@@ -43,8 +42,8 @@
         }
         a{
             text-decoration: none;
-            color: #8b1616;
-            border: solid 2px #8b1616;
+            color: $supprot_color;
+            border: solid 2px $supprot_color;
             left: 50%;
             transform: translate(-50%,0);
             position: absolute;
@@ -73,7 +72,7 @@
             }
 
             &:hover{
-                background-color: #8b1616;
+                background-color: $supprot_color;
                 color: #f7f7f7;
             }
         }

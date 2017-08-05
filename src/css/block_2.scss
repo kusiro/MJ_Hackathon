@@ -3,7 +3,7 @@
     position: relative;
     height: 800px;
     z-index: -100;
-    background: linear-gradient(90deg, #bae0ff, #8292cc);
+    background-color: $main_color;
     @include breakpoint(mobileonly){
         height: 430px;
     }
@@ -22,7 +22,7 @@
         height: 280px;
         width: 320px;
         clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
-        background: linear-gradient(90deg, #bae0ff, #8292cc);
+        background: $linear_color;
         transform-origin: center;
         opacity: .5;
         transition: .5s;
