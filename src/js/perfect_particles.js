@@ -83,7 +83,7 @@ if ( $(window).width() >= 1024  ) {
               "grab": {
                 "distance": 200,
                 "line_linked": {
-                  "opacity": .5,
+                  "opacity": 1,
                 }
               },
               "bubble": {

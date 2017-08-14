@@ -41,40 +41,46 @@
             padding-bottom: 0;
             margin-bottom: 0;
         }
-        a{
-            text-decoration: none;
-            color: $supprot_color;
-            border: solid 2px $supprot_color;
+        .sign_in{
             left: 50%;
             transform: translate(-50%,0);
             position: absolute;
             z-index: 2;
-            font-weight: 500;
-            font-family: $font_family;
             text-align: center;
-            transition: .5s;
-            border-radius: 15px;
-            width: 55%;
-            @include breakpoint(mobileonly){
-                bottom: 2em;
-                padding: .3em 0;
-                font-size: 24px;
-            }
-            @include breakpoint(phablet){
-                font-size: 24px;
-                padding: .3em 0;
-                bottom: 2em;
+            display: flex;
+            flex-wrap: wrap;
+            width: 80%;
+            a{
+                flex: 20;
+                text-decoration: none;
+                color: $supprot_color;
+                border: solid 2px $supprot_color;
+                font-weight: 500;
+                font-family: $font_family;
+                border-radius: 15px;
+                transition: .5s;
+                margin: 0 30px;
+                min-width: 100px;
+                @include breakpoint(mobileonly){
+                    bottom: 2em;
+                    padding: .3em 0;
+                    font-size: 24px;
+                }
+                @include breakpoint(phablet){
+                    font-size: 24px;
+                    padding: .3em 0;
+                    bottom: 2em;
 
-            }
-            @include breakpoint(laptop){
-                padding: .3em 0;
-                font-size: $title_size;
-                bottom: 1.5em;
-            }
-
-            &:hover{
-                background-color: $supprot_color;
-                color: #f7f7f7;
+                }
+                @include breakpoint(laptop){
+                    padding: .3em .6em;
+                    font-size: 26px;
+                    bottom: 1.5em;
+                }
+                &:hover{
+                    background-color: $supprot_color;
+                    color: #f7f7f7;
+                }
             }
         }
         h1{

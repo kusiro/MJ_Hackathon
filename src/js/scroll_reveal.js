@@ -29,13 +29,13 @@ $(document).ready(function(){
             origin: 'bottom',
             opacity: 0,
             distance: '10px',
-            viewFactor: 0.8,
+            viewFactor: 0.5,
         });
         sr.reveal('.container',{
             duration: 500,
             distance: '0px',
             opacity: 0,
-            viewFactor: 0.8,
+            viewFactor: 0.5,
         });
     }
 
