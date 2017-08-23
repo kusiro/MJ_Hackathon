@@ -1,5 +1,4 @@
 #join_us{
-    padding-bottom: 0em;
     position: relative;
 }
 .content_2{
@@ -20,12 +19,18 @@
         background-color: #f7f7f7;
         font-family: $font_family;
         @include breakpoint(mobileonly){
-            padding: 1em;
+            padding:1em 2em;
             width: 90%;
-            padding-bottom: 5em;
+            padding-bottom: 7em;
             margin-top: 1em;
         }
         @include breakpoint(phablet){
+            padding: 2em;
+            width: 85%;
+            padding-bottom: 7em;
+            margin-top: 1em;
+        }
+        @include breakpoint(tablet){
             padding: 2em;
             width: 85%;
             padding-bottom: 5em;
@@ -60,14 +65,22 @@
                 border-radius: 15px;
                 transition: .5s;
                 margin: 0 30px;
-                min-width: 100px;
+                min-width: 130px;
+                margin-bottom: 1em;
                 @include breakpoint(mobileonly){
                     bottom: 2em;
+                    border: solid 1px $supprot_color;
                     padding: .3em 0;
-                    font-size: 24px;
+                    font-size: 20px;
                 }
                 @include breakpoint(phablet){
-                    font-size: 24px;
+                    font-size: 22px;
+                    padding: .3em 0;
+                    bottom: 2em;
+
+                }
+                @include breakpoint(tablet){
+                    font-size: 22px;
                     padding: .3em 0;
                     bottom: 2em;
 
