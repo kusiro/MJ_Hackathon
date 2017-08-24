@@ -65,7 +65,7 @@
                 border-radius: 15px;
                 transition: .5s;
                 margin: 0 30px;
-                min-width: 130px;
+                min-width: 100px;
                 margin-bottom: 1em;
                 @include breakpoint(mobileonly){
                     bottom: 2em;
