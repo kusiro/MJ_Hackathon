@@ -11,246 +11,115 @@
         height: 500px;
     }
     @include breakpoint(tablet){
-        height: 750px;
+        height: 530px;
     }
     @include breakpoint(laptop){
         height: 800px;
     }
 
-    div{
-        position: absolute;
-        height: 280px;
-        width: 320px;
-        clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
-        background: $linear_color;
-        transform-origin: center;
-        transition: .5s;
-        background: transparent;
-
-        img{
-            opacity: .5;
-            transition: .5s;
-            &:hover{
-                opacity: 1;
-            }
-        }
-        @include breakpoint(mobileonly){
-            width: 8px * 19 ;
-            height: 7px * 19;
-        }
-        @include breakpoint(phablet){
-            width: 8px * 23;
-            height: 7px * 23;
-        }
-        @include breakpoint(tablet){
-            width: 8px * 30;
-            height: 7px * 30;
-        }
-        @include breakpoint(laptop){
-            width: 8px * 40;
-            height: 7px * 40;
-        }
+    img{
+        cursor: pointer;
+        opacity: .5;
+        transition: .25s;
+        width: 100%;
+        max-height: 100%;
+        object-fit: contain;
         &:hover{
             opacity: 1;
         }
-        .block_2_img{
-            z-index: -4;
-            height: inherit;
-            position: absolute;
-            left: 0;
+    }
+    .hex,.hex_even{
+        width: 580px;
+        height: 290px;
+        overflow: hidden;
+        visibility: hidden;
+        vertical-align: middle;
+        @include breakpoint(mobileonly){
+            width: 290px;
+            height: 145px;
+        }
+        @include breakpoint(phablet){
+            width: 350px;
+            height: 175px;
+        }
+        @include breakpoint(tablet){
+            width: 350px;
+            height: 175px;
+        }
+        @include breakpoint(laptop){
+            width: 580px;
+            height: 290px;
+        }
+    }
 
+    .hex{
+        margin-right: -332.9px;
+        transform: rotate(120deg);
+        display: inline-block;
+        @include breakpoint(mobileonly){
+            margin-right: -169.5px;
+        }
+        @include breakpoint(phablet){
+            margin-right: -204px;
+        }
+        @include breakpoint(tablet){
+            margin-right: -204px;
+        }
+        @include breakpoint(laptop){
+            margin-right: -332.9px;
+        }
+    }
+    .hex_in{
+        width: 100%;
+        height: 100%;
+        transform: rotate(-60deg);
+        overflow: hidden;
+    }
+    .hex_in2{
+        transform: rotate(-60deg);
+        visibility: visible;
+    }
+    .hex_even{
+        transform: rotate(120deg);
+        display: inline-block;
 
+        @include breakpoint(mobileonly){
+            margin-right: -168.5px;
+            margin-bottom: -146px;
+        }
+        @include breakpoint(phablet){
+            margin-right: -204px;
+            margin-bottom: -176px;
+        }
+        @include breakpoint(tablet){
+            margin-right: -204px;
+            margin-bottom: -176px;
+        }
+        @include breakpoint(laptop){
+            margin-bottom: -291px;
+            margin-right: -333px;
         }
     }
-    @include breakpoint(mobileonly){
-        .block_2_1{
-            transform: translate(0 - 5%,0);
+    .hex_array{
+
+        position: absolute;
+        width: 1000%;
+        vertical-align: middle;
+        @include breakpoint(mobileonly){
+            margin-left: -100px;
         }
-        .block_2_2{
-            transform: translate(0 - 5%,100%);
+        @include breakpoint(phablet){
+            margin-left: -120px;
         }
-        .block_2_3{
-            transform: translate(0 - 5%,200%);
+        @include breakpoint(tablet){
+            margin-left: -120px;
         }
-        .block_2_4{
-            transform: translate(75% - 5%,50%);
-        }
-        .block_2_5{
-            transform: translate(75% - 5%,150%);
-        }
-        .block_2_9{
-            transform: translate(150% - 5%,0%);
-        }
-        .block_2_7{
-            transform: translate(150% - 5%,100%);
-        }
-        .block_2_8{
-            transform: translate(150% - 5%,200%);
-        }
-        .block_2_6, .block_2_10, .block_2_11, .block_2_12{
-            display: none;
-        }
-        .block_2_13{
-            transform: translate(225% - 5%,50%);
-        }
-        .block_2_14{
-            transform: translate(225% - 5%,150%);
-        }
-        .block_2_15{
-            transform: translate(-75% - 5%,50%);
-        }
-        .block_2_16{
-            transform: translate(-75% - 5%,150%);
+        @include breakpoint(laptop){
+            margin-left: -200px;
         }
     }
-    @include breakpoint(phablet){
-        .block_2_1{
-            transform: translate(0 - 20%,0);
-        }
-        .block_2_2{
-            transform: translate(0 - 20%,100%);
-        }
-        .block_2_3{
-            transform: translate(0 - 20%,200%);
-        }
-        .block_2_4{
-            transform: translate(75% - 20%,50%);
-        }
-        .block_2_5{
-            transform: translate(75% - 20%,150%);
-        }
-        .block_2_9{
-            transform: translate(150% - 20%,0%);
-        }
-        .block_2_7{
-            transform: translate(150% - 20%,100%);
-        }
-        .block_2_8{
-            transform: translate(150% - 20%,200%);
-        }
-        .block_2_6{
-            transform: translate(225% - 20%,50%);
-        }
-        .block_2_10{
-            transform: translate(225% - 20%,150%);
-        }
-        .block_2_11{
-            transform: translate(300% - 20%,0%);
-        }
-        .block_2_12{
-            transform: translate(300% - 20%,100%);
-        }
-        .block_2_13{
-            transform: translate(375% - 20%,50%);
-        }
-        .block_2_14{
-            transform: translate(375% - 20%,150%);
-        }
-        .block_2_15{
-            transform: translate(-75% - 20%,50%);
-        }
-        .block_2_16{
-            transform: translate(-75% - 20%,150%);
-        }
+    .sec_array{
+        transform: translate(0,100%);
     }
-    @include breakpoint(tablet){
-        .block_2_1{
-            transform: translate(0 ,0);
-        }
-        .block_2_2{
-            transform: translate(0 ,100%);
-        }
-        .block_2_3{
-            transform: translate(0 ,200%);
-        }
-        .block_2_4{
-            transform: translate(75% ,50%);
-        }
-        .block_2_5{
-            transform: translate(75% ,150%);
-        }
-        .block_2_9{
-            transform: translate(150% ,0%);
-        }
-        .block_2_7{
-            transform: translate(150% ,100%);
-        }
-        .block_2_8{
-            transform: translate(150% ,200%);
-        }
-        .block_2_6{
-            transform: translate(225% ,50%);
-        }
-        .block_2_10{
-            transform: translate(225% ,150%);
-        }
-        .block_2_11{
-            transform: translate(300% ,0%);
-        }
-        .block_2_12{
-            transform: translate(300% ,100%);
-        }
-        .block_2_13{
-            transform: translate(375%,50%);
-        }
-        .block_2_14{
-            transform: translate(375%,150%);
-        }
-        .block_2_15{
-            transform: translate(-75%,50%);
-        }
-        .block_2_16{
-            transform: translate(-75%,150%);
-        }
-    }
-    @include breakpoint(laptop){
-        .block_2_1{
-            transform: translate(0%,0%);
-        }
-        .block_2_2{
-            transform: translate(150%,0%);
-        }
-        .block_2_3{
-            transform: translate(300%,0%);
-        }
-        .block_2_4{
-            transform: translate(75%,50%);
-        }
-        .block_2_5{
-            transform: translate(225%,50%);
-        }
-        .block_2_6{
-            transform: translate(375%,50%);
-        }
-        .block_2_7{
-            transform: translate(0%,100%);
-        }
-        .block_2_8{
-            transform: translate(150%,100%);
-        }
-        .block_2_9{
-            transform: translate(300%,100%);
-        }
-        .block_2_10{
-            transform: translate(75%,150%);
-        }
-        .block_2_11{
-            transform: translate(225%,150%);
-        }
-        .block_2_12{
-            transform: translate(375%,150%);
-        }
-        .block_2_13{
-            transform: translate(450%,0%);
-        }
-        .block_2_14{
-            transform: translate(450%,100%);
-        }
-        .block_2_15{
-            transform: translate(-75%,50%);
-        }
-        .block_2_16{
-            transform: translate(-75%,150%);
-        }
-    }
+
 }
