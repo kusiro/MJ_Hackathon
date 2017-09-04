@@ -2,6 +2,7 @@ const path = require('path');
 const webpack = require('webpack');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const autoprefixer = require('autoprefixer');
 
 module.exports = {
     entry: {
@@ -13,7 +14,7 @@ module.exports = {
         filename: "[name].js",
     },
     module: {
-        loaders: [
+        rules: [
             {
                 test: /\.html$/,
                 loader: 'underscore-template-loader',
@@ -61,6 +62,7 @@ module.exports = {
             }
         ]
     },
+
     devServer: {
         historyApiFallback: true,
         inline: true,
@@ -87,5 +89,12 @@ module.exports = {
             filename: 'qa.html',
         }),
         new webpack.HotModuleReplacementPlugin(),
+        new webpack.LoaderOptionsPlugin({
+            options: {
+                postcss:[
+                    autoprefixer(),
+                ]
+            }
+        })
     ]
 }

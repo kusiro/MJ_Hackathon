@@ -12,6 +12,7 @@
     font-family: $font_family;
     padding: 1em 4em 2em 4em;
     display: flex;
+    -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
     justify-content: center;
     @include breakpoint(mobileonly){
@@ -28,6 +29,7 @@
         opacity: .8;
         display: flex;
         flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
         align-items: center;
         justify-content: center;
         @include breakpoint(mobileonly){

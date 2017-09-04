@@ -42,6 +42,7 @@
     .sponsor_logo{
         display: flex;
         flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
         align-items: center;
         justify-content: center;
         margin-top: 40px;

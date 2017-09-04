@@ -54,9 +54,11 @@
             text-align: center;
             display: flex;
             flex-wrap: wrap;
+            -webkit-flex-wrap: wrap;
             width: 80%;
             a{
                 flex: 20;
+                -webkit-flex: 20;
                 text-decoration: none;
                 color: $supprot_color;
                 border: solid 2px $supprot_color;

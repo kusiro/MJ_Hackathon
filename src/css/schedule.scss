@@ -55,8 +55,10 @@
         justify-content: center;
         display: flex;
         flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
         .sche{
             flex: 40;
+            -webkit-flex: 40;
             margin-top: 3em;
             margin-left: 60px;
             margin-right: 60px;
