@@ -51,19 +51,22 @@
         display: inline-block;
         width: 15%;
         margin: 0 40px 30px 40px;
+        &:hover {
+            cursor: pointer;
+        }
         @include breakpoint(mobileonly){
-            width: 65%;
-            margin-bottom: 40px;
+            width: 150px;
+            margin-bottom: 50px;
         }
         @include breakpoint(phablet){
-            width: 30%;
+            width: 120px;
             margin-bottom: 60px;
             margin-left: 30px;
             margin-right: 30px;
         }
         @include breakpoint(laptop){
-            width: 15%;
-            margin: 0 40px 30px 40px;
+            width: 130px;
+            margin: 0 40px 50px 40px;
         }
     }
 }
