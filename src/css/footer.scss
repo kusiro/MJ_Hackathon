@@ -65,6 +65,10 @@
                 font-size: 12px;
                 text-align: left;
                 letter-spacing: 1px;
+                &:last-of-type{
+                    font-size: 12px;
+                    letter-spacing: 0;
+                }
             }
             @include breakpoint(phablet){
                 font-size: 14px;

@@ -21,13 +21,13 @@
         @include breakpoint(mobileonly){
             padding:1em 2em;
             width: 90%;
-            padding-bottom: 7em;
+            padding-bottom: 5em;
             margin-top: 1em;
         }
         @include breakpoint(phablet){
             padding: 2em;
             width: 85%;
-            padding-bottom: 7em;
+            padding-bottom: 5em;
             margin-top: 1em;
         }
         @include breakpoint(tablet){
@@ -37,13 +37,13 @@
             margin-top: 1em;
         }
         @include breakpoint(laptop){
-            padding: 2em 3em;
+            padding: 2em 4em;
             width: 55%;
             padding-bottom: 5em;
             margin-bottom: 6em;
         }
         &:last-of-type{
-            padding-bottom: 0;
+            padding-bottom: 2em;
             margin-bottom: 0;
         }
         .sign_in{
@@ -57,8 +57,7 @@
             -webkit-flex-wrap: wrap;
             width: 80%;
             a{
-                flex: 20;
-                -webkit-flex: 20;
+
                 text-decoration: none;
                 color: $supprot_color;
                 border: solid 2px $supprot_color;
@@ -71,23 +70,31 @@
                 margin-bottom: 1em;
                 @include breakpoint(mobileonly){
                     bottom: 2em;
+                    flex: 80;
+                    -webkit-flex: 80;
                     border: solid 1px $supprot_color;
-                    padding: .3em 0;
+                    padding: .3em 0em;
                     font-size: 20px;
                 }
                 @include breakpoint(phablet){
+                    flex: 80;
+                    -webkit-flex: 80;
                     font-size: 22px;
                     padding: .3em 0;
                     bottom: 2em;
 
                 }
                 @include breakpoint(tablet){
+                    flex: 40;
+                    -webkit-flex: 40;
                     font-size: 22px;
-                    padding: .3em 0;
+                    padding: .3em;
                     bottom: 2em;
 
                 }
                 @include breakpoint(laptop){
+                    flex: 30;
+                    -webkit-flex: 30;
                     padding: .3em .6em;
                     font-size: 26px;
                     bottom: 1.5em;

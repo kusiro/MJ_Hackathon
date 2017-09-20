@@ -15,7 +15,7 @@ $(window).scroll(function(){
         $('.selection').each((ith, elem) => {
             const target_selector_id = '#' + $(elem).data('target');
             const target_offset_top = $(target_selector_id).offset().top;
-            if( target_offset_top - 300 < page_offset_top )
+            if( target_offset_top - 500 < page_offset_top )
                 active_btn = elem;
         });
     });
@@ -25,15 +25,20 @@ $(window).scroll(function(){
             $('.selection').removeClass('active');
             if( active_btn )
                 $(active_btn).addClass('active');
+
             last_active_btn = active_btn;
         }
     });
 
 });
+
+
 /*****************************************/
 
 /**** Schedule gear ****/
 $(window).scroll(() => {
+
+
 
     let deg_1 = 0;
     let deg_2 = 0;
