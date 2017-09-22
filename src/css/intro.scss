@@ -23,7 +23,7 @@
         letter-spacing: 1.2pt;
         position: relative;
         @include breakpoint(mobileonly){
-            padding: 1em;
+            padding: 2em;
             width: 90%;
         }
         @include breakpoint(phablet){
