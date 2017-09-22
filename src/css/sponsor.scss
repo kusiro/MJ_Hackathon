@@ -17,7 +17,7 @@
 
 
     h2 {
-        font-family: "微軟正黑體";
+        font-family: $font_family;
         font-weight: 500;
         @include breakpoint(mobileonly){
             margin: 30px 0;
@@ -69,7 +69,7 @@
             }
         }
         .coperate-content {
-            font-family: "微軟正黑體";
+            font-family: $font_family;
             padding-left: 1em;
             h3 {
                 font-weight: 500;

@@ -21,10 +21,10 @@
      @media (min-width: 600px) { @content ; }
   }
    @else if $point == phablet {
-     @media (min-width: 391px)  { @content ; }
+     @media (min-width: 392px)  { @content ; }
   }
   @else if $point == mobileonly {
-     @media (max-width: 390px)  { @content ; }
+     @media (max-width: 391px)  { @content ; }
 
   }
 }
