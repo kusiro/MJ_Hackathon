@@ -50,11 +50,9 @@
         @include breakpoint(tablet){
             margin-bottom: 3.2em;
             display: flex;
-            -webkit-display: flex;
         }
         @include breakpoint(laptop){
             display: flex;
-            -webkit-display: flex;
         }
         .coperateimg{
             min-width: 150px;
