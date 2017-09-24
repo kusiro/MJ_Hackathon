@@ -31,22 +31,23 @@
         height: 600px;
     }
     .block_1_img{
-        z-index: -20;
+        z-index: -30;
         position: absolute;
-        width: 100%;
         @include breakpoint(mobileonly){
             width: 350%;
-            left: -300px;
+            left: -400px;
         }
         @include breakpoint(phablet){
             width: 200%;
-            left: -100px;
+            left: -200px;
         }
         @include breakpoint(tablet){
             width: 150%;
+            left: -100px;
         }
         @include breakpoint(laptop){
             width: 120%;
+            left: -100px;
         }
     }
     .container{
