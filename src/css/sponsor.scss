@@ -4,6 +4,7 @@
     z-index: -2;
 }
 .content_5{
+    color: #333;
     background-color: white;
     @include breakpoint(mobileonly){
         padding: 2em 2em 4em 2em;
@@ -110,8 +111,10 @@
                 }
             }
             .english_content {
-                text-align: left;
-                font-size: 16px;
+                text-align: justify;
+                font-size: 18px;
+                color: black;
+                font-weight: 300;
             }
         }
     }
