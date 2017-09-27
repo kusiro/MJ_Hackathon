@@ -13,10 +13,11 @@ $ webpack -v
 ```
 
 ## Development
-Make sure you have `webpack` and `webpack-dev-server` installed globally. You may run below code to do this:
+Make sure you have `webpack` and `webpack-dev-server` installed globally. Currently we have a hard time building with `webpack-dev-server@2.8.2`. Please consider using `webpack-dev-server@2.6.1` for this project.  
+You may run below code:
 ```
-node i -g webpack
-node i -g webpack-dev-server
+npm i -g webpack
+npm i -g webpack-dev-server@2.6.1
 ```
 Run `npm i` to install depedencies for this project.  
 Run `webpack-dev-server` to develop with livereload. (Seems that there is a bug currently with newest version.)  
