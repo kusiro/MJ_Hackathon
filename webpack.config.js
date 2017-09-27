@@ -81,12 +81,14 @@ module.exports = {
             title: '2017 梅竹黑客松',
             template: 'src/template.html',
             chunks: ['bundle'],
+            favicon: 'src/Img/1.png',
         }),
         new HtmlWebpackPlugin({
             title: '2017 梅竹黑客松',
             template: 'src/qa/qa_template.html',
             chunks: ['qa_bundle'],
             filename: 'qa.html',
+            favicon: 'src/Img/1.png',
         }),
         new webpack.HotModuleReplacementPlugin(),
         new webpack.LoaderOptionsPlugin({
