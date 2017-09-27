@@ -13,14 +13,18 @@ $ webpack -v
 ```
 
 ## Development
-Make sure you have `webpack` and `webpack-dev-server` installed globally.   
+Make sure you have `webpack` and `webpack-dev-server` installed globally. You may run below code to do this:
+```
+node i -g webpack
+node i -g webpack-dev-server
+```
 Run `npm i` to install depedencies for this project.  
-Run `webpack-dev-server` to develop with livereload.
+Run `webpack-dev-server` to develop with livereload. (Seems that there is a bug currently with newest version.)  
 
 ## Build
 Run `webpack -p` to build with optimization.  
 It will create new `public` directory which is the built result.  
-In order to push to `gh-pages`
+In order to push the built website to `gh-pages`
 1. Change to gh-pages branch via `git checkout gh-pages`
 2. Move all built website from `public/` to current directory via `mv public/* ./`
 3. Git commit & push to gh-pages as usual
