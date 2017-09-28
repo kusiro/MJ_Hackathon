@@ -20,7 +20,7 @@ npm i -g webpack
 npm i -g webpack-dev-server@2.6.1
 ```
 Run `npm i` to install depedencies for this project.  
-Run `webpack-dev-server` to develop with livereload. (Seems that there is a bug currently with newest version.)  
+Run `webpack-dev-server` to develop with livereload.
 
 ## Build
 Run `webpack -p` to build with optimization.  
