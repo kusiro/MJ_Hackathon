@@ -83,7 +83,7 @@
             h3 {
                 font-weight: 500;
                 margin-top: 0;
-                margin-bottom: .5em;
+                margin-bottom: .8em;
                 color: #e82929;
                 @include breakpoint(mobileonly){
                     font-size: 20px;
@@ -114,6 +114,10 @@
                 font-size: 18px;
                 color: black;
                 font-weight: 300;
+            }
+            b {
+                font-size: 23px;
+                line-height: 2em;
             }
         }
     }
