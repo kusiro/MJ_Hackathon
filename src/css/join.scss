@@ -60,10 +60,10 @@
             -webkit-flex-wrap: wrap;
             width: 80%;
             a{
-
+                cursor: default;
                 text-decoration: none;
-                color: $supprot_color;
-                border: solid 2px $supprot_color;
+                color: #f5a3a3;
+                border: solid 2px #f5a3a3;
                 font-weight: 500;
                 font-family: $font_family;
                 border-radius: 15px;
@@ -75,7 +75,7 @@
                     bottom: 2em;
                     flex: 80;
                     -webkit-flex: 80;
-                    border: solid 1px $supprot_color;
+                    border: solid 1px #f5a3a3;
                     padding: .3em 0em;
                     font-size: 20px;
                 }
@@ -101,10 +101,6 @@
                     padding: .3em .6em;
                     font-size: 26px;
                     bottom: 1.5em;
-                }
-                &:hover{
-                    background-color: $supprot_color;
-                    color: #f7f7f7;
                 }
             }
         }
